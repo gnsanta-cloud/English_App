@@ -133,50 +133,55 @@ export function WordCard({ word, onSwipeLeft, onSwipeRight, onSwipeUp, saved }: 
           <div className="flip-inner">
             <div className="flip-face flip-front">
               {saved && <span className="saved-badge">저장됨</span>}
-              <div className="card-header">
-                <h2 className="word-text">{word.word}</h2>
+              <div className="flip-front-main">
+                <div className="card-header">
+                  <h2 className="word-text">{word.word}</h2>
+                  <button
+                    type="button"
+                    className="speaker-btn"
+                    onPointerDown={(e) => e.stopPropagation()}
+                    onClick={handleSpeak}
+                    aria-label="원어민 발음 듣기"
+                    disabled={speaking}
+                  >
+                    <svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true">
+                      <path
+                        fill="currentColor"
+                        d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div className="flip-front-footer">
+                <div className="swipe-hints">
+                  <span>← 다음</span>
+                  <span>↑ 저장</span>
+                  <span>→ 이전</span>
+                </div>
                 <button
                   type="button"
-                  className="speaker-btn"
+                  className="flip-action-btn"
                   onPointerDown={(e) => e.stopPropagation()}
-                  onClick={handleSpeak}
-                  aria-label="원어민 발음 듣기"
-                  disabled={speaking}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleFlipTap();
+                  }}
                 >
-                  <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
-                    <path
-                      fill="currentColor"
-                      d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"
-                    />
-                  </svg>
+                  뜻 · 예문 보기
                 </button>
-              </div>
-              <button
-                type="button"
-                className="flip-action-btn"
-                onPointerDown={(e) => e.stopPropagation()}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  handleFlipTap();
-                }}
-              >
-                뜻 · 예문 보기
-              </button>
-              <p className="flip-hint">탭하거나 버튼을 눌러 카드를 뒤집으세요</p>
-              <div className="swipe-hints">
-                <span>← 다음</span>
-                <span>↑ 저장</span>
-                <span>→ 이전</span>
               </div>
             </div>
 
             <div className="flip-face flip-back">
-              <p className="back-label">뜻</p>
-              <p className="meaning-text">{word.meaning}</p>
-              <div className="example-block">
-                <p className="back-label">예문</p>
-                <p className="example-en">{word.example}</p>
-                <p className="example-ko">{word.exampleKo}</p>
+              <div className="flip-back-content">
+                <p className="back-label">뜻</p>
+                <p className="meaning-text">{word.meaning}</p>
+                <div className="example-block">
+                  <p className="back-label">예문</p>
+                  <p className="example-en">{word.example}</p>
+                  <p className="example-ko">{word.exampleKo}</p>
+                </div>
               </div>
               <button
                 type="button"
