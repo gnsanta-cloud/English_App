@@ -25,12 +25,17 @@ import { MyWordsTab } from './components/MyWordsTab';
 import { SettingsTab } from './components/SettingsTab';
 import { VideoLearnTab } from './components/VideoLearnTab';
 import { AppSplash } from './components/AppSplash';
+import { fetchCaptionFriendlyVideos } from './utils/videoRecommendations';
+import type { YoutubeVideoItem } from './utils/youtubeSearch';
 
 
 
 export default function App() {
 
   const [tab, setTab] = useState<TabId>('home');
+  const [recommendedVideos, setRecommendedVideos] = useState<YoutubeVideoItem[]>([]);
+  const [videoListLoading, setVideoListLoading] = useState(false);
+  const [videoListError, setVideoListError] = useState<string | null>(null);
 
   const {
 
@@ -117,7 +122,26 @@ export default function App() {
 
   }, [handleSystemBack]);
 
-
+  useEffect(() => {
+    if (!ready) return;
+    let cancelled = false;
+    setVideoListLoading(true);
+    setVideoListError(null);
+    setRecommendedVideos([]);
+    void fetchCaptionFriendlyVideos(10)
+      .then((videos) => {
+        if (!cancelled) setRecommendedVideos(videos);
+      })
+      .catch(() => {
+        if (!cancelled) setVideoListError('추천 영상 목록을 불러오지 못했습니다. 네트워크를 확인해 주세요.');
+      })
+      .finally(() => {
+        if (!cancelled) setVideoListLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [ready]);
 
   if (!ready) {
 
@@ -200,6 +224,9 @@ export default function App() {
             savedWordIds={myVocabulary}
             customWords={customVocabulary}
             onSaveVideoWords={saveVideoWords}
+            recommendedVideos={recommendedVideos}
+            listLoading={videoListLoading}
+            listError={videoListError}
           />
         )}
 

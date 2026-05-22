@@ -38,6 +38,15 @@ function detectSourceLang(code: string): CaptionSourceLang {
   return 'other';
 }
 
+export async function hasYoutubeCaptions(videoId: string): Promise<boolean> {
+  try {
+    const tracks = await fetchCaptionTracks(videoId);
+    return tracks.length > 0;
+  } catch {
+    return false;
+  }
+}
+
 async function fetchCaptionTracks(videoId: string): Promise<CaptionTrack[]> {
   const res = await fetch(
     `https://www.youtube.com/youtubei/v1/player?key=${INNERTUBE_KEY}&prettyPrint=false`,
