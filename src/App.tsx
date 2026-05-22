@@ -106,7 +106,7 @@ export default function App() {
       : tab === 'learn'
         ? `${getLevelLabel(level)} · ${currentDay}일차`
         : tab === 'quiz'
-          ? `퀴즈 · ${currentDay}일차`
+          ? '단어 퀴즈'
           : getLevelLabel(level);
 
   return (
@@ -151,10 +151,11 @@ export default function App() {
 
         {tab === 'quiz' && (
           <QuizTab
-            words={dayWords}
             allWords={words}
             topicLabel={getLevelLabel(level)}
-            dayNumber={currentDay}
+            totalDays={totalDays}
+            currentDay={currentDay}
+            completedDays={completedDays}
             onWrongAnswer={addToMyVocabulary}
           />
         )}

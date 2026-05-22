@@ -38,25 +38,27 @@ export function HomeTab({
 
   return (
     <section className="home-tab">
-      <div className="home-hero">
-        <h2>학습 홈</h2>
-        <p>하루 30단어 · 일차별 학습 · 퀴즈(객관식/주관식)</p>
-      </div>
-
-      <div className="home-current">
-        <span className="home-current-label">현재 주제</span>
-        <div className="home-current-card" style={{ borderColor: current.accent }}>
-          <span className="home-topic-icon">{current.icon}</span>
-          <div>
-            <strong>{current.title}</strong>
-            <span>
-              {getLevelLabel(level)} · {wordCount}개 · {totalDays}일차
-            </span>
-          </div>
+      <div className="home-tab-top">
+        <div className="home-hero">
+          <h2>학습 홈</h2>
+          <p>하루 30단어 · 일차별 학습 · 퀴즈(객관식/주관식)</p>
         </div>
-        <button type="button" className="home-settings-link" onClick={onOpenSettings}>
-          ⚙️ 설정에서 주제 변경
-        </button>
+
+        <div className="home-current">
+          <span className="home-current-label">현재 주제</span>
+          <div className="home-current-card" style={{ borderColor: current.accent }}>
+            <span className="home-topic-icon">{current.icon}</span>
+            <div>
+              <strong>{current.title}</strong>
+              <span>
+                {getLevelLabel(level)} · {wordCount}개 · {totalDays}일차
+              </span>
+            </div>
+          </div>
+          <button type="button" className="home-settings-link" onClick={onOpenSettings}>
+            ⚙️ 설정에서 주제 변경
+          </button>
+        </div>
       </div>
 
       <div className="home-progress-section">
@@ -100,9 +102,11 @@ export function HomeTab({
         </ul>
       </div>
 
-      <button type="button" className="primary-btn home-start-btn" onClick={handleStart}>
-        {current.icon} {firstIncompleteDay}일차 학습 시작
-      </button>
+      <div className="home-tab-footer">
+        <button type="button" className="primary-btn home-start-btn" onClick={handleStart}>
+          {current.icon} {firstIncompleteDay}일차 학습 시작
+        </button>
+      </div>
     </section>
   );
 }

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { Word } from '../types';
 import { useBackHandler } from '../hooks/useAndroidBackButton';
+import { getDayStatus, getDayWordCount, getWordsForDay } from '../utils/dailyPlan';
 import { isEnglishQuizAnswerCorrect, isQuizAnswerCorrect } from '../utils/quizAnswer';
 import { ConfettiCelebration } from './ConfettiCelebration';
 
@@ -9,11 +10,14 @@ export type QuizDirection = 'en-ko' | 'ko-en';
 
 const POINTS_PER_QUESTION = 10;
 
+type QuizPhase = 'daySelect' | 'select' | 'playing' | 'finished';
+
 interface QuizTabProps {
-  words: Word[];
   allWords: Word[];
   topicLabel: string;
-  dayNumber: number;
+  totalDays: number;
+  currentDay: number;
+  completedDays: number[];
   onWrongAnswer: (wordId: string) => void;
 }
 
@@ -38,8 +42,16 @@ function directionLabel(direction: QuizDirection): string {
   return direction === 'en-ko' ? '영→한' : '한→영';
 }
 
-export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer }: QuizTabProps) {
-  const [phase, setPhase] = useState<'select' | 'playing' | 'finished'>('select');
+export function QuizTab({
+  allWords,
+  topicLabel,
+  totalDays,
+  currentDay,
+  completedDays,
+  onWrongAnswer,
+}: QuizTabProps) {
+  const [phase, setPhase] = useState<QuizPhase>('daySelect');
+  const [selectedDay, setSelectedDay] = useState<number | null>(null);
   const [direction, setDirection] = useState<QuizDirection>('en-ko');
   const [playDirection, setPlayDirection] = useState<QuizDirection>('en-ko');
   const [mode, setMode] = useState<QuizMode | null>(null);
@@ -52,11 +64,12 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
   const [submitted, setSubmitted] = useState(false);
   const [showCelebration, setShowCelebration] = useState(false);
 
-  const questionCount = words.length > 0 ? words.length : allWords.length;
+  const dayWords =
+    selectedDay !== null ? getWordsForDay(allWords, selectedDay) : [];
+  const questionCount = dayWords.length;
   const maxScore = questions.length > 0 ? questions.length * POINTS_PER_QUESTION : 0;
 
-  const resetQuiz = useCallback(() => {
-    setPhase('select');
+  const clearQuizRun = useCallback(() => {
     setMode(null);
     setQuestions([]);
     setCurrent(0);
@@ -68,8 +81,19 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
     setShowCelebration(false);
   }, []);
 
+  const resetToDaySelect = useCallback(() => {
+    setPhase('daySelect');
+    setSelectedDay(null);
+    clearQuizRun();
+  }, [clearQuizRun]);
+
+  const resetToModeSelect = useCallback(() => {
+    setPhase('select');
+    clearQuizRun();
+  }, [clearQuizRun]);
+
   const startQuiz = (quizMode: QuizMode) => {
-    const pool = words.length > 0 ? words : allWords;
+    const pool = dayWords;
     const q = shuffle(pool);
     const quizDir: QuizDirection = quizMode === 'subjective' ? 'ko-en' : direction;
     setPlayDirection(quizDir);
@@ -86,14 +110,18 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
   };
 
   useEffect(() => {
-    resetQuiz();
-  }, [words, topicLabel, dayNumber, resetQuiz]);
+    resetToDaySelect();
+  }, [allWords, topicLabel, totalDays, resetToDaySelect]);
 
   useBackHandler(() => {
-    if (phase === 'select') return false;
-    resetQuiz();
+    if (phase === 'daySelect') return false;
+    if (phase === 'select') {
+      resetToDaySelect();
+      return true;
+    }
+    resetToModeSelect();
     return true;
-  }, phase !== 'select');
+  }, phase !== 'daySelect');
 
   const currentWord = questions[current];
   const totalQuestions = questions.length;
@@ -110,15 +138,66 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
     return shuffle([correct, ...wrong]);
   }, [currentWord, allWords, mode, playDirection]);
 
-  if (phase === 'select') {
+  if (phase === 'daySelect') {
+    return (
+      <section className="quiz-tab">
+        <div className="quiz-intro quiz-intro-compact">
+          <h2>단어 퀴즈</h2>
+          <p className="quiz-topic-badge">
+            {topicLabel} · {totalDays}일차
+          </p>
+          <p>일차를 선택한 뒤 객관식·주관식 퀴즈를 풀어 보세요.</p>
+        </div>
+
+        <div className="home-progress-section quiz-day-section">
+          <div className="home-progress-head">
+            <h3>일차별 퀴즈</h3>
+          </div>
+          <ul className="home-day-list">
+            {Array.from({ length: totalDays }, (_, i) => {
+              const day = i + 1;
+              const status = getDayStatus(day, completedDays, currentDay);
+              const count = getDayWordCount(allWords, day);
+
+              return (
+                <li key={day}>
+                  <button
+                    type="button"
+                    className={`home-day-item ${status}`}
+                    disabled={status === 'locked'}
+                    onClick={() => {
+                      setSelectedDay(day);
+                      setPhase('select');
+                    }}
+                  >
+                    <span className="home-day-num">{day}일차 퀴즈</span>
+                    <span className="home-day-meta">{count}문제</span>
+                    <span className="home-day-badge">
+                      {status === 'completed' && '완료'}
+                      {status === 'current' && '학습 중'}
+                      {status === 'available' && '시작'}
+                      {status === 'locked' && '잠금'}
+                    </span>
+                  </button>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </section>
+    );
+  }
+
+  if (phase === 'select' && selectedDay !== null) {
     const enKo = direction === 'en-ko';
     return (
       <section className="quiz-tab">
         <div className="quiz-intro">
-          <h2>단어 퀴즈</h2>
-          <p className="quiz-topic-badge">
-            {topicLabel} · {dayNumber}일차
-          </p>
+          <button type="button" className="quiz-back-link" onClick={resetToDaySelect}>
+            ← 일차 선택
+          </button>
+          <h2>{selectedDay}일차 퀴즈</h2>
+          <p className="quiz-topic-badge">{topicLabel}</p>
           <p className="quiz-intro-count">
             <strong>{questionCount}문제</strong> · 해당 일차 단어 전체 · 틀린 단어는 나의 단어장에 저장
           </p>
@@ -182,7 +261,7 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
         <div className="quiz-result">
           <h2>퀴즈 결과</h2>
           <p className="quiz-result-mode">
-            {directionLabel(playDirection)} · {mode === 'multiple' ? '객관식' : '주관식'} · {dayNumber}
+            {directionLabel(playDirection)} · {mode === 'multiple' ? '객관식' : '주관식'} · {selectedDay}
             일차
           </p>
           <div className="quiz-result-stats">
@@ -200,7 +279,7 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
             </div>
           </div>
           {perfect && <p className="celebration-text">참 잘했어요! 🎉</p>}
-          <button type="button" className="primary-btn" onClick={resetQuiz}>
+          <button type="button" className="primary-btn" onClick={resetToModeSelect}>
             다시 하기
           </button>
         </div>

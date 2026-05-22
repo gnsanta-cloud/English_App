@@ -137,6 +137,10 @@ html.standalone .app-header {
   -webkit-overflow-scrolling: touch;
 }
 
+.app-main > .home-tab {
+  overflow: hidden;
+}
+
 .app-main > .avatar-chat-tab {
   overflow: hidden;
 }
@@ -466,19 +470,35 @@ html.standalone .app-header {
 
 /* Home */
 .home-tab {
-  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  padding-bottom: 0;
+}
+
+.home-tab-top {
+  flex-shrink: 0;
+}
+
+.home-tab-footer {
+  flex-shrink: 0;
+  margin-top: auto;
+  padding: 10px 0 max(8px, env(safe-area-inset-bottom, 0px));
+  background: linear-gradient(to top, var(--bg) 70%, transparent);
+  border-top: 1px solid var(--border);
 }
 
 .home-hero h2 {
   font-size: clamp(1.15rem, 4.5vw, 1.35rem);
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .home-hero p {
   color: var(--text-muted);
   font-size: clamp(0.85rem, 3.2vw, 0.95rem);
   line-height: 1.5;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .home-current-label {
@@ -493,8 +513,8 @@ html.standalone .app-header {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin: 8px 0 16px;
-  padding: 14px 16px;
+  margin: 6px 0 8px;
+  padding: 12px 14px;
   border: 2px solid var(--border);
   border-radius: 14px;
   background: #fff;
@@ -577,10 +597,15 @@ html.standalone .app-header {
 
 .home-start-btn {
   width: 100%;
+  margin: 0;
 }
 
 .home-progress-section {
-  margin-bottom: 16px;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
 }
 
 .home-progress-head {
@@ -604,12 +629,14 @@ html.standalone .app-header {
 .home-day-list {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 2px 4px 0;
   display: flex;
   flex-direction: column;
   gap: 8px;
-  max-height: 220px;
+  flex: 1;
+  min-height: 0;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .home-day-item {
@@ -838,6 +865,30 @@ html.standalone .app-header {
 .quiz-result {
   text-align: center;
   padding: clamp(24px, 8vw, 48px) 16px;
+}
+
+.quiz-intro-compact {
+  padding-bottom: 12px;
+}
+
+.quiz-day-section {
+  padding: 0 16px 16px;
+}
+
+.quiz-day-section .home-day-list {
+  max-height: none;
+}
+
+.quiz-back-link {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--primary);
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .quiz-intro h2,
