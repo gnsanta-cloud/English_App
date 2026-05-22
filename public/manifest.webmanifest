@@ -1,0 +1,26 @@
+{
+  "name": "영어 단어장",
+  "short_name": "영어단어장",
+  "description": "중·고등 영단어, 일상·여행 회화 학습",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "./icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

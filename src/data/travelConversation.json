@@ -1,0 +1,242 @@
+[
+  {
+    "word": "Where is the subway station?",
+    "meaning": "지하철역이 어디예요?",
+    "example": "Excuse me, where is the subway station?",
+    "exampleKo": "실례합니다, 지하철역이 어디예요?"
+  },
+  {
+    "word": "I'd like to check in",
+    "meaning": "체크인 하고 싶어요",
+    "example": "I'd like to check in, please.",
+    "exampleKo": "체크인 부탁드립니다."
+  },
+  {
+    "word": "I have a reservation",
+    "meaning": "예약했어요",
+    "example": "I have a reservation under Kim.",
+    "exampleKo": "김으로 예약했습니다."
+  },
+  {
+    "word": "How much is this?",
+    "meaning": "이거 얼마예요?",
+    "example": "How much is this souvenir?",
+    "exampleKo": "이 기념품은 얼마예요?"
+  },
+  {
+    "word": "Do you take credit cards?",
+    "meaning": "카드 되나요?",
+    "example": "Do you take credit cards?",
+    "exampleKo": "신용카드 받으시나요?"
+  },
+  {
+    "word": "Where is the boarding gate?",
+    "meaning": "탑승구가 어디예요?",
+    "example": "Where is boarding gate B12?",
+    "exampleKo": "B12 탑승구가 어디예요?"
+  },
+  {
+    "word": "My flight is delayed",
+    "meaning": "비행기가 연착됐어요",
+    "example": "My flight is delayed by two hours.",
+    "exampleKo": "비행기가 두 시간 연착됐어요."
+  },
+  {
+    "word": "I lost my passport",
+    "meaning": "여권을 잃어버렸어요",
+    "example": "I lost my passport. What should I do?",
+    "exampleKo": "여권을 잃어버렸어요. 어떻게 해야 하나요?"
+  },
+  {
+    "word": "Can you call a taxi?",
+    "meaning": "택시 불러 주실 수 있나요?",
+    "example": "Can you call a taxi for me?",
+    "exampleKo": "택시 좀 불러 주시겠어요?"
+  },
+  {
+    "word": "Is breakfast included?",
+    "meaning": "조식 포함인가요?",
+    "example": "Is breakfast included in the room?",
+    "exampleKo": "객실에 조식이 포함돼 있나요?"
+  },
+  {
+    "word": "I need a wake-up call",
+    "meaning": "모닝콜 부탁해요",
+    "example": "I need a wake-up call at seven.",
+    "exampleKo": "7시에 모닝콜 부탁합니다."
+  },
+  {
+    "word": "Where can I exchange money?",
+    "meaning": "환전은 어디서 해요?",
+    "example": "Where can I exchange money nearby?",
+    "exampleKo": "근처에서 환전할 곳이 어디예요?"
+  },
+  {
+    "word": "Is this seat taken?",
+    "meaning": "이 자리 있나요?",
+    "example": "Excuse me, is this seat taken?",
+    "exampleKo": "실례합니다, 이 자리 있나요?"
+  },
+  {
+    "word": "One ticket to downtown, please",
+    "meaning": "시내행 표 한 장 주세요",
+    "example": "One ticket to downtown, please.",
+    "exampleKo": "시내행 표 한 장 주세요."
+  },
+  {
+    "word": "Could you speak more slowly?",
+    "meaning": "좀 천천히 말씀해 주세요",
+    "example": "Could you speak more slowly, please?",
+    "exampleKo": "좀 천천히 말씀해 주시겠어요?"
+  },
+  {
+    "word": "I don't understand",
+    "meaning": "이해가 안 돼요",
+    "example": "I'm sorry, I don't understand.",
+    "exampleKo": "죄송해요, 이해가 안 돼요."
+  },
+  {
+    "word": "Can you recommend a restaurant?",
+    "meaning": "맛집 추천해 주세요",
+    "example": "Can you recommend a good restaurant?",
+    "exampleKo": "좋은 식당 추천해 주시겠어요?"
+  },
+  {
+    "word": "I'm allergic to nuts",
+    "meaning": "견과류 알레르기가 있어요",
+    "example": "I'm allergic to nuts.",
+    "exampleKo": "견과류 알레르기가 있습니다."
+  },
+  {
+    "word": "The check, please",
+    "meaning": "계산서 주세요",
+    "example": "The check, please.",
+    "exampleKo": "계산서 주세요."
+  },
+  {
+    "word": "Keep the change",
+    "meaning": "거스름돈은 가지세요",
+    "example": "Keep the change.",
+    "exampleKo": "거스름돈은 가지세요."
+  },
+  {
+    "word": "Where is the baggage claim?",
+    "meaning": "수하물 찾는 곳이 어디예요?",
+    "example": "Where is the baggage claim?",
+    "exampleKo": "수하물 찾는 곳이 어디예요?"
+  },
+  {
+    "word": "My luggage is missing",
+    "meaning": "제 짐이 없어졌어요",
+    "example": "My luggage didn't arrive.",
+    "exampleKo": "제 짐이 도착하지 않았어요."
+  },
+  {
+    "word": "I need a doctor",
+    "meaning": "의사가 필요해요",
+    "example": "I need to see a doctor.",
+    "exampleKo": "의사 진료를 받아야 해요."
+  },
+  {
+    "word": "Call the police",
+    "meaning": "경찰을 불러 주세요",
+    "example": "Please call the police.",
+    "exampleKo": "경찰을 불러 주세요."
+  },
+  {
+    "word": "Is it far from here?",
+    "meaning": "여기서 멀어요?",
+    "example": "Is the museum far from here?",
+    "exampleKo": "박물관이 여기서 멀어요?"
+  },
+  {
+    "word": "Turn left at the corner",
+    "meaning": "모퉁이에서 왼쪽으로 가세요",
+    "example": "Turn left at the next corner.",
+    "exampleKo": "다음 모퉁이에서 왼쪽으로 가세요."
+  },
+  {
+    "word": "How long does it take?",
+    "meaning": "얼마나 걸려요?",
+    "example": "How long does it take by bus?",
+    "exampleKo": "버스로 얼마나 걸려요?"
+  },
+  {
+    "word": "I'd like a window seat",
+    "meaning": "창가 자리로 주세요",
+    "example": "I'd like a window seat, please.",
+    "exampleKo": "창가 자리로 주세요."
+  },
+  {
+    "word": "What time is checkout?",
+    "meaning": "체크아웃이 몇 시예요?",
+    "example": "What time is checkout?",
+    "exampleKo": "체크아웃은 몇 시예요?"
+  },
+  {
+    "word": "Can I have a map?",
+    "meaning": "지도 하나 주세요",
+    "example": "Can I have a city map?",
+    "exampleKo": "시내 지도 하나 주시겠어요?"
+  },
+  {
+    "word": "Is there free Wi-Fi?",
+    "meaning": "무료 와이파이 있나요?",
+    "example": "Is there free Wi-Fi here?",
+    "exampleKo": "여기 무료 와이파이 있나요?"
+  },
+  {
+    "word": "I'm here for sightseeing",
+    "meaning": "관광 왔어요",
+    "example": "I'm here for sightseeing.",
+    "exampleKo": "관광하러 왔어요."
+  },
+  {
+    "word": "Take a picture, please",
+    "meaning": "사진 좀 찍어 주세요",
+    "example": "Could you take a picture, please?",
+    "exampleKo": "사진 좀 찍어 주시겠어요?"
+  },
+  {
+    "word": "It's beautiful here",
+    "meaning": "여기 정말 아름다워요",
+    "example": "It's beautiful here!",
+    "exampleKo": "여기 정말 아름다워요!"
+  },
+  {
+    "word": "I need a SIM card",
+    "meaning": "유심이 필요해요",
+    "example": "Where can I buy a SIM card?",
+    "exampleKo": "유심은 어디서 살 수 있나요?"
+  },
+  {
+    "word": "What is the Wi-Fi password?",
+    "meaning": "와이파이 비밀번호가 뭐예요?",
+    "example": "What is the Wi-Fi password?",
+    "exampleKo": "와이파이 비밀번호가 뭐예요?"
+  },
+  {
+    "word": "Room service, please",
+    "meaning": "룸서비스 부탁해요",
+    "example": "Room service, please.",
+    "exampleKo": "룸서비스 부탁합니다."
+  },
+  {
+    "word": "The air conditioning doesn't work",
+    "meaning": "에어컨이 안 돼요",
+    "example": "The air conditioning doesn't work.",
+    "exampleKo": "에어컨이 작동하지 않아요."
+  },
+  {
+    "word": "Can I get a refund?",
+    "meaning": "환불 가능한가요?",
+    "example": "Can I get a refund?",
+    "exampleKo": "환불 받을 수 있나요?"
+  },
+  {
+    "word": "Have a nice trip!",
+    "meaning": "즐거운 여행 되세요",
+    "example": "Thank you! Have a nice trip!",
+    "exampleKo": "감사합니다! 즐거운 여행 되세요!"
+  }
+]

@@ -1,0 +1,1202 @@
+[
+  {
+    "word": "I take that back",
+    "meaning": "방금 한 말 취소할게",
+    "example": "I take that back.",
+    "exampleKo": "방금 한 말 취소할게."
+  },
+  {
+    "word": "my phone is missing",
+    "meaning": "내 폰이 없어졌어",
+    "example": "My phone is missing.",
+    "exampleKo": "내 폰이 없어졌어."
+  },
+  {
+    "word": "I'm falling apart",
+    "meaning": "나 완전 무너지고 있어",
+    "example": "I'm falling apart.",
+    "exampleKo": "나 완전 무너지고 있어."
+  },
+  {
+    "word": "coffee's on me",
+    "meaning": "커피는 내가 살게",
+    "example": "Coffee's on me.",
+    "exampleKo": "커피는 내가 살게."
+  },
+  {
+    "word": "I'm on a coffee break",
+    "meaning": "나 커피 마시면서 쉬는 중이야",
+    "example": "I'm on a coffee break.",
+    "exampleKo": "나 커피 마시면서 쉬는 중이야."
+  },
+  {
+    "word": "my skin is breaking out",
+    "meaning": "피부가 뒤집어졌어",
+    "example": "My skin is breaking out.",
+    "exampleKo": "피부가 뒤집어졌어."
+  },
+  {
+    "word": "the flu is going around",
+    "meaning": "독감이 돌고 있어",
+    "example": "The flu is going around.",
+    "exampleKo": "독감이 돌고 있어."
+  },
+  {
+    "word": "bundle up",
+    "meaning": "따뜻하게 입어",
+    "example": "Bundle up.",
+    "exampleKo": "따뜻하게 입어."
+  },
+  {
+    "word": "what's on your mind",
+    "meaning": "무슨 생각해?",
+    "example": "What's on your mind?",
+    "exampleKo": "무슨 생각해?"
+  },
+  {
+    "word": "let's catch up soon",
+    "meaning": "곧 근황 얘기하자",
+    "example": "Let's catch up soon.",
+    "exampleKo": "곧 근황 얘기하자."
+  },
+  {
+    "word": "I'm out of milk",
+    "meaning": "우유가 다 떨어졌어",
+    "example": "I'm out of milk.",
+    "exampleKo": "우유가 다 떨어졌어."
+  },
+  {
+    "word": "turn it over",
+    "meaning": "뒤집어 봐",
+    "example": "Turn it over.",
+    "exampleKo": "뒤집어 봐."
+  },
+  {
+    "word": "I have two kids",
+    "meaning": "아이가 둘이야",
+    "example": "I have two kids.",
+    "exampleKo": "아이가 둘이야."
+  },
+  {
+    "word": "I'm married",
+    "meaning": "나 결혼했어",
+    "example": "I'm married.",
+    "exampleKo": "나 결혼했어."
+  },
+  {
+    "word": "I'm single",
+    "meaning": "나 싱글이야",
+    "example": "I'm single.",
+    "exampleKo": "나 싱글이야."
+  },
+  {
+    "word": "cash or card",
+    "meaning": "현금이에요, 카드예요?",
+    "example": "Cash or card?",
+    "exampleKo": "현금이에요, 카드예요?"
+  },
+  {
+    "word": "I missed you a lot",
+    "meaning": "너무 보고 싶었어",
+    "example": "I missed you a lot.",
+    "exampleKo": "너무 보고 싶었어."
+  },
+  {
+    "word": "can I get a new one",
+    "meaning": "새 걸로 바꿀 수 있을까요?",
+    "example": "Can I get a new one?",
+    "exampleKo": "새 걸로 바꿀 수 있을까요?"
+  },
+  {
+    "word": "just leave me alone",
+    "meaning": "그냥 내버려 둬",
+    "example": "Just leave me alone.",
+    "exampleKo": "그냥 내버려 둬."
+  },
+  {
+    "word": "are you busy tomorrow",
+    "meaning": "내일 바빠?",
+    "example": "Are you busy tomorrow?",
+    "exampleKo": "내일 바빠?"
+  },
+  {
+    "word": "no I'm free all day",
+    "meaning": "아니, 하루 종일 한가해",
+    "example": "No, I'm free all day.",
+    "exampleKo": "아니, 하루 종일 한가해."
+  },
+  {
+    "word": "let's hang out then",
+    "meaning": "그럼 놀러 가자",
+    "example": "Let's hang out then.",
+    "exampleKo": "그럼 놀러 가자."
+  },
+  {
+    "word": "what's new with you",
+    "meaning": "요즘 어때?",
+    "example": "What's new with you?",
+    "exampleKo": "요즘 어때?"
+  },
+  {
+    "word": "not much",
+    "meaning": "별일 없어",
+    "example": "Not much.",
+    "exampleKo": "별일 없어."
+  },
+  {
+    "word": "what do you do",
+    "meaning": "무슨 일 해?",
+    "example": "What do you do?",
+    "exampleKo": "무슨 일 해?"
+  },
+  {
+    "word": "I work in sales",
+    "meaning": "나 영업 일 해",
+    "example": "I work in sales.",
+    "exampleKo": "나 영업 일 해."
+  },
+  {
+    "word": "I work in IT",
+    "meaning": "나 IT 일 해",
+    "example": "I work in IT.",
+    "exampleKo": "나 IT 일 해."
+  },
+  {
+    "word": "is it far from here",
+    "meaning": "여기서 멀어?",
+    "example": "Is it far from here?",
+    "exampleKo": "여기서 멀어?"
+  },
+  {
+    "word": "that's really interesting",
+    "meaning": "정말 재미있네",
+    "example": "That's really interesting.",
+    "exampleKo": "정말 재미있네."
+  },
+  {
+    "word": "I have a bad memory",
+    "meaning": "나 기억력이 나빠",
+    "example": "I have a bad memory.",
+    "exampleKo": "나 기억력이 나빠."
+  },
+  {
+    "word": "how about tomorrow",
+    "meaning": "내일은 어때?",
+    "example": "How about tomorrow?",
+    "exampleKo": "내일은 어때?"
+  },
+  {
+    "word": "do you need any help",
+    "meaning": "도움이 필요해?",
+    "example": "Do you need any help?",
+    "exampleKo": "도움이 필요해?"
+  },
+  {
+    "word": "it's raining outside",
+    "meaning": "밖에 비 와",
+    "example": "It's raining outside.",
+    "exampleKo": "밖에 비 와."
+  },
+  {
+    "word": "can we talk",
+    "meaning": "이야기 좀 할 수 있을까?",
+    "example": "Can we talk?",
+    "exampleKo": "이야기 좀 할 수 있을까?"
+  },
+  {
+    "word": "have a great time",
+    "meaning": "좋은 시간 보내",
+    "example": "Have a great time.",
+    "exampleKo": "좋은 시간 보내."
+  },
+  {
+    "word": "is there an extra charge",
+    "meaning": "추가 요금 있나요?",
+    "example": "Is there an extra charge?",
+    "exampleKo": "추가 요금 있나요?"
+  },
+  {
+    "word": "I'm just looking around",
+    "meaning": "그냥 둘러보는 중이에요",
+    "example": "I'm just looking around.",
+    "exampleKo": "그냥 둘러보는 중이에요."
+  },
+  {
+    "word": "what would you like",
+    "meaning": "뭘로 드릴까요?",
+    "example": "What would you like?",
+    "exampleKo": "뭘로 드릴까요?"
+  },
+  {
+    "word": "I like your outfit",
+    "meaning": "옷 스타일 좋다",
+    "example": "I like your outfit.",
+    "exampleKo": "옷 스타일 좋다."
+  },
+  {
+    "word": "my car ran out of gas",
+    "meaning": "차 기름이 다 떨어졌어",
+    "example": "My car ran out of gas.",
+    "exampleKo": "차 기름이 다 떨어졌어."
+  },
+  {
+    "word": "do you want a refill",
+    "meaning": "리필할래?",
+    "example": "Do you want a refill?",
+    "exampleKo": "리필할래?"
+  },
+  {
+    "word": "it's almost five o'clock",
+    "meaning": "거의 5시야",
+    "example": "It's almost five o'clock.",
+    "exampleKo": "거의 5시야."
+  },
+  {
+    "word": "it's challenging",
+    "meaning": "꽤 어렵네",
+    "example": "It's challenging.",
+    "exampleKo": "꽤 어렵네."
+  },
+  {
+    "word": "didn't I tell you",
+    "meaning": "내가 말했잖아",
+    "example": "Didn't I tell you?",
+    "exampleKo": "내가 말했잖아."
+  },
+  {
+    "word": "I look terrible in pictures",
+    "meaning": "사진 찍히면 안 예뻐",
+    "example": "I look terrible in pictures.",
+    "exampleKo": "사진 찍히면 안 예뻐."
+  },
+  {
+    "word": "are you done with that",
+    "meaning": "그거 다 했어?",
+    "example": "Are you done with that?",
+    "exampleKo": "그거 다 했어?"
+  },
+  {
+    "word": "you two know each other",
+    "meaning": "둘이 아는 사이야?",
+    "example": "You two know each other?",
+    "exampleKo": "둘이 아는 사이야?"
+  },
+  {
+    "word": "I'm sorry to bother you",
+    "meaning": "방해해서 미안해요",
+    "example": "I'm sorry to bother you.",
+    "exampleKo": "방해해서 미안해요."
+  },
+  {
+    "word": "which one do you prefer",
+    "meaning": "어느 쪽이 더 좋아?",
+    "example": "Which one do you prefer?",
+    "exampleKo": "어느 쪽이 더 좋아?"
+  },
+  {
+    "word": "let's have dinner together",
+    "meaning": "같이 저녁 먹자",
+    "example": "Let's have dinner together.",
+    "exampleKo": "같이 저녁 먹자."
+  },
+  {
+    "word": "let's get some coffee",
+    "meaning": "커피 마시러 가자",
+    "example": "Let's get some coffee.",
+    "exampleKo": "커피 마시러 가자."
+  },
+  {
+    "word": "what happened",
+    "meaning": "무슨 일이야?",
+    "example": "What happened?",
+    "exampleKo": "무슨 일이야?"
+  },
+  {
+    "word": "can I take photos here",
+    "meaning": "여기서 사진 찍어도 돼요?",
+    "example": "Can I take photos here?",
+    "exampleKo": "여기서 사진 찍어도 돼요?"
+  },
+  {
+    "word": "what can I get you",
+    "meaning": "뭘 드릴까요?",
+    "example": "What can I get you?",
+    "exampleKo": "뭘 드릴까요?"
+  },
+  {
+    "word": "this shirt goes with everything",
+    "meaning": "이 셔츠는 뭐든 잘 어울려",
+    "example": "This shirt goes with everything.",
+    "exampleKo": "이 셔츠는 뭐든 잘 어울려."
+  },
+  {
+    "word": "this is so sweet",
+    "meaning": "너무 달콤하다",
+    "example": "This is so sweet.",
+    "exampleKo": "너무 달콤하다."
+  },
+  {
+    "word": "I want to visit new places",
+    "meaning": "새로운 곳을 가보고 싶어",
+    "example": "I want to visit new places.",
+    "exampleKo": "새로운 곳을 가보고 싶어."
+  },
+  {
+    "word": "can I have a menu",
+    "meaning": "메뉴 좀 주세요",
+    "example": "Can I have a menu?",
+    "exampleKo": "메뉴 좀 주세요."
+  },
+  {
+    "word": "it's boring",
+    "meaning": "지루해",
+    "example": "It's boring.",
+    "exampleKo": "지루해."
+  },
+  {
+    "word": "I think I have a cold",
+    "meaning": "감기 걸린 것 같아",
+    "example": "I think I have a cold.",
+    "exampleKo": "감기 걸린 것 같아."
+  },
+  {
+    "word": "I'd love to do that",
+    "meaning": "그거 하고 싶어",
+    "example": "I'd love to do that.",
+    "exampleKo": "그거 하고 싶어."
+  },
+  {
+    "word": "you look great",
+    "meaning": "멋져 보여",
+    "example": "You look great.",
+    "exampleKo": "멋져 보여."
+  },
+  {
+    "word": "step back please",
+    "meaning": "잠깐 뒤로 물러나 주세요",
+    "example": "Step back please.",
+    "exampleKo": "잠깐 뒤로 물러나 주세요."
+  },
+  {
+    "word": "what's on TV",
+    "meaning": "TV에 뭐 나와?",
+    "example": "What's on TV?",
+    "exampleKo": "TV에 뭐 나와?"
+  },
+  {
+    "word": "feel free to drop by",
+    "meaning": "언제든 들러도 돼",
+    "example": "Feel free to drop by.",
+    "exampleKo": "언제든 들러도 돼."
+  },
+  {
+    "word": "what should we do",
+    "meaning": "뭘 할까?",
+    "example": "What should we do?",
+    "exampleKo": "뭘 할까?"
+  },
+  {
+    "word": "let's go out for dinner",
+    "meaning": "저녁 먹으러 나가자",
+    "example": "Let's go out for dinner.",
+    "exampleKo": "저녁 먹으러 나가자."
+  },
+  {
+    "word": "can I change my order",
+    "meaning": "주문 변경할 수 있을까요?",
+    "example": "Can I change my order?",
+    "exampleKo": "주문 변경할 수 있을까요?"
+  },
+  {
+    "word": "I have a runny nose",
+    "meaning": "콧물이 나",
+    "example": "I have a runny nose.",
+    "exampleKo": "콧물이 나."
+  },
+  {
+    "word": "let me think about it",
+    "meaning": "생각해 볼게",
+    "example": "Let me think about it.",
+    "exampleKo": "생각해 볼게."
+  },
+  {
+    "word": "what do you like to do",
+    "meaning": "뭘 하는 걸 좋아해?",
+    "example": "What do you like to do?",
+    "exampleKo": "뭘 하는 걸 좋아해?"
+  },
+  {
+    "word": "do you need anything",
+    "meaning": "필요한 거 있어?",
+    "example": "Do you need anything?",
+    "exampleKo": "필요한 거 있어?"
+  },
+  {
+    "word": "I'll have a latte",
+    "meaning": "라떼 주세요",
+    "example": "I'll have a latte.",
+    "exampleKo": "라떼 주세요."
+  },
+  {
+    "word": "come in",
+    "meaning": "들어와",
+    "example": "Come in.",
+    "exampleKo": "들어와."
+  },
+  {
+    "word": "stop showing off",
+    "meaning": "잘난 체 그만해",
+    "example": "Stop showing off.",
+    "exampleKo": "잘난 체 그만해."
+  },
+  {
+    "word": "I don't like sweets",
+    "meaning": "단 건 별로야",
+    "example": "I don't like sweets.",
+    "exampleKo": "단 건 별로야."
+  },
+  {
+    "word": "I love this place",
+    "meaning": "이 장소 정말 좋아",
+    "example": "I love this place.",
+    "exampleKo": "이 장소 정말 좋아."
+  },
+  {
+    "word": "I have a meeting today",
+    "meaning": "오늘 회의가 있어",
+    "example": "I have a meeting today.",
+    "exampleKo": "오늘 회의가 있어."
+  },
+  {
+    "word": "can I have the bill",
+    "meaning": "계산서 주세요",
+    "example": "Can I have the bill?",
+    "exampleKo": "계산서 주세요."
+  },
+  {
+    "word": "I'll come back later",
+    "meaning": "나중에 다시 올게",
+    "example": "I'll come back later.",
+    "exampleKo": "나중에 다시 올게."
+  },
+  {
+    "word": "you look great today",
+    "meaning": "오늘 정말 멋져 보여",
+    "example": "You look great today.",
+    "exampleKo": "오늘 정말 멋져 보여."
+  },
+  {
+    "word": "how long will it take",
+    "meaning": "얼마나 걸려?",
+    "example": "How long will it take?",
+    "exampleKo": "얼마나 걸려?"
+  },
+  {
+    "word": "have we met before",
+    "meaning": "전에 만난 적 있나?",
+    "example": "Have we met before?",
+    "exampleKo": "전에 만난 적 있나?"
+  },
+  {
+    "word": "I don't have enough time",
+    "meaning": "시간이 충분하지 않아",
+    "example": "I don't have enough time.",
+    "exampleKo": "시간이 충분하지 않아."
+  },
+  {
+    "word": "have a good weekend",
+    "meaning": "좋은 주말 보내",
+    "example": "Have a good weekend.",
+    "exampleKo": "좋은 주말 보내."
+  },
+  {
+    "word": "have a good day",
+    "meaning": "좋은 하루 보내",
+    "example": "Have a good day.",
+    "exampleKo": "좋은 하루 보내."
+  },
+  {
+    "word": "are you going to come",
+    "meaning": "올 거야?",
+    "example": "Are you going to come?",
+    "exampleKo": "올 거야?"
+  },
+  {
+    "word": "what's wrong with you",
+    "meaning": "무슨 일이야?",
+    "example": "What's wrong with you?",
+    "exampleKo": "무슨 일이야?"
+  },
+  {
+    "word": "can I have a coffee",
+    "meaning": "커피 한 잔 주세요",
+    "example": "Can I have a coffee?",
+    "exampleKo": "커피 한 잔 주세요."
+  },
+  {
+    "word": "are you a morning person",
+    "meaning": "아침형 인간이야?",
+    "example": "Are you a morning person?",
+    "exampleKo": "아침형 인간이야?"
+  },
+  {
+    "word": "I'm a vegetarian",
+    "meaning": "나 채식주의자야",
+    "example": "I'm a vegetarian.",
+    "exampleKo": "나 채식주의자야."
+  },
+  {
+    "word": "I'm going on vacation",
+    "meaning": "휴가 가",
+    "example": "I'm going on vacation.",
+    "exampleKo": "휴가 가."
+  },
+  {
+    "word": "are you all right",
+    "meaning": "괜찮아?",
+    "example": "Are you all right?",
+    "exampleKo": "괜찮아?"
+  },
+  {
+    "word": "I'm so tired",
+    "meaning": "너무 피곤해",
+    "example": "I'm so tired.",
+    "exampleKo": "너무 피곤해."
+  },
+  {
+    "word": "you're doing a great job",
+    "meaning": "정말 잘하고 있어",
+    "example": "You're doing a great job.",
+    "exampleKo": "정말 잘하고 있어."
+  },
+  {
+    "word": "want to try some",
+    "meaning": "좀 먹어 볼래?",
+    "example": "Want to try some?",
+    "exampleKo": "좀 먹어 볼래?"
+  },
+  {
+    "word": "I'll think about it",
+    "meaning": "생각해 볼게",
+    "example": "I'll think about it.",
+    "exampleKo": "생각해 볼게."
+  },
+  {
+    "word": "here you go",
+    "meaning": "여기 있어요",
+    "example": "Here you go.",
+    "exampleKo": "여기 있어요."
+  },
+  {
+    "word": "is this seat taken",
+    "meaning": "이 자리 있나요?",
+    "example": "Is this seat taken?",
+    "exampleKo": "이 자리 있나요?"
+  },
+  {
+    "word": "I'm not interested at all",
+    "meaning": "전혀 관심 없어",
+    "example": "I'm not interested at all.",
+    "exampleKo": "전혀 관심 없어."
+  },
+  {
+    "word": "let's enjoy this moment",
+    "meaning": "이 순간을 즐기자",
+    "example": "Let's enjoy this moment.",
+    "exampleKo": "이 순간을 즐기자."
+  },
+  {
+    "word": "I couldn't sleep a wink",
+    "meaning": "한숨도 못 잤어",
+    "example": "I couldn't sleep a wink.",
+    "exampleKo": "한숨도 못 잤어."
+  },
+  {
+    "word": "I had a great time",
+    "meaning": "정말 좋은 시간이었어",
+    "example": "I had a great time.",
+    "exampleKo": "정말 좋은 시간이었어."
+  },
+  {
+    "word": "are you sure about that",
+    "meaning": "확실해?",
+    "example": "Are you sure about that?",
+    "exampleKo": "확실해?"
+  },
+  {
+    "word": "who told you that",
+    "meaning": "누가 그렇게 말했어?",
+    "example": "Who told you that?",
+    "exampleKo": "누가 그렇게 말했어?"
+  },
+  {
+    "word": "for here or to go",
+    "meaning": "여기서 드시나요, 포장인가요?",
+    "example": "For here or to go?",
+    "exampleKo": "여기서 드시나요, 포장인가요?"
+  },
+  {
+    "word": "he's not coming back",
+    "meaning": "그는 돌아오지 않을 거야",
+    "example": "He's not coming back.",
+    "exampleKo": "그는 돌아오지 않을 거야."
+  },
+  {
+    "word": "I broke up with him",
+    "meaning": "그와 헤어졌어",
+    "example": "I broke up with him.",
+    "exampleKo": "그와 헤어졌어."
+  },
+  {
+    "word": "I'm not a night owl",
+    "meaning": "나는 올빼미족이 아니야",
+    "example": "I'm not a night owl.",
+    "exampleKo": "나는 올빼미족이 아니야."
+  },
+  {
+    "word": "I enjoy taking selfies",
+    "meaning": "셀카 찍는 걸 좋아해",
+    "example": "I enjoy taking selfies.",
+    "exampleKo": "셀카 찍는 걸 좋아해."
+  },
+  {
+    "word": "can I have that to go",
+    "meaning": "포장해 주세요",
+    "example": "Can I have that to go?",
+    "exampleKo": "포장해 주세요."
+  },
+  {
+    "word": "I need a break",
+    "meaning": "쉬어야겠어",
+    "example": "I need a break.",
+    "exampleKo": "쉬어야겠어."
+  },
+  {
+    "word": "no thanks I will pass",
+    "meaning": "괜찮아요, 사양할게요",
+    "example": "No thanks, I will pass.",
+    "exampleKo": "괜찮아요, 사양할게요."
+  },
+  {
+    "word": "I don't care",
+    "meaning": "상관없어",
+    "example": "I don't care.",
+    "exampleKo": "상관없어."
+  },
+  {
+    "word": "are you busy right now",
+    "meaning": "지금 바빠?",
+    "example": "Are you busy right now?",
+    "exampleKo": "지금 바빠?"
+  },
+  {
+    "word": "I'll keep that in mind",
+    "meaning": "기억해 둘게",
+    "example": "I'll keep that in mind.",
+    "exampleKo": "기억해 둘게."
+  },
+  {
+    "word": "is it your birthday",
+    "meaning": "오늘 생일이야?",
+    "example": "Is it your birthday?",
+    "exampleKo": "오늘 생일이야?"
+  },
+  {
+    "word": "are you coming",
+    "meaning": "올 거야?",
+    "example": "Are you coming?",
+    "exampleKo": "올 거야?"
+  },
+  {
+    "word": "I'll take this",
+    "meaning": "이걸로 할게요",
+    "example": "I'll take this.",
+    "exampleKo": "이걸로 할게요."
+  },
+  {
+    "word": "I'll have the same",
+    "meaning": "저도 같은 걸로요",
+    "example": "I'll have the same.",
+    "exampleKo": "저도 같은 걸로요."
+  },
+  {
+    "word": "can I check in now",
+    "meaning": "지금 체크인할 수 있나요?",
+    "example": "Can I check in now?",
+    "exampleKo": "지금 체크인할 수 있나요?"
+  },
+  {
+    "word": "do you have your cell phone",
+    "meaning": "휴대폰 있어?",
+    "example": "Do you have your cell phone?",
+    "exampleKo": "휴대폰 있어?"
+  },
+  {
+    "word": "I work out every day",
+    "meaning": "매일 운동해",
+    "example": "I work out every day.",
+    "exampleKo": "매일 운동해."
+  },
+  {
+    "word": "that'll be five dollars",
+    "meaning": "5달러입니다",
+    "example": "That'll be five dollars.",
+    "exampleKo": "5달러입니다."
+  },
+  {
+    "word": "when did you break up",
+    "meaning": "언제 헤어졌어?",
+    "example": "When did you break up?",
+    "exampleKo": "언제 헤어졌어?"
+  },
+  {
+    "word": "I love sleeping in",
+    "meaning": "늦잠 자는 걸 좋아해",
+    "example": "I love sleeping in.",
+    "exampleKo": "늦잠 자는 걸 좋아해."
+  },
+  {
+    "word": "that's a great photo",
+    "meaning": "사진 정말 잘 나왔다",
+    "example": "That's a great photo.",
+    "exampleKo": "사진 정말 잘 나왔다."
+  },
+  {
+    "word": "I have two sisters",
+    "meaning": "언니/누나가 둘이야",
+    "example": "I have two sisters.",
+    "exampleKo": "언니/누나가 둘이야."
+  },
+  {
+    "word": "I'm feeling stressed",
+    "meaning": "스트레스 받아",
+    "example": "I'm feeling stressed.",
+    "exampleKo": "스트레스 받아."
+  },
+  {
+    "word": "that would be nice",
+    "meaning": "그거 좋겠다",
+    "example": "That would be nice.",
+    "exampleKo": "그거 좋겠다."
+  },
+  {
+    "word": "I need more time",
+    "meaning": "시간이 더 필요해",
+    "example": "I need more time.",
+    "exampleKo": "시간이 더 필요해."
+  },
+  {
+    "word": "how about you",
+    "meaning": "너는?",
+    "example": "How about you?",
+    "exampleKo": "너는?"
+  },
+  {
+    "word": "I ache all over",
+    "meaning": "온몸이 쑤셔",
+    "example": "I ache all over.",
+    "exampleKo": "온몸이 쑤셔."
+  },
+  {
+    "word": "there's no need to hurry",
+    "meaning": "서두를 필요 없어",
+    "example": "There's no need to hurry.",
+    "exampleKo": "서두를 필요 없어."
+  },
+  {
+    "word": "are you free tonight",
+    "meaning": "오늘 밤 시간 돼?",
+    "example": "Are you free tonight?",
+    "exampleKo": "오늘 밤 시간 돼?"
+  },
+  {
+    "word": "are you free this weekend",
+    "meaning": "이번 주말에 시간 돼?",
+    "example": "Are you free this weekend?",
+    "exampleKo": "이번 주말에 시간 돼?"
+  },
+  {
+    "word": "I'm so happy for you",
+    "meaning": "정말 축하해",
+    "example": "I'm so happy for you.",
+    "exampleKo": "정말 축하해."
+  },
+  {
+    "word": "I am freaking out",
+    "meaning": "완전 패닉이야",
+    "example": "I am freaking out.",
+    "exampleKo": "완전 패닉이야."
+  },
+  {
+    "word": "my back is killing me",
+    "meaning": "허리가 너무 아파",
+    "example": "My back is killing me.",
+    "exampleKo": "허리가 너무 아파."
+  },
+  {
+    "word": "what time is it now",
+    "meaning": "지금 몇 시야?",
+    "example": "What time is it now?",
+    "exampleKo": "지금 몇 시야?"
+  },
+  {
+    "word": "do you mind if I sit here",
+    "meaning": "여기 앉아도 될까요?",
+    "example": "Do you mind if I sit here?",
+    "exampleKo": "여기 앉아도 될까요?"
+  },
+  {
+    "word": "I turned it off",
+    "meaning": "껐어",
+    "example": "I turned it off.",
+    "exampleKo": "껐어."
+  },
+  {
+    "word": "I just moved in",
+    "meaning": "방금 이사 왔어",
+    "example": "I just moved in.",
+    "exampleKo": "방금 이사 왔어."
+  },
+  {
+    "word": "I enjoy spring",
+    "meaning": "봄이 좋아",
+    "example": "I enjoy spring.",
+    "exampleKo": "봄이 좋아."
+  },
+  {
+    "word": "I'm the oldest",
+    "meaning": "나가 맏이야",
+    "example": "I'm the oldest.",
+    "exampleKo": "나가 맏이야."
+  },
+  {
+    "word": "I'm sorry about that",
+    "meaning": "그건 미안해",
+    "example": "I'm sorry about that.",
+    "exampleKo": "그건 미안해."
+  },
+  {
+    "word": "it doesn't matter",
+    "meaning": "상관없어",
+    "example": "It doesn't matter.",
+    "exampleKo": "상관없어."
+  },
+  {
+    "word": "I'm really bored",
+    "meaning": "정말 지루해",
+    "example": "I'm really bored.",
+    "exampleKo": "정말 지루해."
+  },
+  {
+    "word": "it's too greasy",
+    "meaning": "너무 기름져",
+    "example": "It's too greasy.",
+    "exampleKo": "너무 기름져."
+  },
+  {
+    "word": "what's the matter",
+    "meaning": "무슨 일이야?",
+    "example": "What's the matter?",
+    "exampleKo": "무슨 일이야?"
+  },
+  {
+    "word": "have you been there",
+    "meaning": "거기 가 봤어?",
+    "example": "Have you been there?",
+    "exampleKo": "거기 가 봤어?"
+  },
+  {
+    "word": "I've been there a few times",
+    "meaning": "거기 몇 번 가 봤어",
+    "example": "I've been there a few times.",
+    "exampleKo": "거기 몇 번 가 봤어."
+  },
+  {
+    "word": "I can't hear you",
+    "meaning": "잘 안 들려",
+    "example": "I can't hear you.",
+    "exampleKo": "잘 안 들려."
+  },
+  {
+    "word": "am I late",
+    "meaning": "늦었어?",
+    "example": "Am I late?",
+    "exampleKo": "늦었어?"
+  },
+  {
+    "word": "are you serious",
+    "meaning": "진심이야?",
+    "example": "Are you serious?",
+    "exampleKo": "진심이야?"
+  },
+  {
+    "word": "I'll pay in cash",
+    "meaning": "현금으로 낼게",
+    "example": "I'll pay in cash.",
+    "exampleKo": "현금으로 낼게."
+  },
+  {
+    "word": "I got a cold",
+    "meaning": "감기 걸렸어",
+    "example": "I got a cold.",
+    "exampleKo": "감기 걸렸어."
+  },
+  {
+    "word": "I have no choice",
+    "meaning": "선택의 여지가 없어",
+    "example": "I have no choice.",
+    "exampleKo": "선택의 여지가 없어."
+  },
+  {
+    "word": "it was nice meeting you",
+    "meaning": "만나서 반가웠어",
+    "example": "It was nice meeting you.",
+    "exampleKo": "만나서 반가웠어."
+  },
+  {
+    "word": "I'm on a diet",
+    "meaning": "다이어트 중이야",
+    "example": "I'm on a diet.",
+    "exampleKo": "다이어트 중이야."
+  },
+  {
+    "word": "please turn off your phone",
+    "meaning": "휴대폰 꺼 주세요",
+    "example": "Please turn off your phone.",
+    "exampleKo": "휴대폰 꺼 주세요."
+  },
+  {
+    "word": "I'm at home",
+    "meaning": "집에 있어",
+    "example": "I'm at home.",
+    "exampleKo": "집에 있어."
+  },
+  {
+    "word": "let's go for a walk",
+    "meaning": "산책하러 가자",
+    "example": "Let's go for a walk.",
+    "exampleKo": "산책하러 가자."
+  },
+  {
+    "word": "I like sunny days",
+    "meaning": "맑은 날이 좋아",
+    "example": "I like sunny days.",
+    "exampleKo": "맑은 날이 좋아."
+  },
+  {
+    "word": "what are friends for",
+    "meaning": "친구 좋은 건 뭐야",
+    "example": "What are friends for?",
+    "exampleKo": "친구 좋은 건 뭐야."
+  },
+  {
+    "word": "how can I get there",
+    "meaning": "거기 어떻게 가?",
+    "example": "How can I get there?",
+    "exampleKo": "거기 어떻게 가?"
+  },
+  {
+    "word": "I'll let you know later",
+    "meaning": "나중에 알려줄게",
+    "example": "I'll let you know later.",
+    "exampleKo": "나중에 알려줄게."
+  },
+  {
+    "word": "you're such a good friend",
+    "meaning": "정말 좋은 친구야",
+    "example": "You're such a good friend.",
+    "exampleKo": "정말 좋은 친구야."
+  },
+  {
+    "word": "I'm with you",
+    "meaning": "네 편이야",
+    "example": "I'm with you.",
+    "exampleKo": "네 편이야."
+  },
+  {
+    "word": "can I see your ID",
+    "meaning": "신분증 보여주시겠어요?",
+    "example": "Can I see your ID?",
+    "exampleKo": "신분증 보여주시겠어요?"
+  },
+  {
+    "word": "I have booked online",
+    "meaning": "온라인으로 예약했어요",
+    "example": "I have booked online.",
+    "exampleKo": "온라인으로 예약했어요."
+  },
+  {
+    "word": "did you sleep well",
+    "meaning": "잘 잤어?",
+    "example": "Did you sleep well?",
+    "exampleKo": "잘 잤어?"
+  },
+  {
+    "word": "let's grab a snack",
+    "meaning": "간식 먹자",
+    "example": "Let's grab a snack.",
+    "exampleKo": "간식 먹자."
+  },
+  {
+    "word": "I was lucky",
+    "meaning": "운이 좋았어",
+    "example": "I was lucky.",
+    "exampleKo": "운이 좋았어."
+  },
+  {
+    "word": "sorry about that",
+    "meaning": "그건 미안해",
+    "example": "Sorry about that.",
+    "exampleKo": "그건 미안해."
+  },
+  {
+    "word": "I work from home",
+    "meaning": "재택근무해",
+    "example": "I work from home.",
+    "exampleKo": "재택근무해."
+  },
+  {
+    "word": "why didn't you tell me",
+    "meaning": "왜 나한테 말 안 했어?",
+    "example": "Why didn't you tell me?",
+    "exampleKo": "왜 나한테 말 안 했어?"
+  },
+  {
+    "word": "let's get out of here",
+    "meaning": "여기서 나가자",
+    "example": "Let's get out of here.",
+    "exampleKo": "여기서 나가자."
+  },
+  {
+    "word": "where should I go",
+    "meaning": "어디로 가야 해?",
+    "example": "Where should I go?",
+    "exampleKo": "어디로 가야 해?"
+  },
+  {
+    "word": "let's get some air",
+    "meaning": "바깥 공기 좀 쐬자",
+    "example": "Let's get some air.",
+    "exampleKo": "바깥 공기 좀 쐬자."
+  },
+  {
+    "word": "do you have any allergies",
+    "meaning": "알레르기 있어?",
+    "example": "Do you have any allergies?",
+    "exampleKo": "알레르기 있어?"
+  },
+  {
+    "word": "I can't get Wi-Fi",
+    "meaning": "와이파이가 안 돼",
+    "example": "I can't get Wi-Fi.",
+    "exampleKo": "와이파이가 안 돼."
+  },
+  {
+    "word": "are you kidding me",
+    "meaning": "농담하는 거지?",
+    "example": "Are you kidding me?",
+    "exampleKo": "농담하는 거지?"
+  },
+  {
+    "word": "get some rest",
+    "meaning": "좀 쉬어",
+    "example": "Get some rest.",
+    "exampleKo": "좀 쉬어."
+  },
+  {
+    "word": "can I charge my phone",
+    "meaning": "휴대폰 충전해도 돼요?",
+    "example": "Can I charge my phone?",
+    "exampleKo": "휴대폰 충전해도 돼요?"
+  },
+  {
+    "word": "let's keep in touch",
+    "meaning": "연락하고 지내자",
+    "example": "Let's keep in touch.",
+    "exampleKo": "연락하고 지내자."
+  },
+  {
+    "word": "let's not talk about it",
+    "meaning": "그 얘기는 그만하자",
+    "example": "Let's not talk about it.",
+    "exampleKo": "그 얘기는 그만하자."
+  },
+  {
+    "word": "dinner is on me",
+    "meaning": "저녁은 내가 살게",
+    "example": "Dinner is on me.",
+    "exampleKo": "저녁은 내가 살게."
+  },
+  {
+    "word": "turn the steak over",
+    "meaning": "스테이크 뒤집어",
+    "example": "Turn the steak over.",
+    "exampleKo": "스테이크 뒤집어."
+  },
+  {
+    "word": "I'm a fan of novels",
+    "meaning": "소설을 좋아해",
+    "example": "I'm a fan of novels.",
+    "exampleKo": "소설을 좋아해."
+  },
+  {
+    "word": "I understand",
+    "meaning": "이해했어",
+    "example": "I understand.",
+    "exampleKo": "이해했어."
+  },
+  {
+    "word": "do you like your job",
+    "meaning": "일이 마음에 들어?",
+    "example": "Do you like your job?",
+    "exampleKo": "일이 마음에 들어?"
+  },
+  {
+    "word": "don't blame me",
+    "meaning": "나한테 화내지 마",
+    "example": "Don't blame me.",
+    "exampleKo": "나한테 화내지 마."
+  },
+  {
+    "word": "I love watching films",
+    "meaning": "영화 보는 걸 좋아해",
+    "example": "I love watching films.",
+    "exampleKo": "영화 보는 걸 좋아해."
+  },
+  {
+    "word": "I've been to Europe",
+    "meaning": "유럽에 가 봤어",
+    "example": "I've been to Europe.",
+    "exampleKo": "유럽에 가 봤어."
+  },
+  {
+    "word": "it's a bestseller",
+    "meaning": "베스트셀러야",
+    "example": "It's a bestseller.",
+    "exampleKo": "베스트셀러야."
+  },
+  {
+    "word": "are you close to them",
+    "meaning": "그들과 가까워?",
+    "example": "Are you close to them?",
+    "exampleKo": "그들과 가까워?"
+  },
+  {
+    "word": "yes we get along well",
+    "meaning": "응, 우리 사이좋아",
+    "example": "Yes, we get along well.",
+    "exampleKo": "응, 우리 사이좋아."
+  },
+  {
+    "word": "I'm into rock music",
+    "meaning": "록 음악을 좋아해",
+    "example": "I'm into rock music.",
+    "exampleKo": "록 음악을 좋아해."
+  },
+  {
+    "word": "ice cream is my weakness",
+    "meaning": "아이스크림은 못 참아",
+    "example": "Ice cream is my weakness.",
+    "exampleKo": "아이스크림은 못 참아."
+  }
+]

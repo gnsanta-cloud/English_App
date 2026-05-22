@@ -1,0 +1,6020 @@
+[
+  {
+    "word": "culture",
+    "meaning": "문화, 교양",
+    "example": "Can you tell me what \"culture\" means?",
+    "exampleKo": "\"culture\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "experience",
+    "meaning": "경험",
+    "example": "Please write a sentence with \"experience\".",
+    "exampleKo": "\"experience\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "education",
+    "meaning": "교육",
+    "example": "I want to remember the word \"education\".",
+    "exampleKo": "\"교육\"(education)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "symbol",
+    "meaning": "상징",
+    "example": "She spelled \"symbol\" correctly on the test.",
+    "exampleKo": "시험에서 \"symbol\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "effect",
+    "meaning": "결과, 영향, 효과",
+    "example": "We talked about \"effect\" in our group.",
+    "exampleKo": "모둠 활동에서 \"결과\"(effect)에 대해 이야기했어요."
+  },
+  {
+    "word": "liberty",
+    "meaning": "자유",
+    "example": "The teacher wrote \"liberty\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"liberty\"를 적어 주셨어요."
+  },
+  {
+    "word": "affair",
+    "meaning": "사건, 일",
+    "example": "I heard \"affair\" in an English song.",
+    "exampleKo": "영어 노래에서 \"affair\"를 들었어요."
+  },
+  {
+    "word": "comfort",
+    "meaning": "안락, 위안",
+    "example": "This story uses the word \"comfort\" many times.",
+    "exampleKo": "이 이야기에는 \"comfort\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "tradition",
+    "meaning": "전통, 전설",
+    "example": "I sometimes forget the word \"tradition\".",
+    "exampleKo": "가끔 \"전통\"(tradition)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "subject",
+    "meaning": "학과, 주제, 주어",
+    "example": "He asked me to explain \"subject\".",
+    "exampleKo": "친구가 \"subject\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "object",
+    "meaning": "사물, 목적, (동)반대하다",
+    "example": "My homework is to study \"object\".",
+    "exampleKo": "숙제는 \"사물\"(object) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "source",
+    "meaning": "출처, 근원",
+    "example": "I read a sentence with \"source\" in it.",
+    "exampleKo": "\"source\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "revolution",
+    "meaning": "혁명",
+    "example": "Everyone in class knew the word \"revolution\".",
+    "exampleKo": "반 친구들은 모두 \"revolution\"를 알고 있었어요."
+  },
+  {
+    "word": "pollution",
+    "meaning": "오염",
+    "example": "I looked up \"pollution\" in the dictionary.",
+    "exampleKo": "사전에서 \"오염\"(pollution)를 찾아봤어요."
+  },
+  {
+    "word": "system",
+    "meaning": "조직, 체계, 지도",
+    "example": "Let us practice saying \"system\" aloud.",
+    "exampleKo": "\"system\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "triumph",
+    "meaning": "승리",
+    "example": "The word \"triumph\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"triumph\"가 나왔어요."
+  },
+  {
+    "word": "respect",
+    "meaning": "존경, (동)존경하다",
+    "example": "I used \"respect\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"respect\"를 써 봤어요."
+  },
+  {
+    "word": "communication",
+    "meaning": "전달, 교통",
+    "example": "What is the Korean meaning of \"communication\"?",
+    "exampleKo": "\"communication\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "mass communication",
+    "meaning": "(신문, 라디오같은)매스컴",
+    "example": "I made a flashcard for the word \"mass communication\".",
+    "exampleKo": "\"(신문\"(mass communication) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "foundation",
+    "meaning": "기초",
+    "example": "Our reading book has the word \"foundation\".",
+    "exampleKo": "읽기 교재에 \"foundation\"라는 단어가 있어요."
+  },
+  {
+    "word": "glory",
+    "meaning": "영광",
+    "example": "I circled \"glory\" in my notebook.",
+    "exampleKo": "공책에 \"glory\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "situation",
+    "meaning": "위치, 사태",
+    "example": "The example sentence helped me learn \"situation\".",
+    "exampleKo": "예문 덕분에 \"위치\"(situation)를 이해했어요."
+  },
+  {
+    "word": "competition",
+    "meaning": "경쟁",
+    "example": "I practice \"competition\" every morning.",
+    "exampleKo": "매일 아침 \"competition\"를 연습해요."
+  },
+  {
+    "word": "prairie",
+    "meaning": "대초원",
+    "example": "My sister asked me about the word \"prairie\".",
+    "exampleKo": "여동생이 \"prairie\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "effort",
+    "meaning": "노력",
+    "example": "I copied \"effort\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"노력\"(effort)을 적었어요."
+  },
+  {
+    "word": "section",
+    "meaning": "부분, 구역",
+    "example": "The picture shows what \"section\" means.",
+    "exampleKo": "그림을 보면 \"section\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "no smoking section",
+    "meaning": "금연구역",
+    "example": "I met \"no smoking section\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"no smoking section\"를 또 만났어요."
+  },
+  {
+    "word": "rein",
+    "meaning": "고삐",
+    "example": "Please repeat the word \"rein\" after me.",
+    "exampleKo": "제 뒤를 이어 \"rein\"라고 말해 보세요."
+  },
+  {
+    "word": "solution",
+    "meaning": "해결, 용해",
+    "example": "I felt proud when I knew \"solution\".",
+    "exampleKo": "\"해결\"(solution)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "honor",
+    "meaning": "명예/경의, (동)존경하다",
+    "example": "I found the word \"honor\" in my textbook.",
+    "exampleKo": "교과서에서 \"명예/경의\"(honor)라는 단어를 찾았어요."
+  },
+  {
+    "word": "unity",
+    "meaning": "통일/일치",
+    "example": "Can you tell me what \"unity\" means?",
+    "exampleKo": "\"unity\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "population",
+    "meaning": "인구",
+    "example": "Please write a sentence with \"population\".",
+    "exampleKo": "\"population\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "direction",
+    "meaning": "방향, 지시",
+    "example": "I want to remember the word \"direction\".",
+    "exampleKo": "\"방향\"(direction)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "dialogue",
+    "meaning": "대화",
+    "example": "She spelled \"dialogue\" correctly on the test.",
+    "exampleKo": "시험에서 \"dialogue\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "dialogue between north and south",
+    "meaning": "남북대화",
+    "example": "We talked about \"dialogue between north and south\" in our group.",
+    "exampleKo": "모둠 활동에서 \"남북대화\"(dialogue between north and south)에 대해 이야기했어요."
+  },
+  {
+    "word": "republic",
+    "meaning": "공화국",
+    "example": "The teacher wrote \"republic\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"republic\"를 적어 주셨어요."
+  },
+  {
+    "word": "method",
+    "meaning": "방법",
+    "example": "I heard \"method\" in an English song.",
+    "exampleKo": "영어 노래에서 \"method\"를 들었어요."
+  },
+  {
+    "word": "increase",
+    "meaning": "증가, (동)증가하다",
+    "example": "This story uses the word \"increase\" many times.",
+    "exampleKo": "이 이야기에는 \"increase\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "decrease",
+    "meaning": "감소, (동)감소하다",
+    "example": "I sometimes forget the word \"decrease\".",
+    "exampleKo": "가끔 \"감소\"(decrease)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "amount",
+    "meaning": "양, 액수, 총계",
+    "example": "He asked me to explain \"amount\".",
+    "exampleKo": "친구가 \"amount\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "ancestor",
+    "meaning": "조상, 선조",
+    "example": "My homework is to study \"ancestor\".",
+    "exampleKo": "숙제는 \"조상\"(ancestor) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "voyage",
+    "meaning": "항해",
+    "example": "I read a sentence with \"voyage\" in it.",
+    "exampleKo": "\"voyage\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "sculpture",
+    "meaning": "조각(품)",
+    "example": "Everyone in class knew the word \"sculpture\".",
+    "exampleKo": "반 친구들은 모두 \"sculpture\"를 알고 있었어요."
+  },
+  {
+    "word": "instrument",
+    "meaning": "기계, 기구, 도구",
+    "example": "I looked up \"instrument\" in the dictionary.",
+    "exampleKo": "사전에서 \"기계\"(instrument)를 찾아봤어요."
+  },
+  {
+    "word": "figure",
+    "meaning": "숫자, 계산, 모습, 인물",
+    "example": "Let us practice saying \"figure\" aloud.",
+    "exampleKo": "\"figure\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "activity",
+    "meaning": "활동",
+    "example": "The word \"activity\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"activity\"가 나왔어요."
+  },
+  {
+    "word": "cause",
+    "meaning": "원인, 이유",
+    "example": "I used \"cause\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"cause\"를 써 봤어요."
+  },
+  {
+    "word": "worth",
+    "meaning": "가치, \\~에 가치가있는",
+    "example": "What is the Korean meaning of \"worth\"?",
+    "exampleKo": "\"worth\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "accident",
+    "meaning": "사고, 뜻밖의사건",
+    "example": "I made a flashcard for the word \"accident\".",
+    "exampleKo": "\"사고\"(accident) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "adventure",
+    "meaning": "모험",
+    "example": "Our reading book has the word \"adventure\".",
+    "exampleKo": "읽기 교재에 \"adventure\"라는 단어가 있어요."
+  },
+  {
+    "word": "view",
+    "meaning": "경치, 의견",
+    "example": "I circled \"view\" in my notebook.",
+    "exampleKo": "공책에 \"view\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "relative",
+    "meaning": "친척, 관계가있는",
+    "example": "The example sentence helped me learn \"relative\".",
+    "exampleKo": "예문 덕분에 \"친척\"(relative)를 이해했어요."
+  },
+  {
+    "word": "superstition",
+    "meaning": "미신",
+    "example": "I practice \"superstition\" every morning.",
+    "exampleKo": "매일 아침 \"superstition\"를 연습해요."
+  },
+  {
+    "word": "habit",
+    "meaning": "습관, 버릇",
+    "example": "My sister asked me about the word \"habit\".",
+    "exampleKo": "여동생이 \"habit\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "wealth",
+    "meaning": "재산, 부",
+    "example": "I copied \"wealth\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"재산\"(wealth)을 적었어요."
+  },
+  {
+    "word": "treasure",
+    "meaning": "보물",
+    "example": "The picture shows what \"treasure\" means.",
+    "exampleKo": "그림을 보면 \"treasure\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "universe",
+    "meaning": "우주, 전세계",
+    "example": "I met \"universe\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"universe\"를 또 만났어요."
+  },
+  {
+    "word": "adult",
+    "meaning": "성인, 성인의",
+    "example": "Please repeat the word \"adult\" after me.",
+    "exampleKo": "제 뒤를 이어 \"adult\"라고 말해 보세요."
+  },
+  {
+    "word": "feast",
+    "meaning": "향연, 잔치",
+    "example": "I felt proud when I knew \"feast\".",
+    "exampleKo": "\"향연\"(feast)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "resources",
+    "meaning": "자원, 수단",
+    "example": "I found the word \"resources\" in my textbook.",
+    "exampleKo": "교과서에서 \"자원\"(resources)라는 단어를 찾았어요."
+  },
+  {
+    "word": "ruin",
+    "meaning": "파멸",
+    "example": "Can you tell me what \"ruin\" means?",
+    "exampleKo": "\"ruin\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "monument",
+    "meaning": "기념비, 기념물",
+    "example": "Please write a sentence with \"monument\".",
+    "exampleKo": "\"monument\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "information",
+    "meaning": "정보, 지식, 통지",
+    "example": "I want to remember the word \"information\".",
+    "exampleKo": "\"정보\"(information)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "appetite",
+    "meaning": "식욕",
+    "example": "She spelled \"appetite\" correctly on the test.",
+    "exampleKo": "시험에서 \"appetite\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "stethoscope",
+    "meaning": "청진기",
+    "example": "We talked about \"stethoscope\" in our group.",
+    "exampleKo": "모둠 활동에서 \"청진기\"(stethoscope)에 대해 이야기했어요."
+  },
+  {
+    "word": "mystery",
+    "meaning": "신비, 불가사의",
+    "example": "The teacher wrote \"mystery\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"mystery\"를 적어 주셨어요."
+  },
+  {
+    "word": "thermometer",
+    "meaning": "온도계",
+    "example": "I heard \"thermometer\" in an English song.",
+    "exampleKo": "영어 노래에서 \"thermometer\"를 들었어요."
+  },
+  {
+    "word": "burden",
+    "meaning": "무거운 짐, 짐을지우다",
+    "example": "This story uses the word \"burden\" many times.",
+    "exampleKo": "이 이야기에는 \"burden\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "series",
+    "meaning": "연속, 시리즈",
+    "example": "I sometimes forget the word \"series\".",
+    "exampleKo": "가끔 \"연속\"(series)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "oath",
+    "meaning": "맹세, 선서",
+    "example": "He asked me to explain \"oath\".",
+    "exampleKo": "친구가 \"oath\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "appointment",
+    "meaning": "임명, 약속",
+    "example": "My homework is to study \"appointment\".",
+    "exampleKo": "숙제는 \"임명\"(appointment) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "clue",
+    "meaning": "실마리, 단서",
+    "example": "I read a sentence with \"clue\" in it.",
+    "exampleKo": "\"clue\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "debt",
+    "meaning": "은혜, 빚",
+    "example": "Everyone in class knew the word \"debt\".",
+    "exampleKo": "반 친구들은 모두 \"debt\"를 알고 있었어요."
+  },
+  {
+    "word": "hydrogen",
+    "meaning": "수소",
+    "example": "I looked up \"hydrogen\" in the dictionary.",
+    "exampleKo": "사전에서 \"수소\"(hydrogen)를 찾아봤어요."
+  },
+  {
+    "word": "control",
+    "meaning": "통제, 지배, (동)통제하다, 지배하다",
+    "example": "Let us practice saying \"control\" aloud.",
+    "exampleKo": "\"control\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "uniform",
+    "meaning": "제복, 한모양의",
+    "example": "The word \"uniform\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"uniform\"가 나왔어요."
+  },
+  {
+    "word": "design",
+    "meaning": "계획, 설계, 계획하다, 디자인하다",
+    "example": "I used \"design\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"design\"를 써 봤어요."
+  },
+  {
+    "word": "damage",
+    "meaning": "손해, 손상",
+    "example": "What is the Korean meaning of \"damage\"?",
+    "exampleKo": "\"damage\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "custom",
+    "meaning": "습관, 풍습",
+    "example": "I made a flashcard for the word \"custom\".",
+    "exampleKo": "\"습관\"(custom) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "traffic",
+    "meaning": "교통",
+    "example": "Our reading book has the word \"traffic\".",
+    "exampleKo": "읽기 교재에 \"traffic\"라는 단어가 있어요."
+  },
+  {
+    "word": "sophomore",
+    "meaning": "2학년생",
+    "example": "I circled \"sophomore\" in my notebook.",
+    "exampleKo": "공책에 \"sophomore\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "temperature",
+    "meaning": "온도, 체온",
+    "example": "The example sentence helped me learn \"temperature\".",
+    "exampleKo": "예문 덕분에 \"온도\"(temperature)를 이해했어요."
+  },
+  {
+    "word": "limit",
+    "meaning": "제한하다, 한계, 제한",
+    "example": "I practice \"limit\" every morning.",
+    "exampleKo": "매일 아침 \"limit\"를 연습해요."
+  },
+  {
+    "word": "statue",
+    "meaning": "조각상",
+    "example": "My sister asked me about the word \"statue\".",
+    "exampleKo": "여동생이 \"statue\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "furniture",
+    "meaning": "가구",
+    "example": "I copied \"furniture\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"가구\"(furniture)를 적었어요."
+  },
+  {
+    "word": "parade",
+    "meaning": "행렬",
+    "example": "The picture shows what \"parade\" means.",
+    "exampleKo": "그림을 보면 \"parade\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "public",
+    "meaning": "공중(사회), 공공의, 공중의",
+    "example": "I met \"public\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"public\"를 또 만났어요."
+  },
+  {
+    "word": "pilgrim",
+    "meaning": "순례자",
+    "example": "Please repeat the word \"pilgrim\" after me.",
+    "exampleKo": "제 뒤를 이어 \"pilgrim\"라고 말해 보세요."
+  },
+  {
+    "word": "greeting",
+    "meaning": "인사, 축하",
+    "example": "I felt proud when I knew \"greeting\".",
+    "exampleKo": "\"인사\"(greeting)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "language",
+    "meaning": "언어",
+    "example": "I found the word \"language\" in my textbook.",
+    "exampleKo": "교과서에서 \"언어\"(language)라는 단어를 찾았어요."
+  },
+  {
+    "word": "opinion",
+    "meaning": "의견",
+    "example": "Can you tell me what \"opinion\" means?",
+    "exampleKo": "\"opinion\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "athlete",
+    "meaning": "운동선수",
+    "example": "Please write a sentence with \"athlete\".",
+    "exampleKo": "\"athlete\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "supply",
+    "meaning": "공급, 공급하다",
+    "example": "I want to remember the word \"supply\".",
+    "exampleKo": "\"공급\"(supply)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "surface",
+    "meaning": "표면",
+    "example": "She spelled \"surface\" correctly on the test.",
+    "exampleKo": "시험에서 \"surface\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "electricity",
+    "meaning": "전기",
+    "example": "We talked about \"electricity\" in our group.",
+    "exampleKo": "모둠 활동에서 \"전기\"(electricity)에 대해 이야기했어요."
+  },
+  {
+    "word": "order",
+    "meaning": "순서, 명령",
+    "example": "The teacher wrote \"order\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"order\"를 적어 주셨어요."
+  },
+  {
+    "word": "spirit",
+    "meaning": "정신",
+    "example": "I heard \"spirit\" in an English song.",
+    "exampleKo": "영어 노래에서 \"spirit\"를 들었어요."
+  },
+  {
+    "word": "purpose",
+    "meaning": "목적",
+    "example": "This story uses the word \"purpose\" many times.",
+    "exampleKo": "이 이야기에는 \"purpose\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "promise",
+    "meaning": "가망, 전망, 약속",
+    "example": "I sometimes forget the word \"promise\".",
+    "exampleKo": "가끔 \"가망\"(promise)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "project",
+    "meaning": "계획, 계획하다",
+    "example": "He asked me to explain \"project\".",
+    "exampleKo": "친구가 \"project\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "government",
+    "meaning": "정부, 정치의",
+    "example": "My homework is to study \"government\".",
+    "exampleKo": "숙제는 \"정부\"(government) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "exercise",
+    "meaning": "운동, 연습하다",
+    "example": "I read an sentence with \"exercise\" in it.",
+    "exampleKo": "\"exercise\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "comparison",
+    "meaning": "비교",
+    "example": "Everyone in class knew the word \"comparison\".",
+    "exampleKo": "반 친구들은 모두 \"comparison\"를 알고 있었어요."
+  },
+  {
+    "word": "interest",
+    "meaning": "이익, 흥미",
+    "example": "I looked up \"interest\" in the dictionary.",
+    "exampleKo": "사전에서 \"이익\"(interest)를 찾아봤어요."
+  },
+  {
+    "word": "funeral",
+    "meaning": "장례식",
+    "example": "Let us practice saying \"funeral\" aloud.",
+    "exampleKo": "\"funeral\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "senior",
+    "meaning": "선배, 손위에",
+    "example": "The word \"senior\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"senior\"가 나왔어요."
+  },
+  {
+    "word": "junior",
+    "meaning": "후배, 손아래에",
+    "example": "I used \"junior\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"junior\"를 써 봤어요."
+  },
+  {
+    "word": "democracy",
+    "meaning": "민주주의, 민주정치",
+    "example": "What is the Korean meaning of \"democracy\"?",
+    "exampleKo": "\"democracy\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "general",
+    "meaning": "육군장군",
+    "example": "I made a flashcard for the word \"general\".",
+    "exampleKo": "\"육군장군\"(general) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "admiral",
+    "meaning": "해군대장",
+    "example": "Our reading book has the word \"admiral\".",
+    "exampleKo": "읽기 교재에 \"admiral\"라는 단어가 있어요."
+  },
+  {
+    "word": "edge",
+    "meaning": "날, 가장자리",
+    "example": "I circled \"edge\" in my notebook.",
+    "exampleKo": "공책에 \"edge\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "biology",
+    "meaning": "생물학",
+    "example": "The example sentence helped me learn \"biology\".",
+    "exampleKo": "예문 덕분에 \"생물학\"(biology)를 이해했어요."
+  },
+  {
+    "word": "danger",
+    "meaning": "위험",
+    "example": "I practice \"danger\" every morning.",
+    "exampleKo": "매일 아침 \"danger\"를 연습해요."
+  },
+  {
+    "word": "advice",
+    "meaning": "충고",
+    "example": "My sister asked me about the word \"advice\".",
+    "exampleKo": "여동생이 \"advice\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "practice",
+    "meaning": "연습하다",
+    "example": "I copied \"practice\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"연습하다\"(practice)를 적었어요."
+  },
+  {
+    "word": "mammal",
+    "meaning": "포유동물",
+    "example": "The picture shows what \"mammal\" means.",
+    "exampleKo": "그림을 보면 \"mammal\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "grade",
+    "meaning": "학년",
+    "example": "I met \"grade\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"grade\"를 또 만났어요."
+  },
+  {
+    "word": "score",
+    "meaning": "점수",
+    "example": "Please repeat the word \"score\" after me.",
+    "exampleKo": "제 뒤를 이어 \"score\"라고 말해 보세요."
+  },
+  {
+    "word": "pause",
+    "meaning": "중지, 멈추다",
+    "example": "I felt proud when I knew \"pause\".",
+    "exampleKo": "\"중지\"(pause)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "pronunciation",
+    "meaning": "발음",
+    "example": "I found the word \"pronunciation\" in my textbook.",
+    "exampleKo": "교과서에서 \"발음\"(pronunciation)라는 단어를 찾았어요."
+  },
+  {
+    "word": "stress",
+    "meaning": "압박, 강조하다",
+    "example": "Can you tell me what \"stress\" means?",
+    "exampleKo": "\"stress\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "contest",
+    "meaning": "경쟁",
+    "example": "Please write a sentence with \"contest\".",
+    "exampleKo": "\"contest\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "horizon",
+    "meaning": "수평선의",
+    "example": "I want to remember the word \"horizon\".",
+    "exampleKo": "\"수평선의\"(horizon)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "principal",
+    "meaning": "주요한",
+    "example": "She spelled \"principal\" correctly on the test.",
+    "exampleKo": "시험에서 \"principal\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "might",
+    "meaning": "힘",
+    "example": "We talked about \"might\" in our group.",
+    "exampleKo": "모둠 활동에서 \"힘\"(might)에 대해 이야기했어요."
+  },
+  {
+    "word": "trouble",
+    "meaning": "고생, 걱정하다",
+    "example": "The teacher wrote \"trouble\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"trouble\"를 적어 주셨어요."
+  },
+  {
+    "word": "scar",
+    "meaning": "상처",
+    "example": "I heard \"scar\" in an English song.",
+    "exampleKo": "영어 노래에서 \"scar\"를 들었어요."
+  },
+  {
+    "word": "balance",
+    "meaning": "균형",
+    "example": "This story uses the word \"balance\" many times.",
+    "exampleKo": "이 이야기에는 \"balance\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "proverb",
+    "meaning": "속담",
+    "example": "I sometimes forget the word \"proverb\".",
+    "exampleKo": "가끔 \"속담\"(proverb)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "semester",
+    "meaning": "학기",
+    "example": "He asked me to explain \"semester\".",
+    "exampleKo": "친구가 \"semester\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "election",
+    "meaning": "선거",
+    "example": "My homework is to study \"election\".",
+    "exampleKo": "숙제는 \"선거\"(election) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "inning",
+    "meaning": "회",
+    "example": "I read an sentence with \"inning\" in it.",
+    "exampleKo": "\"inning\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "hollow",
+    "meaning": "구멍, 우묵한곳",
+    "example": "Everyone in class knew the word \"hollow\".",
+    "exampleKo": "반 친구들은 모두 \"hollow\"를 알고 있었어요."
+  },
+  {
+    "word": "degree",
+    "meaning": "도, 정도",
+    "example": "I looked up \"degree\" in the dictionary.",
+    "exampleKo": "사전에서 \"도\"(degree)를 찾아봤어요."
+  },
+  {
+    "word": "cemetery",
+    "meaning": "묘지",
+    "example": "Let us practice saying \"cemetery\" aloud.",
+    "exampleKo": "\"cemetery\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "relay",
+    "meaning": "교대자, 교대하다",
+    "example": "The word \"relay\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"relay\"가 나왔어요."
+  },
+  {
+    "word": "spot",
+    "meaning": "지점",
+    "example": "I used \"spot\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"spot\"를 써 봤어요."
+  },
+  {
+    "word": "exchange",
+    "meaning": "교환하다",
+    "example": "What is the Korean meaning of \"exchange\"?",
+    "exampleKo": "\"exchange\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "merchant",
+    "meaning": "상인",
+    "example": "I made a flashcard for the word \"merchant\".",
+    "exampleKo": "\"상인\"(merchant) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "saying",
+    "meaning": "격언",
+    "example": "Our reading book has the word \"saying\".",
+    "exampleKo": "읽기 교재에 \"saying\"라는 단어가 있어요."
+  },
+  {
+    "word": "refrigerator",
+    "meaning": "냉장고",
+    "example": "I circled \"refrigerator\" in my notebook.",
+    "exampleKo": "공책에 \"refrigerator\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "crack",
+    "meaning": "갈라진 틈",
+    "example": "The example sentence helped me learn \"crack\".",
+    "exampleKo": "예문 덕분에 \"갈라진 틈\"(crack)를 이해했어요."
+  },
+  {
+    "word": "judge",
+    "meaning": "재판관",
+    "example": "I practice \"judge\" every morning.",
+    "exampleKo": "매일 아침 \"judge\"를 연습해요."
+  },
+  {
+    "word": "slave",
+    "meaning": "노예",
+    "example": "My sister asked me about the word \"slave\".",
+    "exampleKo": "여동생이 \"slave\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "settler",
+    "meaning": "이주민",
+    "example": "I copied \"settler\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"이주민\"(settler)을 적었어요."
+  },
+  {
+    "word": "fare",
+    "meaning": "요금",
+    "example": "The picture shows what \"fare\" means.",
+    "exampleKo": "그림을 보면 \"fare\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "gesture",
+    "meaning": "몸짓",
+    "example": "I met \"gesture\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"gesture\"를 또 만났어요."
+  },
+  {
+    "word": "planet",
+    "meaning": "행성",
+    "example": "Please repeat the word \"planet\" after me.",
+    "exampleKo": "제 뒤를 이어 \"planet\"라고 말해 보세요."
+  },
+  {
+    "word": "type",
+    "meaning": "유형",
+    "example": "I felt proud when I knew \"type\".",
+    "exampleKo": "\"유형\"(type)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "secretary",
+    "meaning": "비서",
+    "example": "I found the word \"secretary\" in my textbook.",
+    "exampleKo": "교과서에서 \"비서\"(secretary)라는 단어를 찾았어요."
+  },
+  {
+    "word": "devil",
+    "meaning": "악마",
+    "example": "Can you tell me what \"devil\" means?",
+    "exampleKo": "\"devil\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "scholar",
+    "meaning": "학자",
+    "example": "Please write a sentence with \"scholar\".",
+    "exampleKo": "\"scholar\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "pardon",
+    "meaning": "용서",
+    "example": "I want to remember the word \"pardon\".",
+    "exampleKo": "\"용서\"(pardon)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "kindergarten",
+    "meaning": "유치원",
+    "example": "She spelled \"kindergarten\" correctly on the test.",
+    "exampleKo": "시험에서 \"kindergarten\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "detective",
+    "meaning": "탐정",
+    "example": "We talked about \"detective\" in our group.",
+    "exampleKo": "모둠 활동에서 \"탐정\"(detective)에 대해 이야기했어요."
+  },
+  {
+    "word": "license",
+    "meaning": "면허",
+    "example": "The teacher wrote \"license\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"license\"를 적어 주셨어요."
+  },
+  {
+    "word": "palace",
+    "meaning": "궁전",
+    "example": "I heard \"palace\" in an English song.",
+    "exampleKo": "영어 노래에서 \"palace\"를 들었어요."
+  },
+  {
+    "word": "spade",
+    "meaning": "삽",
+    "example": "This story uses the word \"spade\" many times.",
+    "exampleKo": "이 이야기에는 \"spade\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "square",
+    "meaning": "정사각형",
+    "example": "I sometimes forget the word \"square\".",
+    "exampleKo": "가끔 \"정사각형\"(square)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "fountain-pen",
+    "meaning": "만년필",
+    "example": "He asked me to explain \"fountain-pen\".",
+    "exampleKo": "친구가 \"fountain-pen\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "harvest",
+    "meaning": "수확",
+    "example": "My homework is to study \"harvest\".",
+    "exampleKo": "숙제는 \"수확\"(harvest) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "tool",
+    "meaning": "도구",
+    "example": "I read a sentence with \"tool\" in it.",
+    "exampleKo": "\"tool\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "sword",
+    "meaning": "칼",
+    "example": "Everyone in class knew the word \"sword\".",
+    "exampleKo": "반 친구들은 모두 \"sword\"를 알고 있었어요."
+  },
+  {
+    "word": "magazine",
+    "meaning": "잡지",
+    "example": "I looked up \"magazine\" in the dictionary.",
+    "exampleKo": "사전에서 \"잡지\"(magazine)를 찾아봤어요."
+  },
+  {
+    "word": "stadium",
+    "meaning": "경기장",
+    "example": "Let us practice saying \"stadium\" aloud.",
+    "exampleKo": "\"stadium\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "care",
+    "meaning": "걱정",
+    "example": "The word \"care\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"care\"가 나왔어요."
+  },
+  {
+    "word": "beauty",
+    "meaning": "아름다움",
+    "example": "I used \"beauty\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"beauty\"를 써 봤어요."
+  },
+  {
+    "word": "museum",
+    "meaning": "박물관",
+    "example": "What is the Korean meaning of \"museum\"?",
+    "exampleKo": "\"museum\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "sentence",
+    "meaning": "문장",
+    "example": "I made a flashcard for the word \"sentence\".",
+    "exampleKo": "\"문장\"(sentence) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "memory",
+    "meaning": "기억",
+    "example": "Our reading book has the word \"memory\".",
+    "exampleKo": "읽기 교재에 \"memory\"라는 단어가 있어요."
+  },
+  {
+    "word": "delight",
+    "meaning": "기쁨",
+    "example": "I circled \"delight\" in my notebook.",
+    "exampleKo": "공책에 \"delight\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "passenger",
+    "meaning": "승객",
+    "example": "The example sentence helped me learn \"passenger\".",
+    "exampleKo": "예문 덕분에 \"승객\"(passenger)를 이해했어요."
+  },
+  {
+    "word": "skill",
+    "meaning": "숙련",
+    "example": "I practice \"skill\" every morning.",
+    "exampleKo": "매일 아침 \"skill\"를 연습해요."
+  },
+  {
+    "word": "journey",
+    "meaning": "여행",
+    "example": "My sister asked me about the word \"journey\".",
+    "exampleKo": "여동생이 \"journey\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "ceremony",
+    "meaning": "의식",
+    "example": "I copied \"ceremony\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"의식\"(ceremony)을 적었어요."
+  },
+  {
+    "word": "hobby",
+    "meaning": "취미",
+    "example": "The picture shows what \"hobby\" means.",
+    "exampleKo": "그림을 보면 \"hobby\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "president",
+    "meaning": "대통령",
+    "example": "I met \"president\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"president\"를 또 만났어요."
+  },
+  {
+    "word": "address",
+    "meaning": "주소",
+    "example": "Please repeat the word \"address\" after me.",
+    "exampleKo": "제 뒤를 이어 \"address\"라고 말해 보세요."
+  },
+  {
+    "word": "continent",
+    "meaning": "대륙",
+    "example": "I felt proud when I knew \"continent\".",
+    "exampleKo": "\"대륙\"(continent)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "mankind",
+    "meaning": "인간",
+    "example": "I found the word \"mankind\" in my textbook.",
+    "exampleKo": "교과서에서 \"인간\"(mankind)라는 단어를 찾았어요."
+  },
+  {
+    "word": "patient",
+    "meaning": "환자",
+    "example": "Can you tell me what \"patient\" means?",
+    "exampleKo": "\"patient\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "site",
+    "meaning": "부지",
+    "example": "Please write a sentence with \"site\".",
+    "exampleKo": "\"site\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "marble",
+    "meaning": "대리석",
+    "example": "I want to remember the word \"marble\".",
+    "exampleKo": "\"대리석\"(marble)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "stem",
+    "meaning": "줄기",
+    "example": "She spelled \"stem\" correctly on the test.",
+    "exampleKo": "시험에서 \"stem\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "slip",
+    "meaning": "미끄러짐",
+    "example": "We talked about \"slip\" in our group.",
+    "exampleKo": "모둠 활동에서 \"미끄러짐\"(slip)에 대해 이야기했어요."
+  },
+  {
+    "word": "torch",
+    "meaning": "횃불",
+    "example": "The teacher wrote \"torch\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"torch\"를 적어 주셨어요."
+  },
+  {
+    "word": "composer",
+    "meaning": "작곡가",
+    "example": "I heard \"composer\" in an English song.",
+    "exampleKo": "영어 노래에서 \"composer\"를 들었어요."
+  },
+  {
+    "word": "invader",
+    "meaning": "침입자",
+    "example": "This story uses the word \"invader\" many times.",
+    "exampleKo": "이 이야기에는 \"invader\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "trick",
+    "meaning": "계략",
+    "example": "I sometimes forget the word \"trick\".",
+    "exampleKo": "가끔 \"계략\"(trick)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "flight",
+    "meaning": "비행",
+    "example": "He asked me to explain \"flight\".",
+    "exampleKo": "친구가 \"flight\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "castle",
+    "meaning": "성",
+    "example": "My homework is to study \"castle\".",
+    "exampleKo": "숙제는 \"성\"(castle) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "envelope",
+    "meaning": "봉투",
+    "example": "I read an sentence with \"envelope\" in it.",
+    "exampleKo": "\"envelope\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "pal",
+    "meaning": "친구",
+    "example": "Everyone in class knew the word \"pal\".",
+    "exampleKo": "반 친구들은 모두 \"pal\"를 알고 있었어요."
+  },
+  {
+    "word": "vacation",
+    "meaning": "휴가",
+    "example": "I looked up \"vacation\" in the dictionary.",
+    "exampleKo": "사전에서 \"휴가\"(vacation)를 찾아봤어요."
+  },
+  {
+    "word": "desert",
+    "meaning": "사막",
+    "example": "Let us practice saying \"desert\" aloud.",
+    "exampleKo": "\"desert\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "event",
+    "meaning": "사건",
+    "example": "The word \"event\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"event\"가 나왔어요."
+  },
+  {
+    "word": "theater",
+    "meaning": "극장",
+    "example": "I used \"theater\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"theater\"를 써 봤어요."
+  },
+  {
+    "word": "stage",
+    "meaning": "무대",
+    "example": "What is the Korean meaning of \"stage\"?",
+    "exampleKo": "\"stage\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "error",
+    "meaning": "잘못",
+    "example": "I made a flashcard for the word \"error\".",
+    "exampleKo": "\"잘못\"(error) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "area",
+    "meaning": "면적, 지역",
+    "example": "Our reading book has the word \"area\".",
+    "exampleKo": "읽기 교재에 \"area\"라는 단어가 있어요."
+  },
+  {
+    "word": "base",
+    "meaning": "기초, 기초를두다",
+    "example": "I circled \"base\" in my notebook.",
+    "exampleKo": "공책에 \"base\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "basement",
+    "meaning": "지하실",
+    "example": "The example sentence helped me learn \"basement\".",
+    "exampleKo": "예문 덕분에 \"지하실\"(basement)를 이해했어요."
+  },
+  {
+    "word": "evil",
+    "meaning": "악, 나쁜",
+    "example": "I practice \"evil\" every morning.",
+    "exampleKo": "매일 아침 \"evil\"를 연습해요."
+  },
+  {
+    "word": "atom",
+    "meaning": "원자",
+    "example": "My sister asked me about the word \"atom\".",
+    "exampleKo": "여동생이 \"atom\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "poet",
+    "meaning": "시인",
+    "example": "I copied \"poet\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"시인\"(poet)을 적었어요."
+  },
+  {
+    "word": "petal",
+    "meaning": "꽃잎",
+    "example": "The picture shows what \"petal\" means.",
+    "exampleKo": "그림을 보면 \"petal\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "chance",
+    "meaning": "기회, 가능성",
+    "example": "I met \"chance\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"chance\"를 또 만났어요."
+  },
+  {
+    "word": "mind",
+    "meaning": "마음",
+    "example": "Please repeat the word \"mind\" after me.",
+    "exampleKo": "제 뒤를 이어 \"mind\"라고 말해 보세요."
+  },
+  {
+    "word": "climate",
+    "meaning": "기후, 풍토",
+    "example": "I felt proud when I knew \"climate\".",
+    "exampleKo": "\"기후\"(climate)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "suburb",
+    "meaning": "교외",
+    "example": "I found the word \"suburb\" in my textbook.",
+    "exampleKo": "교과서에서 \"교외\"(suburb)라는 단어를 찾았어요."
+  },
+  {
+    "word": "throat",
+    "meaning": "목구멍",
+    "example": "Can you tell me what \"throat\" means?",
+    "exampleKo": "\"throat\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "voice",
+    "meaning": "목소리",
+    "example": "Please write a sentence with \"voice\".",
+    "exampleKo": "\"voice\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "valley",
+    "meaning": "골짜기, 계곡",
+    "example": "I want to remember the word \"valley\".",
+    "exampleKo": "\"골짜기\"(valley)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "puritan",
+    "meaning": "청교도",
+    "example": "She spelled \"puritan\" correctly on the test.",
+    "exampleKo": "시험에서 \"puritan\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "feather",
+    "meaning": "깃털",
+    "example": "We talked about \"feather\" in our group.",
+    "exampleKo": "모둠 활동에서 \"깃털\"(feather)에 대해 이야기했어요."
+  },
+  {
+    "word": "amateur",
+    "meaning": "아마추어",
+    "example": "The teacher wrote \"amateur\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"amateur\"를 적어 주셨어요."
+  },
+  {
+    "word": "nation",
+    "meaning": "국가",
+    "example": "I heard \"nation\" in an English song.",
+    "exampleKo": "영어 노래에서 \"nation\"를 들었어요."
+  },
+  {
+    "word": "puzzle",
+    "meaning": "수수께끼",
+    "example": "This story uses the word \"puzzle\" many times.",
+    "exampleKo": "이 이야기에는 \"puzzle\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "riddle",
+    "meaning": "수수께끼",
+    "example": "I sometimes forget the word \"riddle\".",
+    "exampleKo": "가끔 \"수수께끼\"(riddle)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "rear",
+    "meaning": "뒤쪽",
+    "example": "He asked me to explain \"rear\".",
+    "exampleKo": "친구가 \"rear\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "battle",
+    "meaning": "전투, 싸움",
+    "example": "My homework is to study \"battle\".",
+    "exampleKo": "숙제는 \"전투\"(battle) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "laundry",
+    "meaning": "세탁소",
+    "example": "I read a sentence with \"laundry\" in it.",
+    "exampleKo": "\"laundry\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "shower",
+    "meaning": "소나기, 샤워",
+    "example": "Everyone in class knew the word \"shower\".",
+    "exampleKo": "반 친구들은 모두 \"shower\"를 알고 있었어요."
+  },
+  {
+    "word": "navy",
+    "meaning": "해군",
+    "example": "I looked up \"navy\" in the dictionary.",
+    "exampleKo": "사전에서 \"해군\"(navy)를 찾아봤어요."
+  },
+  {
+    "word": "mars",
+    "meaning": "화성",
+    "example": "Let us practice saying \"mars\" aloud.",
+    "exampleKo": "\"mars\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "gallery",
+    "meaning": "화랑",
+    "example": "The word \"gallery\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"gallery\"가 나왔어요."
+  },
+  {
+    "word": "guest",
+    "meaning": "손님(visitor)",
+    "example": "I used \"guest\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"guest\"를 써 봤어요."
+  },
+  {
+    "word": "folk",
+    "meaning": "사람들",
+    "example": "What is the Korean meaning of \"folk\"?",
+    "exampleKo": "\"folk\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "problem",
+    "meaning": "문제",
+    "example": "I made a flashcard for the word \"problem\".",
+    "exampleKo": "\"문제\"(problem) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "jewel",
+    "meaning": "보석",
+    "example": "Our reading book has the word \"jewel\".",
+    "exampleKo": "읽기 교재에 \"jewel\"라는 단어가 있어요."
+  },
+  {
+    "word": "garage",
+    "meaning": "차고",
+    "example": "I circled \"garage\" in my notebook.",
+    "exampleKo": "공책에 \"garage\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "fault",
+    "meaning": "결점, 잘못",
+    "example": "The example sentence helped me learn \"fault\".",
+    "exampleKo": "예문 덕분에 \"결점\"(fault)를 이해했어요."
+  },
+  {
+    "word": "lantern",
+    "meaning": "랜턴",
+    "example": "I practice \"lantern\" every morning.",
+    "exampleKo": "매일 아침 \"lantern\"를 연습해요."
+  },
+  {
+    "word": "import",
+    "meaning": "수입(품)",
+    "example": "My sister asked me about the word \"import\".",
+    "exampleKo": "여동생이 \"import\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "angle",
+    "meaning": "각도",
+    "example": "I copied \"angle\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"각도\"(angle)를 적었어요."
+  },
+  {
+    "word": "match",
+    "meaning": "시합",
+    "example": "The picture shows what \"match\" means.",
+    "exampleKo": "그림을 보면 \"match\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "stripe",
+    "meaning": "줄무늬",
+    "example": "I met \"stripe\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"stripe\"를 또 만났어요."
+  },
+  {
+    "word": "pulse",
+    "meaning": "맥박",
+    "example": "Please repeat the word \"pulse\" after me.",
+    "exampleKo": "제 뒤를 이어 \"pulse\"라고 말해 보세요."
+  },
+  {
+    "word": "powder",
+    "meaning": "가루, 화약",
+    "example": "I felt proud when I knew \"powder\".",
+    "exampleKo": "\"가루\"(powder)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "flood",
+    "meaning": "홍수",
+    "example": "I found the word \"flood\" in my textbook.",
+    "exampleKo": "교과서에서 \"홍수\"(flood)라는 단어를 찾았어요."
+  },
+  {
+    "word": "bush",
+    "meaning": "수풀, 덤불",
+    "example": "Can you tell me what \"bush\" means?",
+    "exampleKo": "\"bush\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "branch",
+    "meaning": "가지",
+    "example": "Please write a sentence with \"branch\".",
+    "exampleKo": "\"branch\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "hero",
+    "meaning": "영웅, (복수형)heroes",
+    "example": "I want to remember the word \"hero\".",
+    "exampleKo": "\"영웅\"(hero)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "heaven",
+    "meaning": "하늘",
+    "example": "She spelled \"heaven\" correctly on the test.",
+    "exampleKo": "시험에서 \"heaven\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "exit",
+    "meaning": "출구",
+    "example": "We talked about \"exit\" in our group.",
+    "exampleKo": "모둠 활동에서 \"출구\"(exit)에 대해 이야기했어요."
+  },
+  {
+    "word": "beast",
+    "meaning": "짐승, (=animal)",
+    "example": "The teacher wrote \"beast\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"beast\"를 적어 주셨어요."
+  },
+  {
+    "word": "century",
+    "meaning": "세기, 100년",
+    "example": "I heard \"century\" in an English song.",
+    "exampleKo": "영어 노래에서 \"century\"를 들었어요."
+  },
+  {
+    "word": "coeducation",
+    "meaning": "남녀공학",
+    "example": "This story uses the word \"coeducation\" many times.",
+    "exampleKo": "이 이야기에는 \"coeducation\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "twin",
+    "meaning": "쌍둥이의 한사람",
+    "example": "I sometimes forget the word \"twin\".",
+    "exampleKo": "가끔 \"쌍둥이의 한사람\"(twin)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "wound",
+    "meaning": "상처, 부상",
+    "example": "He asked me to explain \"wound\".",
+    "exampleKo": "친구가 \"wound\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "metal",
+    "meaning": "금속",
+    "example": "My homework is to study \"metal\".",
+    "exampleKo": "숙제는 \"금속\"(metal) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "insect",
+    "meaning": "곤충",
+    "example": "I read an sentence with \"insect\" in it.",
+    "exampleKo": "\"insect\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "track",
+    "meaning": "지나간 자국, 선로",
+    "example": "Everyone in class knew the word \"track\".",
+    "exampleKo": "반 친구들은 모두 \"track\"를 알고 있었어요."
+  },
+  {
+    "word": "deserve",
+    "meaning": "받을 가치가있다, \\~할 만하다",
+    "example": "I looked up \"deserve\" in the dictionary.",
+    "exampleKo": "사전에서 \"받을 가치가있다\"(deserve)를 찾아봤어요."
+  },
+  {
+    "word": "survive",
+    "meaning": "\\~보다 오래살다, \\~에서 살아남다",
+    "example": "Let us practice saying \"survive\" aloud.",
+    "exampleKo": "\"survive\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "create",
+    "meaning": "창조하다",
+    "example": "The word \"create\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"create\"가 나왔어요."
+  },
+  {
+    "word": "describe",
+    "meaning": "묘사하다",
+    "example": "I used \"describe\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"describe\"를 써 봤어요."
+  },
+  {
+    "word": "select",
+    "meaning": "고르다, 선발한",
+    "example": "What is the Korean meaning of \"select\"?",
+    "exampleKo": "\"select\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "hesitate",
+    "meaning": "주저하다, 망설이다",
+    "example": "I made a flashcard for the word \"hesitate\".",
+    "exampleKo": "\"주저하다\"(hesitate) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "declare",
+    "meaning": "선언하다",
+    "example": "Our reading book has the word \"declare\".",
+    "exampleKo": "읽기 교재에 \"declare\"라는 단어가 있어요."
+  },
+  {
+    "word": "pretend",
+    "meaning": "\\~인 체하다",
+    "example": "I circled \"pretend\" in my notebook.",
+    "exampleKo": "공책에 \"pretend\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "struggle",
+    "meaning": "분투하다, 노력하다, 싸우다",
+    "example": "The example sentence helped me learn \"struggle\".",
+    "exampleKo": "예문 덕분에 \"분투하다\"(struggle)를 이해했어요."
+  },
+  {
+    "word": "explore",
+    "meaning": "탐험하다",
+    "example": "I practice \"explore\" every morning.",
+    "exampleKo": "매일 아침 \"explore\"를 연습해요."
+  },
+  {
+    "word": "astonish",
+    "meaning": "놀라게 하다",
+    "example": "My sister asked me about the word \"astonish\".",
+    "exampleKo": "여동생이 \"astonish\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "disappoint",
+    "meaning": "실망시키다",
+    "example": "I copied \"disappoint\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"실망시키다\"(disappoint)를 적었어요."
+  },
+  {
+    "word": "attract",
+    "meaning": "끌다",
+    "example": "The picture shows what \"attract\" means.",
+    "exampleKo": "그림을 보면 \"attract\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "celebrate",
+    "meaning": "축하하다",
+    "example": "I met \"celebrate\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"celebrate\"를 또 만났어요."
+  },
+  {
+    "word": "explode",
+    "meaning": "폭발시키다",
+    "example": "Please repeat the word \"explode\" after me.",
+    "exampleKo": "제 뒤를 이어 \"explode\"라고 말해 보세요."
+  },
+  {
+    "word": "include",
+    "meaning": "포함하다",
+    "example": "I felt proud when I knew \"include\".",
+    "exampleKo": "\"포함하다\"(include)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "protect",
+    "meaning": "보호하다",
+    "example": "I found the word \"protect\" in my textbook.",
+    "exampleKo": "교과서에서 \"보호하다\"(protect)라는 단어를 찾았어요."
+  },
+  {
+    "word": "introduce",
+    "meaning": "소개하다, 도입하다",
+    "example": "Can you tell me what \"introduce\" means?",
+    "exampleKo": "\"introduce\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "produce",
+    "meaning": "생산하다",
+    "example": "Please write a sentence with \"produce\".",
+    "exampleKo": "\"produce\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "chase",
+    "meaning": "쫓다, 추적",
+    "example": "I want to remember the word \"chase\".",
+    "exampleKo": "\"쫓다\"(chase)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "scratch",
+    "meaning": "할퀴다, 긁다",
+    "example": "She spelled \"scratch\" correctly on the test.",
+    "exampleKo": "시험에서 \"scratch\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "crash",
+    "meaning": "충돌(추락), 충돌하다, 추락하다, 와르르무너지다",
+    "example": "We talked about \"crash\" in our group.",
+    "exampleKo": "모둠 활동에서 \"충돌(추락)\"(crash)에 대해 이야기했어요."
+  },
+  {
+    "word": "stare",
+    "meaning": "응시하다",
+    "example": "The teacher wrote \"stare\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"stare\"를 적어 주셨어요."
+  },
+  {
+    "word": "gaze",
+    "meaning": "응시하다, 바라보다",
+    "example": "I heard \"gaze\" in an English song.",
+    "exampleKo": "영어 노래에서 \"gaze\"를 들었어요."
+  },
+  {
+    "word": "scare",
+    "meaning": "놀라게 하다, 놀라다",
+    "example": "This story uses the word \"scare\" many times.",
+    "exampleKo": "이 이야기에는 \"scare\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "grab",
+    "meaning": "움켜잡다",
+    "example": "I sometimes forget the word \"grab\".",
+    "exampleKo": "가끔 \"움켜잡다\"(grab)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "guard",
+    "meaning": "지키다, 경계, 위병",
+    "example": "He asked me to explain \"guard\".",
+    "exampleKo": "친구가 \"guard\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "discuss",
+    "meaning": "토론하다",
+    "example": "My homework is to study \"discuss\".",
+    "exampleKo": "숙제는 \"토론하다\"(discuss) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "shrug",
+    "meaning": "어깨를 으쓱하다",
+    "example": "I read a sentence with \"shrug\" in it.",
+    "exampleKo": "\"shrug\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "sniff",
+    "meaning": "냄새 맡다",
+    "example": "Everyone in class knew the word \"sniff\".",
+    "exampleKo": "반 친구들은 모두 \"sniff\"를 알고 있었어요."
+  },
+  {
+    "word": "scream",
+    "meaning": "날카롭게 소리치다",
+    "example": "I looked up \"scream\" in the dictionary.",
+    "exampleKo": "사전에서 \"날카롭게 소리치다\"(scream)를 찾아봤어요."
+  },
+  {
+    "word": "rid",
+    "meaning": "제거하다",
+    "example": "Let us practice saying \"rid\" aloud.",
+    "exampleKo": "\"rid\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "surround",
+    "meaning": "둘러싸다",
+    "example": "The word \"surround\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"surround\"가 나왔어요."
+  },
+  {
+    "word": "cleave",
+    "meaning": "쪼개다, 찢다",
+    "example": "I used \"cleave\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"cleave\"를 써 봤어요."
+  },
+  {
+    "word": "carve",
+    "meaning": "새기다, 조각하다",
+    "example": "What is the Korean meaning of \"carve\"?",
+    "exampleKo": "\"carve\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "except",
+    "meaning": "제외하다",
+    "example": "I made a flashcard for the word \"except\".",
+    "exampleKo": "\"제외하다\"(except) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "invent",
+    "meaning": "발명하다",
+    "example": "Our reading book has the word \"invent\".",
+    "exampleKo": "읽기 교재에 \"invent\"라는 단어가 있어요."
+  },
+  {
+    "word": "search",
+    "meaning": "찾다",
+    "example": "I circled \"search\" in my notebook.",
+    "exampleKo": "공책에 \"search\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "abuse",
+    "meaning": "남용하다, 학대하다",
+    "example": "The example sentence helped me learn \"abuse\".",
+    "exampleKo": "예문 덕분에 \"남용하다\"(abuse)를 이해했어요."
+  },
+  {
+    "word": "owe",
+    "meaning": "힘입다, 빛(의무)이 있다",
+    "example": "I practice \"owe\" every morning.",
+    "exampleKo": "매일 아침 \"owe\"를 연습해요."
+  },
+  {
+    "word": "bless",
+    "meaning": "축복하다",
+    "example": "My sister asked me about the word \"bless\".",
+    "exampleKo": "여동생이 \"bless\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "graduate",
+    "meaning": "졸업하다",
+    "example": "I copied \"graduate\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"졸업하다\"(graduate)를 적었어요."
+  },
+  {
+    "word": "replace",
+    "meaning": "\\~을 대신하다, 제자리에놓다",
+    "example": "The picture shows what \"replace\" means.",
+    "exampleKo": "그림을 보면 \"replace\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "collect",
+    "meaning": "모으다, 수집하다",
+    "example": "I met \"collect\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"collect\"를 또 만났어요."
+  },
+  {
+    "word": "upset",
+    "meaning": "뒤엎다, 당황하게한다",
+    "example": "Please repeat the word \"upset\" after me.",
+    "exampleKo": "제 뒤를 이어 \"upset\"라고 말해 보세요."
+  },
+  {
+    "word": "arrest",
+    "meaning": "체포하다, 체포",
+    "example": "I felt proud when I knew \"arrest\".",
+    "exampleKo": "\"체포하다\"(arrest)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "prove",
+    "meaning": "증명하다",
+    "example": "I found the word \"prove\" in my textbook.",
+    "exampleKo": "교과서에서 \"증명하다\"(prove)라는 단어를 찾았어요."
+  },
+  {
+    "word": "yell",
+    "meaning": "외치다",
+    "example": "Can you tell me what \"yell\" means?",
+    "exampleKo": "\"yell\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "howl",
+    "meaning": "짖다, 울부짖다",
+    "example": "Please write a sentence with \"howl\".",
+    "exampleKo": "\"howl\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "halt",
+    "meaning": "정지하다",
+    "example": "I want to remember the word \"halt\".",
+    "exampleKo": "\"정지하다\"(halt)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "leak",
+    "meaning": "새다",
+    "example": "She spelled \"leak\" correctly on the test.",
+    "exampleKo": "시험에서 \"leak\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "behave",
+    "meaning": "행동하다",
+    "example": "We talked about \"behave\" in our group.",
+    "exampleKo": "모둠 활동에서 \"행동하다\"(behave)에 대해 이야기했어요."
+  },
+  {
+    "word": "wrap",
+    "meaning": "싸다",
+    "example": "The teacher wrote \"wrap\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"wrap\"를 적어 주셨어요."
+  },
+  {
+    "word": "locate",
+    "meaning": "위치하다",
+    "example": "I heard \"locate\" in an English song.",
+    "exampleKo": "영어 노래에서 \"locate\"를 들었어요."
+  },
+  {
+    "word": "charge",
+    "meaning": "청구하다",
+    "example": "This story uses the word \"charge\" many times.",
+    "exampleKo": "이 이야기에는 \"charge\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "review",
+    "meaning": "복습하다",
+    "example": "I sometimes forget the word \"review\".",
+    "exampleKo": "가끔 \"복습하다\"(review)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "refuse",
+    "meaning": "거절하다",
+    "example": "He asked me to explain \"refuse\".",
+    "exampleKo": "친구가 \"refuse\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "complain",
+    "meaning": "불평하다",
+    "example": "My homework is to study \"complain\".",
+    "exampleKo": "숙제는 \"불평하다\"(complain) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "remain",
+    "meaning": "남다",
+    "example": "I read a sentence with \"remain\" in it.",
+    "exampleKo": "\"remain\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "warn",
+    "meaning": "경고하다",
+    "example": "Everyone in class knew the word \"warn\".",
+    "exampleKo": "반 친구들은 모두 \"warn\"를 알고 있었어요."
+  },
+  {
+    "word": "bend",
+    "meaning": "구부리다",
+    "example": "I looked up \"bend\" in the dictionary.",
+    "exampleKo": "사전에서 \"구부리다\"(bend)를 찾아봤어요."
+  },
+  {
+    "word": "suffer",
+    "meaning": "겪다",
+    "example": "Let us practice saying \"suffer\" aloud.",
+    "exampleKo": "\"suffer\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "whisper",
+    "meaning": "속삭이다",
+    "example": "The word \"whisper\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"whisper\"가 나왔어요."
+  },
+  {
+    "word": "prepare",
+    "meaning": "준비하다",
+    "example": "I used \"prepare\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"prepare\"를 써 봤어요."
+  },
+  {
+    "word": "roar",
+    "meaning": "으르렁거리다",
+    "example": "What is the Korean meaning of \"roar\"?",
+    "exampleKo": "\"roar\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "float",
+    "meaning": "뜨다",
+    "example": "I made a flashcard for the word \"float\".",
+    "exampleKo": "\"뜨다\"(float) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "drag",
+    "meaning": "질질 끌다",
+    "example": "Our reading book has the word \"drag\".",
+    "exampleKo": "읽기 교재에 \"drag\"라는 단어가 있어요."
+  },
+  {
+    "word": "overhear",
+    "meaning": "엿듣다",
+    "example": "I circled \"overhear\" in my notebook.",
+    "exampleKo": "공책에 \"overhear\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "slide",
+    "meaning": "미끄러지다",
+    "example": "The example sentence helped me learn \"slide\".",
+    "exampleKo": "예문 덕분에 \"미끄러지다\"(slide)를 이해했어요."
+  },
+  {
+    "word": "suck",
+    "meaning": "빨다",
+    "example": "I practice \"suck\" every morning.",
+    "exampleKo": "매일 아침 \"suck\"를 연습해요."
+  },
+  {
+    "word": "bother",
+    "meaning": "괴롭히다",
+    "example": "My sister asked me about the word \"bother\".",
+    "exampleKo": "여동생이 \"bother\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "deal",
+    "meaning": "분배하다",
+    "example": "I copied \"deal\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"분배하다\"(deal)를 적었어요."
+  },
+  {
+    "word": "treat",
+    "meaning": "다루다",
+    "example": "The picture shows what \"treat\" means.",
+    "exampleKo": "그림을 보면 \"treat\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "destroy",
+    "meaning": "파괴하다",
+    "example": "I met \"destroy\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"destroy\"를 또 만났어요."
+  },
+  {
+    "word": "accept",
+    "meaning": "받아들이다",
+    "example": "Please repeat the word \"accept\" after me.",
+    "exampleKo": "제 뒤를 이어 \"accept\"라고 말해 보세요."
+  },
+  {
+    "word": "depend",
+    "meaning": "\\~에 의존하다",
+    "example": "I felt proud when I knew \"depend\".",
+    "exampleKo": "\"\\~에 의존하다\"(depend)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "nod",
+    "meaning": "끄덕이다",
+    "example": "I found the word \"nod\" in my textbook.",
+    "exampleKo": "교과서에서 \"끄덕이다\"(nod)라는 단어를 찾았어요."
+  },
+  {
+    "word": "remove",
+    "meaning": "옮기다",
+    "example": "Can you tell me what \"remove\" means?",
+    "exampleKo": "\"remove\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "beat",
+    "meaning": "때리다",
+    "example": "Please write a sentence with \"beat\".",
+    "exampleKo": "\"beat\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "clap",
+    "meaning": "탁 치다",
+    "example": "I want to remember the word \"clap\".",
+    "exampleKo": "\"탁 치다\"(clap)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "feed",
+    "meaning": "먹을 것을주다",
+    "example": "She spelled \"feed\" correctly on the test.",
+    "exampleKo": "시험에서 \"feed\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "obtain",
+    "meaning": "얻다",
+    "example": "We talked about \"obtain\" in our group.",
+    "exampleKo": "모둠 활동에서 \"얻다\"(obtain)에 대해 이야기했어요."
+  },
+  {
+    "word": "drown",
+    "meaning": "빠뜨리다, 빠지다, 빠져죽다",
+    "example": "The teacher wrote \"drown\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"drown\"를 적어 주셨어요."
+  },
+  {
+    "word": "remind",
+    "meaning": "생각나게 하다",
+    "example": "I heard \"remind\" in an English song.",
+    "exampleKo": "영어 노래에서 \"remind\"를 들었어요."
+  },
+  {
+    "word": "occur",
+    "meaning": "일어나다",
+    "example": "This story uses the word \"occur\" many times.",
+    "exampleKo": "이 이야기에는 \"occur\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "ache",
+    "meaning": "아프다",
+    "example": "I sometimes forget the word \"ache\".",
+    "exampleKo": "가끔 \"아프다\"(ache)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "repeat",
+    "meaning": "되풀이하다",
+    "example": "He asked me to explain \"repeat\".",
+    "exampleKo": "친구가 \"repeat\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "attend",
+    "meaning": "참석하다",
+    "example": "My homework is to study \"attend\".",
+    "exampleKo": "숙제는 \"참석하다\"(attend) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "sigh",
+    "meaning": "한숨 쉬다",
+    "example": "I read a sentence with \"sigh\" in it.",
+    "exampleKo": "\"sigh\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "pray",
+    "meaning": "빌다",
+    "example": "Everyone in class knew the word \"pray\".",
+    "exampleKo": "반 친구들은 모두 \"pray\"를 알고 있었어요."
+  },
+  {
+    "word": "press",
+    "meaning": "누르다",
+    "example": "I looked up \"press\" in the dictionary.",
+    "exampleKo": "사전에서 \"누르다\"(press)를 찾아봤어요."
+  },
+  {
+    "word": "bear",
+    "meaning": "낳다",
+    "example": "Let us practice saying \"bear\" aloud.",
+    "exampleKo": "\"bear\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "follow",
+    "meaning": "따르다",
+    "example": "The word \"follow\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"follow\"가 나왔어요."
+  },
+  {
+    "word": "hate",
+    "meaning": "미워하다",
+    "example": "I used \"hate\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"hate\"를 써 봤어요."
+  },
+  {
+    "word": "frighten",
+    "meaning": "깜짝 놀라게하다",
+    "example": "What is the Korean meaning of \"frighten\"?",
+    "exampleKo": "\"frighten\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "shout",
+    "meaning": "외치다",
+    "example": "I made a flashcard for the word \"shout\".",
+    "exampleKo": "\"외치다\"(shout) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "mention",
+    "meaning": "말하다",
+    "example": "Our reading book has the word \"mention\".",
+    "exampleKo": "읽기 교재에 \"mention\"라는 단어가 있어요."
+  },
+  {
+    "word": "waste",
+    "meaning": "낭비하다",
+    "example": "I circled \"waste\" in my notebook.",
+    "exampleKo": "공책에 \"waste\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "borrow",
+    "meaning": "빌리다",
+    "example": "The example sentence helped me learn \"borrow\".",
+    "exampleKo": "예문 덕분에 \"빌리다\"(borrow)를 이해했어요."
+  },
+  {
+    "word": "complete",
+    "meaning": "완성하다",
+    "example": "I practice \"complete\" every morning.",
+    "exampleKo": "매일 아침 \"complete\"를 연습해요."
+  },
+  {
+    "word": "excellent",
+    "meaning": "뛰어난",
+    "example": "My sister asked me about the word \"excellent\".",
+    "exampleKo": "여동생이 \"excellent\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "competent",
+    "meaning": "유능한",
+    "example": "I copied \"competent\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"유능한\"(competent)을 적었어요."
+  },
+  {
+    "word": "religious",
+    "meaning": "종교적인",
+    "example": "The picture shows what \"religious\" means.",
+    "exampleKo": "그림을 보면 \"religious\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "favorite",
+    "meaning": "아주 좋아하는",
+    "example": "I met \"favorite\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"favorite\"를 또 만났어요."
+  },
+  {
+    "word": "entire",
+    "meaning": "전체의",
+    "example": "Please repeat the word \"entire\" after me.",
+    "exampleKo": "제 뒤를 이어 \"entire\"라고 말해 보세요."
+  },
+  {
+    "word": "primary",
+    "meaning": "본래의",
+    "example": "I felt proud when I knew \"primary\".",
+    "exampleKo": "\"본래의\"(primary)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "similar",
+    "meaning": "비슷한",
+    "example": "I found the word \"similar\" in my textbook.",
+    "exampleKo": "교과서에서 \"비슷한\"(similar)라는 단어를 찾았어요."
+  },
+  {
+    "word": "precious",
+    "meaning": "귀중한",
+    "example": "Can you tell me what \"precious\" means?",
+    "exampleKo": "\"precious\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "normal",
+    "meaning": "보통의",
+    "example": "Please write a sentence with \"normal\".",
+    "exampleKo": "\"normal\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "popular",
+    "meaning": "인기있는",
+    "example": "I want to remember the word \"popular\".",
+    "exampleKo": "\"인기있는\"(popular)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "compulsory",
+    "meaning": "의무적인",
+    "example": "She spelled \"compulsory\" correctly on the test.",
+    "exampleKo": "시험에서 \"compulsory\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "curious",
+    "meaning": "호기심이 강한",
+    "example": "We talked about \"curious\" in our group.",
+    "exampleKo": "모둠 활동에서 \"호기심이 강한\"(curious)에 대해 이야기했어요."
+  },
+  {
+    "word": "independent",
+    "meaning": "독립의",
+    "example": "The teacher wrote \"independent\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"independent\"를 적어 주셨어요."
+  },
+  {
+    "word": "intimate",
+    "meaning": "친밀한",
+    "example": "I heard \"intimate\" in an English song.",
+    "exampleKo": "영어 노래에서 \"intimate\"를 들었어요."
+  },
+  {
+    "word": "delicious",
+    "meaning": "맛있는",
+    "example": "This story uses the word \"delicious\" many times.",
+    "exampleKo": "이 이야기에는 \"delicious\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "valuable",
+    "meaning": "귀중한",
+    "example": "I sometimes forget the word \"valuable\".",
+    "exampleKo": "가끔 \"귀중한\"(valuable)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "grave",
+    "meaning": "중대한",
+    "example": "He asked me to explain \"grave\".",
+    "exampleKo": "친구가 \"grave\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "elementary",
+    "meaning": "초보의",
+    "example": "My homework is to study \"elementary\".",
+    "exampleKo": "숙제는 \"초보의\"(elementary) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "crazy",
+    "meaning": "미친",
+    "example": "I read a sentence with \"crazy\" in it.",
+    "exampleKo": "\"crazy\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "contrary",
+    "meaning": "반대의",
+    "example": "Everyone in class knew the word \"contrary\".",
+    "exampleKo": "반 친구들은 모두 \"contrary\"를 알고 있었어요."
+  },
+  {
+    "word": "regular",
+    "meaning": "규칙적인",
+    "example": "I looked up \"regular\" in the dictionary.",
+    "exampleKo": "사전에서 \"규칙적인\"(regular)를 찾아봤어요."
+  },
+  {
+    "word": "social",
+    "meaning": "사회의",
+    "example": "Let us practice saying \"social\" aloud.",
+    "exampleKo": "\"social\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "straight",
+    "meaning": "똑바른",
+    "example": "The word \"straight\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"straight\"가 나왔어요."
+  },
+  {
+    "word": "noble",
+    "meaning": "고귀한",
+    "example": "I used \"noble\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"noble\"를 써 봤어요."
+  },
+  {
+    "word": "anxious",
+    "meaning": "걱정되는",
+    "example": "What is the Korean meaning of \"anxious\"?",
+    "exampleKo": "\"anxious\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "international",
+    "meaning": "국제적인",
+    "example": "I made a flashcard for the word \"international\".",
+    "exampleKo": "\"국제적인\"(international) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "greedy",
+    "meaning": "탐욕스러운",
+    "example": "Our reading book has the word \"greedy\".",
+    "exampleKo": "읽기 교재에 \"greedy\"라는 단어가 있어요."
+  },
+  {
+    "word": "stupid",
+    "meaning": "어리석은",
+    "example": "I circled \"stupid\" in my notebook.",
+    "exampleKo": "공책에 \"stupid\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "silly",
+    "meaning": "어리석은",
+    "example": "The example sentence helped me learn \"silly\".",
+    "exampleKo": "예문 덕분에 \"어리석은\"(silly)를 이해했어요."
+  },
+  {
+    "word": "lonely",
+    "meaning": "고독한",
+    "example": "I practice \"lonely\" every morning.",
+    "exampleKo": "매일 아침 \"lonely\"를 연습해요."
+  },
+  {
+    "word": "dirty",
+    "meaning": "더러운",
+    "example": "My sister asked me about the word \"dirty\".",
+    "exampleKo": "여동생이 \"dirty\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "various",
+    "meaning": "여러 가지의",
+    "example": "I copied \"various\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"여러 가지의\"(various)를 적었어요."
+  },
+  {
+    "word": "private",
+    "meaning": "개인의",
+    "example": "The picture shows what \"private\" means.",
+    "exampleKo": "그림을 보면 \"private\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "vain",
+    "meaning": "무익한",
+    "example": "I met \"vain\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"vain\"를 또 만났어요."
+  },
+  {
+    "word": "sore",
+    "meaning": "아픈",
+    "example": "Please repeat the word \"sore\" after me.",
+    "exampleKo": "제 뒤를 이어 \"sore\"라고 말해 보세요."
+  },
+  {
+    "word": "fierce",
+    "meaning": "사나운",
+    "example": "I felt proud when I knew \"fierce\".",
+    "exampleKo": "\"사나운\"(fierce)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "firm",
+    "meaning": "굳은",
+    "example": "I found the word \"firm\" in my textbook.",
+    "exampleKo": "교과서에서 \"굳은\"(firm)라는 단어를 찾았어요."
+  },
+  {
+    "word": "solar",
+    "meaning": "태양의",
+    "example": "Can you tell me what \"solar\" means?",
+    "exampleKo": "\"solar\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "smart",
+    "meaning": "산뜻한",
+    "example": "Please write a sentence with \"smart\".",
+    "exampleKo": "\"smart\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "single",
+    "meaning": "독신의",
+    "example": "I want to remember the word \"single\".",
+    "exampleKo": "\"독신의\"(single)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "diligent",
+    "meaning": "부지런한",
+    "example": "She spelled \"diligent\" correctly on the test.",
+    "exampleKo": "시험에서 \"diligent\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "serious",
+    "meaning": "진지한",
+    "example": "We talked about \"serious\" in our group.",
+    "exampleKo": "모둠 활동에서 \"진지한\"(serious)에 대해 이야기했어요."
+  },
+  {
+    "word": "fresh",
+    "meaning": "새로운",
+    "example": "The teacher wrote \"fresh\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"fresh\"를 적어 주셨어요."
+  },
+  {
+    "word": "empty",
+    "meaning": "빈",
+    "example": "I heard \"empty\" in an English song.",
+    "exampleKo": "영어 노래에서 \"empty\"를 들었어요."
+  },
+  {
+    "word": "mild",
+    "meaning": "온화한",
+    "example": "This story uses the word \"mild\" many times.",
+    "exampleKo": "이 이야기에는 \"mild\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "amazing",
+    "meaning": "놀라운",
+    "example": "I sometimes forget the word \"amazing\".",
+    "exampleKo": "가끔 \"놀라운\"(amazing)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "charming",
+    "meaning": "매력적인",
+    "example": "He asked me to explain \"charming\".",
+    "exampleKo": "친구가 \"charming\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "boring",
+    "meaning": "지겨운",
+    "example": "My homework is to study \"boring\".",
+    "exampleKo": "숙제는 \"지겨운\"(boring) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "giant",
+    "meaning": "거대한",
+    "example": "I read a sentence with \"giant\" in it.",
+    "exampleKo": "\"giant\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "huge",
+    "meaning": "거대한",
+    "example": "Everyone in class knew the word \"huge\".",
+    "exampleKo": "반 친구들은 모두 \"huge\"를 알고 있었어요."
+  },
+  {
+    "word": "tiny",
+    "meaning": "몹시 작은",
+    "example": "I looked up \"tiny\" in the dictionary.",
+    "exampleKo": "사전에서 \"몹시 작은\"(tiny)를 찾아봤어요."
+  },
+  {
+    "word": "fair",
+    "meaning": "공명정대한",
+    "example": "Let us practice saying \"fair\" aloud.",
+    "exampleKo": "\"fair\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "tough",
+    "meaning": "단단한",
+    "example": "The word \"tough\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"tough\"가 나왔어요."
+  },
+  {
+    "word": "foreign",
+    "meaning": "외국의",
+    "example": "I used \"foreign\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"foreign\"를 써 봤어요."
+  },
+  {
+    "word": "modern",
+    "meaning": "현대의",
+    "example": "What is the Korean meaning of \"modern\"?",
+    "exampleKo": "\"modern\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "expensive",
+    "meaning": "값비싼",
+    "example": "I made a flashcard for the word \"expensive\".",
+    "exampleKo": "\"값비싼\"(expensive) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "harmful",
+    "meaning": "해로운",
+    "example": "Our reading book has the word \"harmful\".",
+    "exampleKo": "읽기 교재에 \"harmful\"라는 단어가 있어요."
+  },
+  {
+    "word": "calm",
+    "meaning": "평온한",
+    "example": "I circled \"calm\" in my notebook.",
+    "exampleKo": "공책에 \"calm\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "special",
+    "meaning": "특별한",
+    "example": "The example sentence helped me learn \"special\".",
+    "exampleKo": "예문 덕분에 \"특별한\"(special)를 이해했어요."
+  },
+  {
+    "word": "steady",
+    "meaning": "확고한",
+    "example": "I practice \"steady\" every morning.",
+    "exampleKo": "매일 아침 \"steady\"를 연습해요."
+  },
+  {
+    "word": "hay",
+    "meaning": "건초",
+    "example": "My sister asked me about the word \"hay\".",
+    "exampleKo": "여동생이 \"hay\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "revival",
+    "meaning": "부활",
+    "example": "I copied \"revival\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"부활\"(revival)을 적었어요."
+  },
+  {
+    "word": "million",
+    "meaning": "백만",
+    "example": "The picture shows what \"million\" means.",
+    "exampleKo": "그림을 보면 \"million\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "crop",
+    "meaning": "농작물",
+    "example": "I met \"crop\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"crop\"를 또 만났어요."
+  },
+  {
+    "word": "shade",
+    "meaning": "그늘",
+    "example": "Please repeat the word \"shade\" after me.",
+    "exampleKo": "제 뒤를 이어 \"shade\"라고 말해 보세요."
+  },
+  {
+    "word": "company",
+    "meaning": "친구",
+    "example": "I felt proud when I knew \"company\".",
+    "exampleKo": "\"친구\"(company)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "canal",
+    "meaning": "운하",
+    "example": "I found the word \"canal\" in my textbook.",
+    "exampleKo": "교과서에서 \"운하\"(canal)라는 단어를 찾았어요."
+  },
+  {
+    "word": "wagon",
+    "meaning": "짐마차",
+    "example": "Can you tell me what \"wagon\" means?",
+    "exampleKo": "\"wagon\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "fact",
+    "meaning": "사실",
+    "example": "Please write a sentence with \"fact\".",
+    "exampleKo": "\"fact\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "joy",
+    "meaning": "기쁨",
+    "example": "I want to remember the word \"joy\".",
+    "exampleKo": "\"기쁨\"(joy)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "concert",
+    "meaning": "음악회",
+    "example": "She spelled \"concert\" correctly on the test.",
+    "exampleKo": "시험에서 \"concert\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "rule",
+    "meaning": "규정하다",
+    "example": "We talked about \"rule\" in our group.",
+    "exampleKo": "모둠 활동에서 \"규정하다\"(rule)에 대해 이야기했어요."
+  },
+  {
+    "word": "suitcase",
+    "meaning": "여행가방",
+    "example": "The teacher wrote \"suitcase\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"suitcase\"를 적어 주셨어요."
+  },
+  {
+    "word": "weight",
+    "meaning": "무게",
+    "example": "I heard \"weight\" in an English song.",
+    "exampleKo": "영어 노래에서 \"weight\"를 들었어요."
+  },
+  {
+    "word": "hurray",
+    "meaning": "만세",
+    "example": "This story uses the word \"hurray\" many times.",
+    "exampleKo": "이 이야기에는 \"hurray\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "mail",
+    "meaning": "우편물",
+    "example": "I sometimes forget the word \"mail\".",
+    "exampleKo": "가끔 \"우편물\"(mail)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "log",
+    "meaning": "통나무",
+    "example": "He asked me to explain \"log\".",
+    "exampleKo": "친구가 \"log\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "hut",
+    "meaning": "오두막집",
+    "example": "My homework is to study \"hut\".",
+    "exampleKo": "숙제는 \"오두막집\"(hut) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "tax",
+    "meaning": "세금",
+    "example": "I read a sentence with \"tax\" in it.",
+    "exampleKo": "\"tax\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "dye",
+    "meaning": "물감",
+    "example": "Everyone in class knew the word \"dye\".",
+    "exampleKo": "반 친구들은 모두 \"dye\"를 알고 있었어요."
+  },
+  {
+    "word": "earnings",
+    "meaning": "벌이",
+    "example": "I looked up \"earnings\" in the dictionary.",
+    "exampleKo": "사전에서 \"벌이\"(earnings)를 찾아봤어요."
+  },
+  {
+    "word": "flame",
+    "meaning": "불꽃",
+    "example": "Let us practice saying \"flame\" aloud.",
+    "exampleKo": "\"flame\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "shape",
+    "meaning": "모양",
+    "example": "The word \"shape\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"shape\"가 나왔어요."
+  },
+  {
+    "word": "chest",
+    "meaning": "가슴",
+    "example": "I used \"chest\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"chest\"를 써 봤어요."
+  },
+  {
+    "word": "chain",
+    "meaning": "사슬",
+    "example": "What is the Korean meaning of \"chain\"?",
+    "exampleKo": "\"chain\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "cost",
+    "meaning": "비용",
+    "example": "I made a flashcard for the word \"cost\".",
+    "exampleKo": "\"비용\"(cost) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "coast",
+    "meaning": "해안",
+    "example": "Our reading book has the word \"coast\".",
+    "exampleKo": "읽기 교재에 \"coast\"라는 단어가 있어요."
+  },
+  {
+    "word": "circle",
+    "meaning": "원, 집단",
+    "example": "I circled \"circle\" in my notebook.",
+    "exampleKo": "공책에 \"circle\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "heart",
+    "meaning": "심장",
+    "example": "The example sentence helped me learn \"heart\".",
+    "exampleKo": "예문 덕분에 \"심장\"(heart)를 이해했어요."
+  },
+  {
+    "word": "nature",
+    "meaning": "자연",
+    "example": "I practice \"nature\" every morning.",
+    "exampleKo": "매일 아침 \"nature\"를 연습해요."
+  },
+  {
+    "word": "fever",
+    "meaning": "열",
+    "example": "My sister asked me about the word \"fever\".",
+    "exampleKo": "여동생이 \"fever\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "tongue",
+    "meaning": "혀",
+    "example": "I copied \"tongue\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"혀\"(tongue)를 적었어요."
+  },
+  {
+    "word": "trust",
+    "meaning": "신용",
+    "example": "The picture shows what \"trust\" means.",
+    "exampleKo": "그림을 보면 \"trust\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "whisker",
+    "meaning": "구레나룻",
+    "example": "I met \"whisker\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"whisker\"를 또 만났어요."
+  },
+  {
+    "word": "prison",
+    "meaning": "형무소",
+    "example": "Please repeat the word \"prison\" after me.",
+    "exampleKo": "제 뒤를 이어 \"prison\"라고 말해 보세요."
+  },
+  {
+    "word": "blood",
+    "meaning": "피",
+    "example": "I felt proud when I knew \"blood\".",
+    "exampleKo": "\"피\"(blood)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "loaf",
+    "meaning": "빵 한덩어리",
+    "example": "I found the word \"loaf\" in my textbook.",
+    "exampleKo": "교과서에서 \"빵 한덩어리\"(loaf)라는 단어를 찾았어요."
+  },
+  {
+    "word": "list",
+    "meaning": "명부",
+    "example": "Can you tell me what \"list\" means?",
+    "exampleKo": "\"list\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "fence",
+    "meaning": "울타리",
+    "example": "Please write a sentence with \"fence\".",
+    "exampleKo": "\"fence\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "enemy",
+    "meaning": "적",
+    "example": "I want to remember the word \"enemy\".",
+    "exampleKo": "\"적\"(enemy)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "thief",
+    "meaning": "도둑",
+    "example": "She spelled \"thief\" correctly on the test.",
+    "exampleKo": "시험에서 \"thief\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "data",
+    "meaning": "자료",
+    "example": "We talked about \"data\" in our group.",
+    "exampleKo": "모둠 활동에서 \"자료\"(data)에 대해 이야기했어요."
+  },
+  {
+    "word": "soldier",
+    "meaning": "군인, 병사",
+    "example": "The teacher wrote \"soldier\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"soldier\"를 적어 주셨어요."
+  },
+  {
+    "word": "musician",
+    "meaning": "음악가",
+    "example": "I heard \"musician\" in an English song.",
+    "exampleKo": "영어 노래에서 \"musician\"를 들었어요."
+  },
+  {
+    "word": "capital",
+    "meaning": "수도, 자본",
+    "example": "This story uses the word \"capital\" many times.",
+    "exampleKo": "이 이야기에는 \"capital\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "course",
+    "meaning": "진로, 과정",
+    "example": "I sometimes forget the word \"course\".",
+    "exampleKo": "가끔 \"진로\"(course)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "diary",
+    "meaning": "일기",
+    "example": "He asked me to explain \"diary\".",
+    "exampleKo": "친구가 \"diary\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "squirrel",
+    "meaning": "다람쥐",
+    "example": "My homework is to study \"squirrel\".",
+    "exampleKo": "숙제는 \"다람쥐\"(squirrel) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "dawn",
+    "meaning": "새벽",
+    "example": "I read a sentence with \"dawn\" in it.",
+    "exampleKo": "\"dawn\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "shadow",
+    "meaning": "그림자",
+    "example": "Everyone in class knew the word \"shadow\".",
+    "exampleKo": "반 친구들은 모두 \"shadow\"를 알고 있었어요."
+  },
+  {
+    "word": "ditch",
+    "meaning": "도랑",
+    "example": "I looked up \"ditch\" in the dictionary.",
+    "exampleKo": "사전에서 \"도랑\"(ditch)를 찾아봤어요."
+  },
+  {
+    "word": "crew",
+    "meaning": "승무원",
+    "example": "Let us practice saying \"crew\" aloud.",
+    "exampleKo": "\"crew\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "stomach",
+    "meaning": "위",
+    "example": "The word \"stomach\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"stomach\"가 나왔어요."
+  },
+  {
+    "word": "neighbor",
+    "meaning": "이웃사람",
+    "example": "I used \"neighbor\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"neighbor\"를 써 봤어요."
+  },
+  {
+    "word": "servant",
+    "meaning": "하인",
+    "example": "What is the Korean meaning of \"servant\"?",
+    "exampleKo": "\"servant\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "hunger",
+    "meaning": "굶주림",
+    "example": "I made a flashcard for the word \"hunger\".",
+    "exampleKo": "\"굶주림\"(hunger) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "tomb",
+    "meaning": "묘, 무덤",
+    "example": "Our reading book has the word \"tomb\".",
+    "exampleKo": "읽기 교재에 \"tomb\"라는 단어가 있어요."
+  },
+  {
+    "word": "taste",
+    "meaning": "맛, 취미",
+    "example": "I circled \"taste\" in my notebook.",
+    "exampleKo": "공책에 \"taste\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "sign",
+    "meaning": "신호, 구호",
+    "example": "The example sentence helped me learn \"sign\".",
+    "exampleKo": "예문 덕분에 \"신호\"(sign)를 이해했어요."
+  },
+  {
+    "word": "stair",
+    "meaning": "계단",
+    "example": "I practice \"stair\" every morning.",
+    "exampleKo": "매일 아침 \"stair\"를 연습해요."
+  },
+  {
+    "word": "trip",
+    "meaning": "여행",
+    "example": "My sister asked me about the word \"trip\".",
+    "exampleKo": "여동생이 \"trip\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "brain",
+    "meaning": "뇌, 머리",
+    "example": "I copied \"brain\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"뇌\"(brain)를 적었어요."
+  },
+  {
+    "word": "trumpet",
+    "meaning": "나팔",
+    "example": "The picture shows what \"trumpet\" means.",
+    "exampleKo": "그림을 보면 \"trumpet\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "speech",
+    "meaning": "말, 연설",
+    "example": "I met \"speech\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"speech\"를 또 만났어요."
+  },
+  {
+    "word": "thumb",
+    "meaning": "엄지손가락",
+    "example": "Please repeat the word \"thumb\" after me.",
+    "exampleKo": "제 뒤를 이어 \"thumb\"라고 말해 보세요."
+  },
+  {
+    "word": "horn",
+    "meaning": "뿔, 경적",
+    "example": "I felt proud when I knew \"horn\".",
+    "exampleKo": "\"뿔\"(horn)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "chief",
+    "meaning": "우두머리, 주요한",
+    "example": "I found the word \"chief\" in my textbook.",
+    "exampleKo": "교과서에서 \"우두머리\"(chief)라는 단어를 찾았어요."
+  },
+  {
+    "word": "trousers",
+    "meaning": "바지",
+    "example": "Can you tell me what \"trousers\" means?",
+    "exampleKo": "\"trousers\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "prince",
+    "meaning": "왕자",
+    "example": "Please write a sentence with \"prince\".",
+    "exampleKo": "\"prince\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "force",
+    "meaning": "힘, 강요하다",
+    "example": "I want to remember the word \"force\".",
+    "exampleKo": "\"힘\"(force)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "sight",
+    "meaning": "광경, 경치",
+    "example": "She spelled \"sight\" correctly on the test.",
+    "exampleKo": "시험에서 \"sight\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "space",
+    "meaning": "공간, 우주",
+    "example": "We talked about \"space\" in our group.",
+    "exampleKo": "모둠 활동에서 \"공간\"(space)에 대해 이야기했어요."
+  },
+  {
+    "word": "wool",
+    "meaning": "양모",
+    "example": "The teacher wrote \"wool\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"wool\"를 적어 주셨어요."
+  },
+  {
+    "word": "expressway",
+    "meaning": "고속도로",
+    "example": "I heard \"expressway\" in an English song.",
+    "exampleKo": "영어 노래에서 \"expressway\"를 들었어요."
+  },
+  {
+    "word": "science",
+    "meaning": "과학",
+    "example": "This story uses the word \"science\" many times.",
+    "exampleKo": "이 이야기에는 \"science\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "examination",
+    "meaning": "시험, 조사",
+    "example": "I sometimes forget the word \"examination\".",
+    "exampleKo": "가끔 \"시험\"(examination)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "jar",
+    "meaning": "항아리",
+    "example": "He asked me to explain \"jar\".",
+    "exampleKo": "친구가 \"jar\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "salt",
+    "meaning": "소금",
+    "example": "My homework is to study \"salt\".",
+    "exampleKo": "숙제는 \"소금\"(salt) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "death",
+    "meaning": "죽음, 사망",
+    "example": "I read a sentence with \"death\" in it.",
+    "exampleKo": "\"death\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "saw",
+    "meaning": "톱, 톱으로켜다",
+    "example": "Everyone in class knew the word \"saw\".",
+    "exampleKo": "반 친구들은 모두 \"saw\"를 알고 있었어요."
+  },
+  {
+    "word": "swing",
+    "meaning": "그네, 진동",
+    "example": "I looked up \"swing\" in the dictionary.",
+    "exampleKo": "사전에서 \"그네\"(swing)를 찾아봤어요."
+  },
+  {
+    "word": "wish",
+    "meaning": "소원, 원하다",
+    "example": "Let us practice saying \"wish\" aloud.",
+    "exampleKo": "\"wish\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "grain",
+    "meaning": "곡식, 낱알",
+    "example": "The word \"grain\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"grain\"가 나왔어요."
+  },
+  {
+    "word": "eraser",
+    "meaning": "지우개",
+    "example": "I used \"eraser\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"eraser\"를 써 봤어요."
+  },
+  {
+    "word": "alphabet",
+    "meaning": "알파벳 문자",
+    "example": "What is the Korean meaning of \"alphabet\"?",
+    "exampleKo": "\"alphabet\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "shoulder",
+    "meaning": "어깨",
+    "example": "I made a flashcard for the word \"shoulder\".",
+    "exampleKo": "\"어깨\"(shoulder) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "nephew",
+    "meaning": "조카",
+    "example": "Our reading book has the word \"nephew\".",
+    "exampleKo": "읽기 교재에 \"nephew\"라는 단어가 있어요."
+  },
+  {
+    "word": "niece",
+    "meaning": "조카딸",
+    "example": "I circled \"niece\" in my notebook.",
+    "exampleKo": "공책에 \"niece\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "library",
+    "meaning": "도서관",
+    "example": "The example sentence helped me learn \"library\".",
+    "exampleKo": "예문 덕분에 \"도서관\"(library)를 이해했어요."
+  },
+  {
+    "word": "factory",
+    "meaning": "공장",
+    "example": "I practice \"factory\" every morning.",
+    "exampleKo": "매일 아침 \"factory\"를 연습해요."
+  },
+  {
+    "word": "giraffe",
+    "meaning": "기린",
+    "example": "My sister asked me about the word \"giraffe\".",
+    "exampleKo": "여동생이 \"giraffe\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "hawk",
+    "meaning": "매",
+    "example": "I copied \"hawk\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"매\"(hawk)를 적었어요."
+  },
+  {
+    "word": "pigeon",
+    "meaning": "비둘기",
+    "example": "The picture shows what \"pigeon\" means.",
+    "exampleKo": "그림을 보면 \"pigeon\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "bowl",
+    "meaning": "사발, 그릇",
+    "example": "I met \"bowl\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"bowl\"를 또 만났어요."
+  },
+  {
+    "word": "scene",
+    "meaning": "장면, 현장",
+    "example": "Please repeat the word \"scene\" after me.",
+    "exampleKo": "제 뒤를 이어 \"scene\"라고 말해 보세요."
+  },
+  {
+    "word": "life",
+    "meaning": "생명, 생활",
+    "example": "I felt proud when I knew \"life\".",
+    "exampleKo": "\"생명\"(life)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "earth",
+    "meaning": "지구, 땅",
+    "example": "I found the word \"earth\" in my textbook.",
+    "exampleKo": "교과서에서 \"지구\"(earth)라는 단어를 찾았어요."
+  },
+  {
+    "word": "pill",
+    "meaning": "알약",
+    "example": "Can you tell me what \"pill\" means?",
+    "exampleKo": "\"pill\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "math",
+    "meaning": "수학",
+    "example": "Please write a sentence with \"math\".",
+    "exampleKo": "\"math\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "ocean",
+    "meaning": "대양",
+    "example": "I want to remember the word \"ocean\".",
+    "exampleKo": "\"대양\"(ocean)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "price",
+    "meaning": "값, 가격",
+    "example": "She spelled \"price\" correctly on the test.",
+    "exampleKo": "시험에서 \"price\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "row",
+    "meaning": "줄, 열",
+    "example": "We talked about \"row\" in our group.",
+    "exampleKo": "모둠 활동에서 \"줄\"(row)에 대해 이야기했어요."
+  },
+  {
+    "word": "schedule",
+    "meaning": "예정표",
+    "example": "The teacher wrote \"schedule\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"schedule\"를 적어 주셨어요."
+  },
+  {
+    "word": "machine",
+    "meaning": "기계",
+    "example": "I heard \"machine\" in an English song.",
+    "exampleKo": "영어 노래에서 \"machine\"를 들었어요."
+  },
+  {
+    "word": "route",
+    "meaning": "길",
+    "example": "This story uses the word \"route\" many times.",
+    "exampleKo": "이 이야기에는 \"route\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "ivy",
+    "meaning": "담쟁이덩굴",
+    "example": "I sometimes forget the word \"ivy\".",
+    "exampleKo": "가끔 \"담쟁이덩굴\"(ivy)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "gift",
+    "meaning": "선물, 타고난재능",
+    "example": "He asked me to explain \"gift\".",
+    "exampleKo": "친구가 \"gift\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "candle",
+    "meaning": "양초, 촛불",
+    "example": "My homework is to study \"candle\".",
+    "exampleKo": "숙제는 \"양초\"(candle) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "joke",
+    "meaning": "농담, 농담을하다",
+    "example": "I read a sentence with \"joke\" in it.",
+    "exampleKo": "\"joke\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "art",
+    "meaning": "예술, 미술",
+    "example": "Everyone in class knew the word \"art\".",
+    "exampleKo": "반 친구들은 모두 \"art\"를 알고 있었어요."
+  },
+  {
+    "word": "corn",
+    "meaning": "곡물",
+    "example": "I looked up \"corn\" in the dictionary.",
+    "exampleKo": "사전에서 \"곡물\"(corn)를 찾아봤어요."
+  },
+  {
+    "word": "pet",
+    "meaning": "애완동물, 귀여워하는",
+    "example": "Let us practice saying \"pet\" aloud.",
+    "exampleKo": "\"pet\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "robber",
+    "meaning": "강도",
+    "example": "The word \"robber\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"robber\"가 나왔어요."
+  },
+  {
+    "word": "cheek",
+    "meaning": "볼",
+    "example": "I used \"cheek\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"cheek\"를 써 봤어요."
+  },
+  {
+    "word": "clerk",
+    "meaning": "사무원, 점원",
+    "example": "What is the Korean meaning of \"clerk\"?",
+    "exampleKo": "\"clerk\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "cookie",
+    "meaning": "쿠키, 맛있는작은과자",
+    "example": "I made a flashcard for the word \"cookie\".",
+    "exampleKo": "\"쿠키\"(cookie) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "army",
+    "meaning": "육군, 군대",
+    "example": "Our reading book has the word \"army\".",
+    "exampleKo": "읽기 교재에 \"army\"라는 단어가 있어요."
+  },
+  {
+    "word": "nurse",
+    "meaning": "간호사",
+    "example": "I circled \"nurse\" in my notebook.",
+    "exampleKo": "공책에 \"nurse\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "master",
+    "meaning": "주인, 정복하다",
+    "example": "The example sentence helped me learn \"master\".",
+    "exampleKo": "예문 덕분에 \"주인\"(master)를 이해했어요."
+  },
+  {
+    "word": "lock",
+    "meaning": "자물쇠, 자물쇠를채우다",
+    "example": "I practice \"lock\" every morning.",
+    "exampleKo": "매일 아침 \"lock\"를 연습해요."
+  },
+  {
+    "word": "moment",
+    "meaning": "순간",
+    "example": "My sister asked me about the word \"moment\".",
+    "exampleKo": "여동생이 \"moment\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "sheet",
+    "meaning": "침대의 시트, 종이한장",
+    "example": "I copied \"sheet\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"침대의 시트\"(sheet)를 적었어요."
+  },
+  {
+    "word": "monk",
+    "meaning": "승려",
+    "example": "The picture shows what \"monk\" means.",
+    "exampleKo": "그림을 보면 \"monk\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "teenager",
+    "meaning": "10대 소년소녀",
+    "example": "I met \"teenager\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"teenager\"를 또 만났어요."
+  },
+  {
+    "word": "closet",
+    "meaning": "벽장",
+    "example": "Please repeat the word \"closet\" after me.",
+    "exampleKo": "제 뒤를 이어 \"closet\"라고 말해 보세요."
+  },
+  {
+    "word": "handle",
+    "meaning": "손잡이",
+    "example": "I felt proud when I knew \"handle\".",
+    "exampleKo": "\"손잡이\"(handle)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "guide",
+    "meaning": "안내자, 안내하다",
+    "example": "I found the word \"guide\" in my textbook.",
+    "exampleKo": "교과서에서 \"안내자\"(guide)라는 단어를 찾았어요."
+  },
+  {
+    "word": "bar",
+    "meaning": "막대기, 빗장",
+    "example": "Can you tell me what \"bar\" means?",
+    "exampleKo": "\"bar\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "ostrich",
+    "meaning": "타조, 방관자",
+    "example": "Please write a sentence with \"ostrich\".",
+    "exampleKo": "\"ostrich\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "knee",
+    "meaning": "무릎",
+    "example": "I want to remember the word \"knee\".",
+    "exampleKo": "\"무릎\"(knee)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "cricket",
+    "meaning": "크리켓 경기",
+    "example": "She spelled \"cricket\" correctly on the test.",
+    "exampleKo": "시험에서 \"cricket\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "deck",
+    "meaning": "갑판",
+    "example": "We talked about \"deck\" in our group.",
+    "exampleKo": "모둠 활동에서 \"갑판\"(deck)에 대해 이야기했어요."
+  },
+  {
+    "word": "bit",
+    "meaning": "작은 조각, 조금",
+    "example": "The teacher wrote \"bit\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"bit\"를 적어 주셨어요."
+  },
+  {
+    "word": "silk",
+    "meaning": "비단",
+    "example": "I heard \"silk\" in an English song.",
+    "exampleKo": "영어 노래에서 \"silk\"를 들었어요."
+  },
+  {
+    "word": "jean",
+    "meaning": "청바지, 진으로만든옷",
+    "example": "This story uses the word \"jean\" many times.",
+    "exampleKo": "이 이야기에는 \"jean\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "cotton",
+    "meaning": "솜, 면화",
+    "example": "I sometimes forget the word \"cotton\".",
+    "exampleKo": "가끔 \"솜\"(cotton)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "drum",
+    "meaning": "북",
+    "example": "He asked me to explain \"drum\".",
+    "exampleKo": "친구가 \"drum\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "sand",
+    "meaning": "모래, 모래밭",
+    "example": "My homework is to study \"sand\".",
+    "exampleKo": "숙제는 \"모래\"(sand) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "shock",
+    "meaning": "충격, 충격을주다",
+    "example": "I read a sentence with \"shock\" in it.",
+    "exampleKo": "\"shock\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "march",
+    "meaning": "행진, 행진하다",
+    "example": "Everyone in class knew the word \"march\".",
+    "exampleKo": "반 친구들은 모두 \"march\"를 알고 있었어요."
+  },
+  {
+    "word": "cage",
+    "meaning": "새장, 우리",
+    "example": "I looked up \"cage\" in the dictionary.",
+    "exampleKo": "사전에서 \"새장\"(cage)를 찾아봤어요."
+  },
+  {
+    "word": "whole",
+    "meaning": "전부, 전부의",
+    "example": "Let us practice saying \"whole\" aloud.",
+    "exampleKo": "\"whole\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "change",
+    "meaning": "변화, 잔돈",
+    "example": "The word \"change\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"change\"가 나왔어요."
+  },
+  {
+    "word": "department",
+    "meaning": "\\~부, 백화점의매장",
+    "example": "I used \"department\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"department\"를 써 봤어요."
+  },
+  {
+    "word": "office",
+    "meaning": "사무실, 회사",
+    "example": "What is the Korean meaning of \"office\"?",
+    "exampleKo": "\"office\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "ticket",
+    "meaning": "표, 입장권",
+    "example": "I made a flashcard for the word \"ticket\".",
+    "exampleKo": "\"표\"(ticket) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "energy",
+    "meaning": "힘, 활기",
+    "example": "Our reading book has the word \"energy\".",
+    "exampleKo": "읽기 교재에 \"energy\"라는 단어가 있어요."
+  },
+  {
+    "word": "idea",
+    "meaning": "생각, 이념",
+    "example": "I circled \"idea\" in my notebook.",
+    "exampleKo": "공책에 \"idea\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "hospital",
+    "meaning": "병원",
+    "example": "The example sentence helped me learn \"hospital\".",
+    "exampleKo": "예문 덕분에 \"병원\"(hospital)를 이해했어요."
+  },
+  {
+    "word": "noise",
+    "meaning": "소리, 소음",
+    "example": "I practice \"noise\" every morning.",
+    "exampleKo": "매일 아침 \"noise\"를 연습해요."
+  },
+  {
+    "word": "sample",
+    "meaning": "견본",
+    "example": "My sister asked me about the word \"sample\".",
+    "exampleKo": "여동생이 \"sample\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "example",
+    "meaning": "예, 보기",
+    "example": "I copied \"example\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"예\"(example)를 적었어요."
+  },
+  {
+    "word": "lesson",
+    "meaning": "학과, 교훈",
+    "example": "The picture shows what \"lesson\" means.",
+    "exampleKo": "그림을 보면 \"lesson\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "plenty",
+    "meaning": "풍부, 많은",
+    "example": "I met \"plenty\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"plenty\"를 또 만났어요."
+  },
+  {
+    "word": "luck",
+    "meaning": "행운",
+    "example": "Please repeat the word \"luck\" after me.",
+    "exampleKo": "제 뒤를 이어 \"luck\"라고 말해 보세요."
+  },
+  {
+    "word": "comedy",
+    "meaning": "희극, 코미디",
+    "example": "I felt proud when I knew \"comedy\".",
+    "exampleKo": "\"희극\"(comedy)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "health",
+    "meaning": "건강",
+    "example": "I found the word \"health\" in my textbook.",
+    "exampleKo": "교과서에서 \"건강\"(health)라는 단어를 찾았어요."
+  },
+  {
+    "word": "history",
+    "meaning": "역사",
+    "example": "Can you tell me what \"history\" means?",
+    "exampleKo": "\"history\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "forest",
+    "meaning": "숲",
+    "example": "Please write a sentence with \"forest\".",
+    "exampleKo": "\"forest\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "stream",
+    "meaning": "흐름, 흐르다",
+    "example": "I want to remember the word \"stream\".",
+    "exampleKo": "\"흐름\"(stream)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "future",
+    "meaning": "미래, 미래의",
+    "example": "She spelled \"future\" correctly on the test.",
+    "exampleKo": "시험에서 \"future\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "state",
+    "meaning": "상태, 국가",
+    "example": "We talked about \"state\" in our group.",
+    "exampleKo": "모둠 활동에서 \"상태\"(state)에 대해 이야기했어요."
+  },
+  {
+    "word": "temple",
+    "meaning": "절, 사원",
+    "example": "The teacher wrote \"temple\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"temple\"를 적어 주셨어요."
+  },
+  {
+    "word": "dictionary",
+    "meaning": "사전",
+    "example": "I heard \"dictionary\" in an English song.",
+    "exampleKo": "영어 노래에서 \"dictionary\"를 들었어요."
+  },
+  {
+    "word": "grammar",
+    "meaning": "문법",
+    "example": "This story uses the word \"grammar\" many times.",
+    "exampleKo": "이 이야기에는 \"grammar\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "college",
+    "meaning": "단과대학, 전문학교",
+    "example": "I sometimes forget the word \"college\".",
+    "exampleKo": "가끔 \"단과대학\"(college)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "husband",
+    "meaning": "남편",
+    "example": "He asked me to explain \"husband\".",
+    "exampleKo": "친구가 \"husband\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "daughter",
+    "meaning": "딸",
+    "example": "My homework is to study \"daughter\".",
+    "exampleKo": "숙제는 \"딸\"(daughter) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "captain",
+    "meaning": "우두머리, 선장",
+    "example": "I read a sentence with \"captain\" in it.",
+    "exampleKo": "\"captain\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "booth",
+    "meaning": "오두막집, 작은방",
+    "example": "Everyone in class knew the word \"booth\".",
+    "exampleKo": "반 친구들은 모두 \"booth\"를 알고 있었어요."
+  },
+  {
+    "word": "iceberg",
+    "meaning": "빙산",
+    "example": "I looked up \"iceberg\" in the dictionary.",
+    "exampleKo": "사전에서 \"빙산\"(iceberg)를 찾아봤어요."
+  },
+  {
+    "word": "bubble",
+    "meaning": "거품",
+    "example": "Let us practice saying \"bubble\" aloud.",
+    "exampleKo": "\"bubble\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "bottom",
+    "meaning": "밑, 밑바닥",
+    "example": "The word \"bottom\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"bottom\"가 나왔어요."
+  },
+  {
+    "word": "prize",
+    "meaning": "상, 상품",
+    "example": "I used \"prize\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"prize\"를 써 봤어요."
+  },
+  {
+    "word": "bean",
+    "meaning": "콩",
+    "example": "What is the Korean meaning of \"bean\"?",
+    "exampleKo": "\"bean\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "race",
+    "meaning": "경주, 민족",
+    "example": "I made a flashcard for the word \"race\".",
+    "exampleKo": "\"경주\"(race) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "engineer",
+    "meaning": "기사, 공학자",
+    "example": "Our reading book has the word \"engineer\".",
+    "exampleKo": "읽기 교재에 \"engineer\"라는 단어가 있어요."
+  },
+  {
+    "word": "photographer",
+    "meaning": "사진사",
+    "example": "I circled \"photographer\" in my notebook.",
+    "exampleKo": "공책에 \"photographer\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "reason",
+    "meaning": "이유, 이성",
+    "example": "The example sentence helped me learn \"reason\".",
+    "exampleKo": "예문 덕분에 \"이유\"(reason)를 이해했어요."
+  },
+  {
+    "word": "subway",
+    "meaning": "지하도, 지하철",
+    "example": "I practice \"subway\" every morning.",
+    "exampleKo": "매일 아침 \"subway\"를 연습해요."
+  },
+  {
+    "word": "fog",
+    "meaning": "안개",
+    "example": "My sister asked me about the word \"fog\".",
+    "exampleKo": "여동생이 \"fog\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "answer",
+    "meaning": "대답, 대답하다",
+    "example": "I copied \"answer\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"대답\"(answer)을 적었어요."
+  },
+  {
+    "word": "dinning room",
+    "meaning": "식당",
+    "example": "The picture shows what \"dinning room\" means.",
+    "exampleKo": "그림을 보면 \"dinning room\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "step",
+    "meaning": "걸음, 걷다",
+    "example": "I met \"step\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"step\"를 또 만났어요."
+  },
+  {
+    "word": "heat",
+    "meaning": "열, 더위",
+    "example": "Please repeat the word \"heat\" after me.",
+    "exampleKo": "제 뒤를 이어 \"heat\"라고 말해 보세요."
+  },
+  {
+    "word": "bone",
+    "meaning": "뼈",
+    "example": "I felt proud when I knew \"bone\".",
+    "exampleKo": "\"뼈\"(bone)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "plant",
+    "meaning": "식물, 식물을심다",
+    "example": "I found the word \"plant\" in my textbook.",
+    "exampleKo": "교과서에서 \"식물\"(plant)라는 단어를 찾았어요."
+  },
+  {
+    "word": "lamb",
+    "meaning": "새끼 양",
+    "example": "Can you tell me what \"lamb\" means?",
+    "exampleKo": "\"lamb\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "rate",
+    "meaning": "비율, 속도",
+    "example": "Please write a sentence with \"rate\".",
+    "exampleKo": "\"rate\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "report",
+    "meaning": "보고, 보고하다",
+    "example": "I want to remember the word \"report\".",
+    "exampleKo": "\"보고\"(report)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "tuttle",
+    "meaning": "바다거북",
+    "example": "She spelled \"tuttle\" correctly on the test.",
+    "exampleKo": "시험에서 \"tuttle\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "bay",
+    "meaning": "만",
+    "example": "We talked about \"bay\" in our group.",
+    "exampleKo": "모둠 활동에서 \"만\"(bay)에 대해 이야기했어요."
+  },
+  {
+    "word": "holiday",
+    "meaning": "휴일, 휴가",
+    "example": "The teacher wrote \"holiday\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"holiday\"를 적어 주셨어요."
+  },
+  {
+    "word": "center",
+    "meaning": "중심, 중심지",
+    "example": "I heard \"center\" in an English song.",
+    "exampleKo": "영어 노래에서 \"center\"를 들었어요."
+  },
+  {
+    "word": "cash",
+    "meaning": "현금, 현금으로바꾸다",
+    "example": "This story uses the word \"cash\" many times.",
+    "exampleKo": "이 이야기에는 \"cash\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "wolf",
+    "meaning": "이리, 늑대",
+    "example": "I sometimes forget the word \"wolf\".",
+    "exampleKo": "가끔 \"이리\"(wolf)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "operator",
+    "meaning": "교환수",
+    "example": "He asked me to explain \"operator\".",
+    "exampleKo": "친구가 \"operator\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "fur",
+    "meaning": "부드러운 털, 모피",
+    "example": "My homework is to study \"fur\".",
+    "exampleKo": "숙제는 \"부드러운 털\"(fur) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "shore",
+    "meaning": "물가, 바닷가",
+    "example": "I read a sentence with \"shore\" in it.",
+    "exampleKo": "\"shore\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "owl",
+    "meaning": "올빼미",
+    "example": "Everyone in class knew the word \"owl\".",
+    "exampleKo": "반 친구들은 모두 \"owl\"를 알고 있었어요."
+  },
+  {
+    "word": "hunter",
+    "meaning": "사냥꾼",
+    "example": "I looked up \"hunter\" in the dictionary.",
+    "exampleKo": "사전에서 \"사냥꾼\"(hunter)를 찾아봤어요."
+  },
+  {
+    "word": "pumpkin",
+    "meaning": "호박",
+    "example": "Let us practice saying \"pumpkin\" aloud.",
+    "exampleKo": "\"pumpkin\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "handshake",
+    "meaning": "악수",
+    "example": "The word \"handshake\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"handshake\"가 나왔어요."
+  },
+  {
+    "word": "bike",
+    "meaning": "자전거",
+    "example": "I used \"bike\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"bike\"를 써 봤어요."
+  },
+  {
+    "word": "beach",
+    "meaning": "해안",
+    "example": "What is the Korean meaning of \"beach\"?",
+    "exampleKo": "\"beach\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "god",
+    "meaning": "신",
+    "example": "I made a flashcard for the word \"god\".",
+    "exampleKo": "\"신\"(god) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "cough",
+    "meaning": "기침, 기침을하다",
+    "example": "Our reading book has the word \"cough\".",
+    "exampleKo": "읽기 교재에 \"cough\"라는 단어가 있어요."
+  },
+  {
+    "word": "shell",
+    "meaning": "조개",
+    "example": "I circled \"shell\" in my notebook.",
+    "exampleKo": "공책에 \"shell\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "business",
+    "meaning": "사업, 일",
+    "example": "The example sentence helped me learn \"business\".",
+    "exampleKo": "예문 덕분에 \"사업\"(business)를 이해했어요."
+  },
+  {
+    "word": "restaurant",
+    "meaning": "식당",
+    "example": "I practice \"restaurant\" every morning.",
+    "exampleKo": "매일 아침 \"restaurant\"를 연습해요."
+  },
+  {
+    "word": "sheep",
+    "meaning": "양",
+    "example": "My sister asked me about the word \"sheep\".",
+    "exampleKo": "여동생이 \"sheep\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "officer",
+    "meaning": "공무원, 장교",
+    "example": "I copied \"officer\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"공무원\"(officer)을 적었어요."
+  },
+  {
+    "word": "hometown",
+    "meaning": "고향",
+    "example": "The picture shows what \"hometown\" means.",
+    "exampleKo": "그림을 보면 \"hometown\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "coil",
+    "meaning": "코일, 감긴것",
+    "example": "I met \"coil\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"coil\"를 또 만났어요."
+  },
+  {
+    "word": "ceiling",
+    "meaning": "천장",
+    "example": "Please repeat the word \"ceiling\" after me.",
+    "exampleKo": "제 뒤를 이어 \"ceiling\"라고 말해 보세요."
+  },
+  {
+    "word": "turkey",
+    "meaning": "칠면조",
+    "example": "I felt proud when I knew \"turkey\".",
+    "exampleKo": "\"칠면조\"(turkey)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "towel",
+    "meaning": "수건",
+    "example": "I found the word \"towel\" in my textbook.",
+    "exampleKo": "교과서에서 \"수건\"(towel)라는 단어를 찾았어요."
+  },
+  {
+    "word": "matter",
+    "meaning": "일, 문제",
+    "example": "Can you tell me what \"matter\" means?",
+    "exampleKo": "\"matter\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "chopstick",
+    "meaning": "젓가락",
+    "example": "Please write a sentence with \"chopstick\".",
+    "exampleKo": "\"chopstick\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "seat",
+    "meaning": "좌석, 앉히다",
+    "example": "I want to remember the word \"seat\".",
+    "exampleKo": "\"좌석\"(seat)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "board",
+    "meaning": "판자",
+    "example": "She spelled \"board\" correctly on the test.",
+    "exampleKo": "시험에서 \"board\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "goal",
+    "meaning": "목표, 골",
+    "example": "We talked about \"goal\" in our group.",
+    "exampleKo": "모둠 활동에서 \"목표\"(goal)에 대해 이야기했어요."
+  },
+  {
+    "word": "drugstore",
+    "meaning": "약국",
+    "example": "The teacher wrote \"drugstore\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"drugstore\"를 적어 주셨어요."
+  },
+  {
+    "word": "rat",
+    "meaning": "쥐, 들쥐",
+    "example": "I heard \"rat\" in an English song.",
+    "exampleKo": "영어 노래에서 \"rat\"를 들었어요."
+  },
+  {
+    "word": "butterfly",
+    "meaning": "나비",
+    "example": "This story uses the word \"butterfly\" many times.",
+    "exampleKo": "이 이야기에는 \"butterfly\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "flute",
+    "meaning": "플루트, 피리",
+    "example": "I sometimes forget the word \"flute\".",
+    "exampleKo": "가끔 \"플루트\"(flute)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "couple",
+    "meaning": "한 쌍, 커플",
+    "example": "He asked me to explain \"couple\".",
+    "exampleKo": "친구가 \"couple\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "beer",
+    "meaning": "맥주",
+    "example": "My homework is to study \"beer\".",
+    "exampleKo": "숙제는 \"맥주\"(beer) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "background",
+    "meaning": "배경",
+    "example": "I read a sentence with \"background\" in it.",
+    "exampleKo": "\"background\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "bottle",
+    "meaning": "병",
+    "example": "Everyone in class knew the word \"bottle\".",
+    "exampleKo": "반 친구들은 모두 \"bottle\"를 알고 있었어요."
+  },
+  {
+    "word": "body",
+    "meaning": "몸, 신체",
+    "example": "I looked up \"body\" in the dictionary.",
+    "exampleKo": "사전에서 \"몸\"(body)를 찾아봤어요."
+  },
+  {
+    "word": "group",
+    "meaning": "집단",
+    "example": "Let us practice saying \"group\" aloud.",
+    "exampleKo": "\"group\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "village",
+    "meaning": "마을",
+    "example": "The word \"village\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"village\"가 나왔어요."
+  },
+  {
+    "word": "beef",
+    "meaning": "쇠고기",
+    "example": "I used \"beef\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"beef\"를 써 봤어요."
+  },
+  {
+    "word": "load",
+    "meaning": "짐, 부담",
+    "example": "What is the Korean meaning of \"load\"?",
+    "exampleKo": "\"load\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "coin",
+    "meaning": "동전, 화폐",
+    "example": "I made a flashcard for the word \"coin\".",
+    "exampleKo": "\"동전\"(coin) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "bookstore",
+    "meaning": "서점",
+    "example": "Our reading book has the word \"bookstore\".",
+    "exampleKo": "읽기 교재에 \"bookstore\"라는 단어가 있어요."
+  },
+  {
+    "word": "label",
+    "meaning": "꼬리표, 딱지",
+    "example": "I circled \"label\" in my notebook.",
+    "exampleKo": "공책에 \"label\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "port",
+    "meaning": "항구",
+    "example": "The example sentence helped me learn \"port\".",
+    "exampleKo": "예문 덕분에 \"항구\"(port)를 이해했어요."
+  },
+  {
+    "word": "quarter",
+    "meaning": "4분의 1, 15분",
+    "example": "I practice \"quarter\" every morning.",
+    "exampleKo": "매일 아침 \"quarter\"를 연습해요."
+  },
+  {
+    "word": "sunrise",
+    "meaning": "해돋이",
+    "example": "My sister asked me about the word \"sunrise\".",
+    "exampleKo": "여동생이 \"sunrise\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "sunshine",
+    "meaning": "햇빛",
+    "example": "I copied \"sunshine\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"햇빛\"(sunshine)을 적었어요."
+  },
+  {
+    "word": "wedding",
+    "meaning": "결혼, 결혼식",
+    "example": "The picture shows what \"wedding\" means.",
+    "exampleKo": "그림을 보면 \"wedding\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "crown",
+    "meaning": "왕관",
+    "example": "I met \"crown\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"crown\"를 또 만났어요."
+  },
+  {
+    "word": "seed",
+    "meaning": "씨, 씨를뿌리다",
+    "example": "Please repeat the word \"seed\" after me.",
+    "exampleKo": "제 뒤를 이어 \"seed\"라고 말해 보세요."
+  },
+  {
+    "word": "coal",
+    "meaning": "석탄",
+    "example": "I felt proud when I knew \"coal\".",
+    "exampleKo": "\"석탄\"(coal)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "comb",
+    "meaning": "빗, 빗질하다",
+    "example": "I found the word \"comb\" in my textbook.",
+    "exampleKo": "교과서에서 \"빗\"(comb)라는 단어를 찾았어요."
+  },
+  {
+    "word": "dream",
+    "meaning": "꿈, 꿈을꾸다",
+    "example": "Can you tell me what \"dream\" means?",
+    "exampleKo": "\"dream\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "sugar",
+    "meaning": "설탕",
+    "example": "Please write a sentence with \"sugar\".",
+    "exampleKo": "\"sugar\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "mile",
+    "meaning": "마일",
+    "example": "I want to remember the word \"mile\".",
+    "exampleKo": "\"마일\"(mile)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "flashlight",
+    "meaning": "카메라의 플래시, 회중전등",
+    "example": "She spelled \"flashlight\" correctly on the test.",
+    "exampleKo": "시험에서 \"flashlight\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "vegetable",
+    "meaning": "야채",
+    "example": "We talked about \"vegetable\" in our group.",
+    "exampleKo": "모둠 활동에서 \"야채\"(vegetable)에 대해 이야기했어요."
+  },
+  {
+    "word": "wood",
+    "meaning": "나무, 숲",
+    "example": "The teacher wrote \"wood\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"wood\"를 적어 주셨어요."
+  },
+  {
+    "word": "belt",
+    "meaning": "띠, 허리띠",
+    "example": "I heard \"belt\" in an English song.",
+    "exampleKo": "영어 노래에서 \"belt\"를 들었어요."
+  },
+  {
+    "word": "tourist",
+    "meaning": "여행자, 관광객",
+    "example": "This story uses the word \"tourist\" many times.",
+    "exampleKo": "이 이야기에는 \"tourist\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "airport",
+    "meaning": "공항",
+    "example": "I sometimes forget the word \"airport\".",
+    "exampleKo": "가끔 \"공항\"(airport)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "passport",
+    "meaning": "여권",
+    "example": "He asked me to explain \"passport\".",
+    "exampleKo": "친구가 \"passport\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "plate",
+    "meaning": "접시",
+    "example": "My homework is to study \"plate\".",
+    "exampleKo": "숙제는 \"접시\"(plate) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "stone",
+    "meaning": "돌",
+    "example": "I read a sentence with \"stone\" in it.",
+    "exampleKo": "\"stone\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "downtown",
+    "meaning": "번화가",
+    "example": "Everyone in class knew the word \"downtown\".",
+    "exampleKo": "반 친구들은 모두 \"downtown\"를 알고 있었어요."
+  },
+  {
+    "word": "cousin",
+    "meaning": "사촌",
+    "example": "I looked up \"cousin\" in the dictionary.",
+    "exampleKo": "사전에서 \"사촌\"(cousin)를 찾아봤어요."
+  },
+  {
+    "word": "tooth",
+    "meaning": "이",
+    "example": "Let us practice saying \"tooth\" aloud.",
+    "exampleKo": "\"tooth\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "potato",
+    "meaning": "감자",
+    "example": "The word \"potato\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"potato\"가 나왔어요."
+  },
+  {
+    "word": "blanket",
+    "meaning": "담요",
+    "example": "I used \"blanket\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"blanket\"를 써 봤어요."
+  },
+  {
+    "word": "creek",
+    "meaning": "시냇물",
+    "example": "What is the Korean meaning of \"creek\"?",
+    "exampleKo": "\"creek\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "nail",
+    "meaning": "손톱, 발톱",
+    "example": "I made a flashcard for the word \"nail\".",
+    "exampleKo": "\"손톱\"(nail) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "letter",
+    "meaning": "편지, 문자",
+    "example": "Our reading book has the word \"letter\".",
+    "exampleKo": "읽기 교재에 \"letter\"라는 단어가 있어요."
+  },
+  {
+    "word": "date",
+    "meaning": "날짜, 데이트약속",
+    "example": "I circled \"date\" in my notebook.",
+    "exampleKo": "공책에 \"date\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "store",
+    "meaning": "가게, 저축하다",
+    "example": "The example sentence helped me learn \"store\".",
+    "exampleKo": "예문 덕분에 \"가게\"(store)를 이해했어요."
+  },
+  {
+    "word": "beggar",
+    "meaning": "거지",
+    "example": "I practice \"beggar\" every morning.",
+    "exampleKo": "매일 아침 \"beggar\"를 연습해요."
+  },
+  {
+    "word": "bedside",
+    "meaning": "침대 곁",
+    "example": "My sister asked me about the word \"bedside\".",
+    "exampleKo": "여동생이 \"bedside\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "bill",
+    "meaning": "계산서, 지폐",
+    "example": "I copied \"bill\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"계산서\"(bill)를 적었어요."
+  },
+  {
+    "word": "doll",
+    "meaning": "인형",
+    "example": "The picture shows what \"doll\" means.",
+    "exampleKo": "그림을 보면 \"doll\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "snake",
+    "meaning": "뱀",
+    "example": "I met \"snake\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"snake\"를 또 만났어요."
+  },
+  {
+    "word": "mouse",
+    "meaning": "생쥐",
+    "example": "Please repeat the word \"mouse\" after me.",
+    "exampleKo": "제 뒤를 이어 \"mouse\"라고 말해 보세요."
+  },
+  {
+    "word": "deer",
+    "meaning": "사슴",
+    "example": "I felt proud when I knew \"deer\".",
+    "exampleKo": "\"사슴\"(deer)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "frog",
+    "meaning": "개구리",
+    "example": "I found the word \"frog\" in my textbook.",
+    "exampleKo": "교과서에서 \"개구리\"(frog)라는 단어를 찾았어요."
+  },
+  {
+    "word": "pepper",
+    "meaning": "후추",
+    "example": "Can you tell me what \"pepper\" means?",
+    "exampleKo": "\"pepper\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "rest",
+    "meaning": "휴식, 나머지",
+    "example": "Please write a sentence with \"rest\".",
+    "exampleKo": "\"rest\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "tower",
+    "meaning": "탑",
+    "example": "I want to remember the word \"tower\".",
+    "exampleKo": "\"탑\"(tower)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "bridge",
+    "meaning": "다리",
+    "example": "She spelled \"bridge\" correctly on the test.",
+    "exampleKo": "시험에서 \"bridge\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "ground",
+    "meaning": "땅, 운동장",
+    "example": "We talked about \"ground\" in our group.",
+    "exampleKo": "모둠 활동에서 \"땅\"(ground)에 대해 이야기했어요."
+  },
+  {
+    "word": "cloth",
+    "meaning": "천, 직물",
+    "example": "The teacher wrote \"cloth\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"cloth\"를 적어 주셨어요."
+  },
+  {
+    "word": "post",
+    "meaning": "우편, 우편물",
+    "example": "I heard \"post\" in an English song.",
+    "exampleKo": "영어 노래에서 \"post\"를 들었어요."
+  },
+  {
+    "word": "job",
+    "meaning": "직업, 일",
+    "example": "This story uses the word \"job\" many times.",
+    "exampleKo": "이 이야기에는 \"job\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "town",
+    "meaning": "읍, 도시",
+    "example": "I sometimes forget the word \"town\".",
+    "exampleKo": "가끔 \"읍\"(town)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "fun",
+    "meaning": "놀이, 재미",
+    "example": "He asked me to explain \"fun\".",
+    "exampleKo": "친구가 \"fun\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "bathroom",
+    "meaning": "욕실",
+    "example": "My homework is to study \"bathroom\".",
+    "exampleKo": "숙제는 \"욕실\"(bathroom) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "tail",
+    "meaning": "꼬리",
+    "example": "I read a sentence with \"tail\" in it.",
+    "exampleKo": "\"tail\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "mayor",
+    "meaning": "시장",
+    "example": "Everyone in class knew the word \"mayor\".",
+    "exampleKo": "반 친구들은 모두 \"mayor\"를 알고 있었어요."
+  },
+  {
+    "word": "piece",
+    "meaning": "한 조각",
+    "example": "I looked up \"piece\" in the dictionary.",
+    "exampleKo": "사전에서 \"한 조각\"(piece)를 찾아봤어요."
+  },
+  {
+    "word": "fruit",
+    "meaning": "과일",
+    "example": "Let us practice saying \"fruit\" aloud.",
+    "exampleKo": "\"fruit\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "british",
+    "meaning": "영국인, 영국의",
+    "example": "The word \"british\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"british\"가 나왔어요."
+  },
+  {
+    "word": "french",
+    "meaning": "프랑스 사람, 프랑스어",
+    "example": "I used \"french\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"french\"를 써 봤어요."
+  },
+  {
+    "word": "German",
+    "meaning": "독일사람, 독일어",
+    "example": "What is the Korean meaning of \"German\"?",
+    "exampleKo": "\"German\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "sale",
+    "meaning": "판매, 염가판매",
+    "example": "I made a flashcard for the word \"sale\".",
+    "exampleKo": "\"판매\"(sale) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "rope",
+    "meaning": "밧줄",
+    "example": "Our reading book has the word \"rope\".",
+    "exampleKo": "읽기 교재에 \"rope\"라는 단어가 있어요."
+  },
+  {
+    "word": "umbrella",
+    "meaning": "우산",
+    "example": "I circled \"umbrella\" in my notebook.",
+    "exampleKo": "공책에 \"umbrella\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "dollar",
+    "meaning": "달러",
+    "example": "The example sentence helped me learn \"dollar\".",
+    "exampleKo": "예문 덕분에 \"달러\"(dollar)를 이해했어요."
+  },
+  {
+    "word": "mistake",
+    "meaning": "잘못, 잘못알다",
+    "example": "I practice \"mistake\" every morning.",
+    "exampleKo": "매일 아침 \"mistake\"를 연습해요."
+  },
+  {
+    "word": "birth",
+    "meaning": "출생",
+    "example": "My sister asked me about the word \"birth\".",
+    "exampleKo": "여동생이 \"birth\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "pilot",
+    "meaning": "조종사, 안내인",
+    "example": "I copied \"pilot\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"조종사\"(pilot)를 적었어요."
+  },
+  {
+    "word": "none",
+    "meaning": "아무도 \\~않다",
+    "example": "The picture shows what \"none\" means.",
+    "exampleKo": "그림을 보면 \"none\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "front",
+    "meaning": "정면, 앞부분",
+    "example": "I met \"front\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"front\"를 또 만났어요."
+  },
+  {
+    "word": "present",
+    "meaning": "현재, 선물",
+    "example": "Please repeat the word \"present\" after me.",
+    "exampleKo": "제 뒤를 이어 \"present\"라고 말해 보세요."
+  },
+  {
+    "word": "nickname",
+    "meaning": "별명, 애칭",
+    "example": "I felt proud when I knew \"nickname\".",
+    "exampleKo": "\"별명\"(nickname)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "war",
+    "meaning": "전쟁",
+    "example": "I found the word \"war\" in my textbook.",
+    "exampleKo": "교과서에서 \"전쟁\"(war)라는 단어를 찾았어요."
+  },
+  {
+    "word": "telephone",
+    "meaning": "전화, 전화를걸다",
+    "example": "Can you tell me what \"telephone\" means?",
+    "exampleKo": "\"telephone\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "pair",
+    "meaning": "한 쌍",
+    "example": "Please write a sentence with \"pair\".",
+    "exampleKo": "\"pair\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "weather",
+    "meaning": "날씨",
+    "example": "I want to remember the word \"weather\".",
+    "exampleKo": "\"날씨\"(weather)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "dish",
+    "meaning": "접시, 요리",
+    "example": "She spelled \"dish\" correctly on the test.",
+    "exampleKo": "시험에서 \"dish\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "hole",
+    "meaning": "구멍",
+    "example": "We talked about \"hole\" in our group.",
+    "exampleKo": "모둠 활동에서 \"구멍\"(hole)에 대해 이야기했어요."
+  },
+  {
+    "word": "plane",
+    "meaning": "비행기",
+    "example": "The teacher wrote \"plane\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"plane\"를 적어 주셨어요."
+  },
+  {
+    "word": "living room",
+    "meaning": "거실",
+    "example": "I heard \"living room\" in an English song.",
+    "exampleKo": "영어 노래에서 \"living room\"를 들었어요."
+  },
+  {
+    "word": "gun",
+    "meaning": "총",
+    "example": "This story uses the word \"gun\" many times.",
+    "exampleKo": "이 이야기에는 \"gun\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "meat",
+    "meaning": "고기",
+    "example": "I sometimes forget the word \"meat\".",
+    "exampleKo": "가끔 \"고기\"(meat)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "cover",
+    "meaning": "덮개, 덮다",
+    "example": "He asked me to explain \"cover\".",
+    "exampleKo": "친구가 \"cover\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "grass",
+    "meaning": "풀, 잔디",
+    "example": "My homework is to study \"grass\".",
+    "exampleKo": "숙제는 \"풀\"(grass) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "watch",
+    "meaning": "손목시계, 주의",
+    "example": "I read a sentence with \"watch\" in it.",
+    "exampleKo": "\"watch\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "word",
+    "meaning": "낱말, 단어",
+    "example": "Everyone in class knew the word \"word\".",
+    "exampleKo": "반 친구들은 모두 \"word\"를 알고 있었어요."
+  },
+  {
+    "word": "explain",
+    "meaning": "설명하다",
+    "example": "I looked up \"explain\" in the dictionary.",
+    "exampleKo": "사전에서 \"설명하다\"(explain)를 찾아봤어요."
+  },
+  {
+    "word": "wear",
+    "meaning": "입다, 착용하다",
+    "example": "Let us practice saying \"wear\" aloud.",
+    "exampleKo": "\"wear\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "amuse",
+    "meaning": "재미있게 하다",
+    "example": "The word \"amuse\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"amuse\"가 나왔어요."
+  },
+  {
+    "word": "suppose",
+    "meaning": "상상하다, 생각하다",
+    "example": "I used \"suppose\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"suppose\"를 써 봤어요."
+  },
+  {
+    "word": "leap",
+    "meaning": "뛰다",
+    "example": "What is the Korean meaning of \"leap\"?",
+    "exampleKo": "\"leap\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "bury",
+    "meaning": "묻다",
+    "example": "I made a flashcard for the word \"bury\".",
+    "exampleKo": "\"묻다\"(bury) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "engage",
+    "meaning": "고용하다, 약속하다",
+    "example": "Our reading book has the word \"engage\".",
+    "exampleKo": "읽기 교재에 \"engage\"라는 단어가 있어요."
+  },
+  {
+    "word": "sow",
+    "meaning": "씨를 뿌리다",
+    "example": "I circled \"sow\" in my notebook.",
+    "exampleKo": "공책에 \"sow\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "lift",
+    "meaning": "들어 올리다",
+    "example": "The example sentence helped me learn \"lift\".",
+    "exampleKo": "예문 덕분에 \"들어 올리다\"(lift)를 이해했어요."
+  },
+  {
+    "word": "bow",
+    "meaning": "절하다, 절",
+    "example": "I practice \"bow\" every morning.",
+    "exampleKo": "매일 아침 \"bow\"를 연습해요."
+  },
+  {
+    "word": "rub",
+    "meaning": "비비다, 문지르다",
+    "example": "My sister asked me about the word \"rub\".",
+    "exampleKo": "여동생이 \"rub\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "bite",
+    "meaning": "물다, 물어뜯다",
+    "example": "I copied \"bite\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"물다\"(bite)를 적었어요."
+  },
+  {
+    "word": "vote",
+    "meaning": "투표하다, 투표",
+    "example": "The picture shows what \"vote\" means.",
+    "exampleKo": "그림을 보면 \"vote\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "hop",
+    "meaning": "한발로 뛰다",
+    "example": "I met \"hop\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"hop\"를 또 만났어요."
+  },
+  {
+    "word": "imagine",
+    "meaning": "상상하다, 생각하다",
+    "example": "Please repeat the word \"imagine\" after me.",
+    "exampleKo": "제 뒤를 이어 \"imagine\"라고 말해 보세요."
+  },
+  {
+    "word": "allow",
+    "meaning": "허락하다",
+    "example": "I felt proud when I knew \"allow\".",
+    "exampleKo": "\"허락하다\"(allow)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "offer",
+    "meaning": "제공하다",
+    "example": "I found the word \"offer\" in my textbook.",
+    "exampleKo": "교과서에서 \"제공하다\"(offer)라는 단어를 찾았어요."
+  },
+  {
+    "word": "gain",
+    "meaning": "얻다, 이기다",
+    "example": "Can you tell me what \"gain\" means?",
+    "exampleKo": "\"gain\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "alarm",
+    "meaning": "놀라게 하다, 경보하다",
+    "example": "Please write a sentence with \"alarm\".",
+    "exampleKo": "\"alarm\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "obey",
+    "meaning": "복종하다",
+    "example": "I want to remember the word \"obey\".",
+    "exampleKo": "\"복종하다\"(obey)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "steal",
+    "meaning": "훔치다",
+    "example": "She spelled \"steal\" correctly on the test.",
+    "exampleKo": "시험에서 \"steal\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "dig",
+    "meaning": "파다",
+    "example": "We talked about \"dig\" in our group.",
+    "exampleKo": "모둠 활동에서 \"파다\"(dig)에 대해 이야기했어요."
+  },
+  {
+    "word": "choose",
+    "meaning": "고르다, 선택하다",
+    "example": "The teacher wrote \"choose\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"choose\"를 적어 주셨어요."
+  },
+  {
+    "word": "receive",
+    "meaning": "받다",
+    "example": "I heard \"receive\" in an English song.",
+    "exampleKo": "영어 노래에서 \"receive\"를 들었어요."
+  },
+  {
+    "word": "bet",
+    "meaning": "돈을 걸다",
+    "example": "This story uses the word \"bet\" many times.",
+    "exampleKo": "이 이야기에는 \"bet\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "hurt",
+    "meaning": "상처를 입히다",
+    "example": "I sometimes forget the word \"hurt\".",
+    "exampleKo": "가끔 \"상처를 입히다\"(hurt)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "burn",
+    "meaning": "타다, 태우다",
+    "example": "He asked me to explain \"burn\".",
+    "exampleKo": "친구가 \"burn\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "sink",
+    "meaning": "가라앉다",
+    "example": "My homework is to study \"sink\".",
+    "exampleKo": "숙제는 \"가라앉다\"(sink) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "decide",
+    "meaning": "결정하다, 결심하다",
+    "example": "I read a sentence with \"decide\" in it.",
+    "exampleKo": "\"decide\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "beg",
+    "meaning": "구걸하다, 청하다",
+    "example": "Everyone in class knew the word \"beg\".",
+    "exampleKo": "반 친구들은 모두 \"beg\"를 알고 있었어요."
+  },
+  {
+    "word": "reply",
+    "meaning": "대답하다, 대답",
+    "example": "I looked up \"reply\" in the dictionary.",
+    "exampleKo": "사전에서 \"대답하다\"(reply)를 찾아봤어요."
+  },
+  {
+    "word": "tear",
+    "meaning": "찢다, 찢어지다",
+    "example": "Let us practice saying \"tear\" aloud.",
+    "exampleKo": "\"tear\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "flow",
+    "meaning": "흐르다, 넘쳐흐르다",
+    "example": "The word \"flow\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"flow\"가 나왔어요."
+  },
+  {
+    "word": "remember",
+    "meaning": "기억하다, 생각해내다",
+    "example": "I used \"remember\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"remember\"를 써 봤어요."
+  },
+  {
+    "word": "appear",
+    "meaning": "나타나다, \\~인 것같다",
+    "example": "What is the Korean meaning of \"appear\"?",
+    "exampleKo": "\"appear\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "breathe",
+    "meaning": "숨 쉬다, 호흡하다",
+    "example": "I made a flashcard for the word \"breathe\".",
+    "exampleKo": "\"숨 쉬다\"(breathe) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "whistle",
+    "meaning": "휘파람을 불다, 휘파람",
+    "example": "Our reading book has the word \"whistle\".",
+    "exampleKo": "읽기 교재에 \"whistle\"라는 단어가 있어요."
+  },
+  {
+    "word": "draw",
+    "meaning": "끌다, 당기다",
+    "example": "I circled \"draw\" in my notebook.",
+    "exampleKo": "공책에 \"draw\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "sound",
+    "meaning": "소리가 나다, 소리",
+    "example": "The example sentence helped me learn \"sound\".",
+    "exampleKo": "예문 덕분에 \"소리가 나다\"(sound)를 이해했어요."
+  },
+  {
+    "word": "save",
+    "meaning": "구하다, 저축하다",
+    "example": "I practice \"save\" every morning.",
+    "exampleKo": "매일 아침 \"save\"를 연습해요."
+  },
+  {
+    "word": "continue",
+    "meaning": "계속하다",
+    "example": "My sister asked me about the word \"continue\".",
+    "exampleKo": "여동생이 \"continue\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "check",
+    "meaning": "저지하다, 대조하다",
+    "example": "I copied \"check\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"저지하다\"(check)를 적었어요."
+  },
+  {
+    "word": "sail",
+    "meaning": "항해하다, 돛",
+    "example": "The picture shows what \"sail\" means.",
+    "exampleKo": "그림을 보면 \"sail\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "wake",
+    "meaning": "깨다, 깨우다",
+    "example": "I met \"wake\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"wake\"를 또 만났어요."
+  },
+  {
+    "word": "agree",
+    "meaning": "동의하다",
+    "example": "Please repeat the word \"agree\" after me.",
+    "exampleKo": "제 뒤를 이어 \"agree\"라고 말해 보세요."
+  },
+  {
+    "word": "hang",
+    "meaning": "걸다, 매달다",
+    "example": "I felt proud when I knew \"hang\".",
+    "exampleKo": "\"걸다\"(hang)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "record",
+    "meaning": "기록",
+    "example": "I found the word \"record\" in my textbook.",
+    "exampleKo": "교과서에서 \"기록\"(record)라는 단어를 찾았어요."
+  },
+  {
+    "word": "drop",
+    "meaning": "떨어지다, 떨어뜨리다",
+    "example": "Can you tell me what \"drop\" means?",
+    "exampleKo": "\"drop\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "climb",
+    "meaning": "기어오르다, 오르다",
+    "example": "Please write a sentence with \"climb\".",
+    "exampleKo": "\"climb\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "add",
+    "meaning": "더하다, 보태다",
+    "example": "I want to remember the word \"add\".",
+    "exampleKo": "\"더하다\"(add)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "shine",
+    "meaning": "빛나다",
+    "example": "She spelled \"shine\" correctly on the test.",
+    "exampleKo": "시험에서 \"shine\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "invite",
+    "meaning": "초대하다",
+    "example": "We talked about \"invite\" in our group.",
+    "exampleKo": "모둠 활동에서 \"초대하다\"(invite)에 대해 이야기했어요."
+  },
+  {
+    "word": "join",
+    "meaning": "결합하다, 참가하다",
+    "example": "The teacher wrote \"join\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"join\"를 적어 주셨어요."
+  },
+  {
+    "word": "hide",
+    "meaning": "감추다, 숨다",
+    "example": "I heard \"hide\" in an English song.",
+    "exampleKo": "영어 노래에서 \"hide\"를 들었어요."
+  },
+  {
+    "word": "bring",
+    "meaning": "가져오다, 데려오다",
+    "example": "This story uses the word \"bring\" many times.",
+    "exampleKo": "이 이야기에는 \"bring\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "wink",
+    "meaning": "눈을 깜박거리다, 눈짓하다",
+    "example": "I sometimes forget the word \"wink\".",
+    "exampleKo": "가끔 \"눈을 깜박거리다\"(wink)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "shoot",
+    "meaning": "쏘다, 사격하다",
+    "example": "He asked me to explain \"shoot\".",
+    "exampleKo": "친구가 \"shoot\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "roll",
+    "meaning": "구르다, 굴리다",
+    "example": "My homework is to study \"roll\".",
+    "exampleKo": "숙제는 \"구르다\"(roll) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "pull",
+    "meaning": "잡아당기다, 끌다",
+    "example": "I read a sentence with \"pull\" in it.",
+    "exampleKo": "\"pull\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "push",
+    "meaning": "밀다",
+    "example": "Everyone in class knew the word \"push\".",
+    "exampleKo": "반 친구들은 모두 \"push\"를 알고 있었어요."
+  },
+  {
+    "word": "guess",
+    "meaning": "추측하다, 추측",
+    "example": "I looked up \"guess\" in the dictionary.",
+    "exampleKo": "사전에서 \"추측하다\"(guess)를 찾아봤어요."
+  },
+  {
+    "word": "belong",
+    "meaning": "누구누구에게 속하다",
+    "example": "Let us practice saying \"belong\" aloud.",
+    "exampleKo": "\"belong\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "happen",
+    "meaning": "일어나다, 생기다",
+    "example": "The word \"happen\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"happen\"가 나왔어요."
+  },
+  {
+    "word": "pick",
+    "meaning": "고르다, 줍다",
+    "example": "I used \"pick\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"pick\"를 써 봤어요."
+  },
+  {
+    "word": "shake",
+    "meaning": "떨다, 흔들다",
+    "example": "What is the Korean meaning of \"shake\"?",
+    "exampleKo": "\"shake\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "fill",
+    "meaning": "채우다, 가득차다",
+    "example": "I made a flashcard for the word \"fill\".",
+    "exampleKo": "\"채우다\"(fill) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "fail",
+    "meaning": "실패하다",
+    "example": "Our reading book has the word \"fail\".",
+    "exampleKo": "읽기 교재에 \"fail\"라는 단어가 있어요."
+  },
+  {
+    "word": "fight",
+    "meaning": "싸우다, 전투",
+    "example": "I circled \"fight\" in my notebook.",
+    "exampleKo": "공책에 \"fight\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "fear",
+    "meaning": "두려워하다, 두려움",
+    "example": "The example sentence helped me learn \"fear\".",
+    "exampleKo": "예문 덕분에 \"두려워하다\"(fear)를 이해했어요."
+  },
+  {
+    "word": "carry",
+    "meaning": "나르다, 운반하다",
+    "example": "I practice \"carry\" every morning.",
+    "exampleKo": "매일 아침 \"carry\"를 연습해요."
+  },
+  {
+    "word": "dive",
+    "meaning": "다이빙하다, 잠수하다",
+    "example": "My sister asked me about the word \"dive\".",
+    "exampleKo": "여동생이 \"dive\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "win",
+    "meaning": "이기다, 얻다",
+    "example": "I copied \"win\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"이기다\"(win)를 적었어요."
+  },
+  {
+    "word": "ride",
+    "meaning": "타다, 타고가다",
+    "example": "The picture shows what \"ride\" means.",
+    "exampleKo": "그림을 보면 \"ride\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "turn",
+    "meaning": "돌다, 변화하다",
+    "example": "I met \"turn\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"turn\"를 또 만났어요."
+  },
+  {
+    "word": "need",
+    "meaning": "필요로 하다, 필요",
+    "example": "Please repeat the word \"need\" after me.",
+    "exampleKo": "제 뒤를 이어 \"need\"라고 말해 보세요."
+  },
+  {
+    "word": "build",
+    "meaning": "짓다, 건축하다",
+    "example": "I felt proud when I knew \"build\".",
+    "exampleKo": "\"짓다\"(build)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "hurry",
+    "meaning": "서두르다, 서두름",
+    "example": "I found the word \"hurry\" in my textbook.",
+    "exampleKo": "교과서에서 \"서두르다\"(hurry)라는 단어를 찾았어요."
+  },
+  {
+    "word": "return",
+    "meaning": "돌아가다, 돌아오다",
+    "example": "Can you tell me what \"return\" means?",
+    "exampleKo": "\"return\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "believe",
+    "meaning": "믿다",
+    "example": "Please write a sentence with \"believe\".",
+    "exampleKo": "\"believe\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "surprise",
+    "meaning": "놀라다, 놀람",
+    "example": "I want to remember the word \"surprise\".",
+    "exampleKo": "\"놀라다\"(surprise)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "gather",
+    "meaning": "모으다",
+    "example": "She spelled \"gather\" correctly on the test.",
+    "exampleKo": "시험에서 \"gather\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "throw",
+    "meaning": "던지다",
+    "example": "We talked about \"throw\" in our group.",
+    "exampleKo": "모둠 활동에서 \"던지다\"(throw)에 대해 이야기했어요."
+  },
+  {
+    "word": "raise",
+    "meaning": "올리다, 일으키다",
+    "example": "The teacher wrote \"raise\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"raise\"를 적어 주셨어요."
+  },
+  {
+    "word": "count",
+    "meaning": "세다, 계산하다",
+    "example": "I heard \"count\" in an English song.",
+    "exampleKo": "영어 노래에서 \"count\"를 들었어요."
+  },
+  {
+    "word": "smell",
+    "meaning": "냄새를 맡다, 냄새",
+    "example": "This story uses the word \"smell\" many times.",
+    "exampleKo": "이 이야기에는 \"smell\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "spend",
+    "meaning": "소비하다, 지내다",
+    "example": "I sometimes forget the word \"spend\".",
+    "exampleKo": "가끔 \"소비하다\"(spend)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "pitch",
+    "meaning": "던지다",
+    "example": "He asked me to explain \"pitch\".",
+    "exampleKo": "친구가 \"pitch\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "pop",
+    "meaning": "펑하고 소리나다, 대중음악",
+    "example": "My homework is to study \"pop\".",
+    "exampleKo": "숙제는 \"펑하고 소리나다\"(pop) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "blow",
+    "meaning": "불다",
+    "example": "I read a sentence with \"blow\" in it.",
+    "exampleKo": "\"blow\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "miss",
+    "meaning": "놓치다, 그리워하다",
+    "example": "Everyone in class knew the word \"miss\".",
+    "exampleKo": "반 친구들은 모두 \"miss\"를 알고 있었어요."
+  },
+  {
+    "word": "excuse",
+    "meaning": "용서하다, 변명하다",
+    "example": "I looked up \"excuse\" in the dictionary.",
+    "exampleKo": "사전에서 \"용서하다\"(excuse)를 찾아봤어요."
+  },
+  {
+    "word": "hit",
+    "meaning": "치다",
+    "example": "Let us practice saying \"hit\" aloud.",
+    "exampleKo": "\"hit\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "tie",
+    "meaning": "매다, 묶다",
+    "example": "The word \"tie\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"tie\"가 나왔어요."
+  },
+  {
+    "word": "touch",
+    "meaning": "닿다, 감동시키다",
+    "example": "I used \"touch\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"touch\"를 써 봤어요."
+  },
+  {
+    "word": "stay",
+    "meaning": "머무르다",
+    "example": "What is the Korean meaning of \"stay\"?",
+    "exampleKo": "\"stay\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "enjoy",
+    "meaning": "즐기다",
+    "example": "I made a flashcard for the word \"enjoy\".",
+    "exampleKo": "\"즐기다\"(enjoy) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "lose",
+    "meaning": "잃다, 지다",
+    "example": "Our reading book has the word \"lose\".",
+    "exampleKo": "읽기 교재에 \"lose\"라는 단어가 있어요."
+  },
+  {
+    "word": "close",
+    "meaning": "닫다, 끝나다",
+    "example": "I circled \"close\" in my notebook.",
+    "exampleKo": "공책에 \"close\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "arrive",
+    "meaning": "도착하다",
+    "example": "The example sentence helped me learn \"arrive\".",
+    "exampleKo": "예문 덕분에 \"도착하다\"(arrive)를 이해했어요."
+  },
+  {
+    "word": "travel",
+    "meaning": "여행하다, 여행",
+    "example": "I practice \"travel\" every morning.",
+    "exampleKo": "매일 아침 \"travel\"를 연습해요."
+  },
+  {
+    "word": "reach",
+    "meaning": "도착하다",
+    "example": "My sister asked me about the word \"reach\".",
+    "exampleKo": "여동생이 \"reach\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "hold",
+    "meaning": "쥐다, 개최하다",
+    "example": "I copied \"hold\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"쥐다\"(hold)를 적었어요."
+  },
+  {
+    "word": "worry",
+    "meaning": "걱정하다, 괴롭히다",
+    "example": "The picture shows what \"worry\" means.",
+    "exampleKo": "그림을 보면 \"worry\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "marry",
+    "meaning": "결혼하다",
+    "example": "I met \"marry\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"marry\"를 또 만났어요."
+  },
+  {
+    "word": "expect",
+    "meaning": "기대하다, \\~라고 생각하다",
+    "example": "Please repeat the word \"expect\" after me.",
+    "exampleKo": "제 뒤를 이어 \"expect\"라고 말해 보세요."
+  },
+  {
+    "word": "understand",
+    "meaning": "이해하다, 알다",
+    "example": "I felt proud when I knew \"understand\".",
+    "exampleKo": "\"이해하다\"(understand)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "become",
+    "meaning": "\\~이 되다, 어울리다",
+    "example": "I found the word \"become\" in my textbook.",
+    "exampleKo": "교과서에서 \"\\~이 되다\"(become)라는 단어를 찾았어요."
+  },
+  {
+    "word": "break",
+    "meaning": "부수다, 깨뜨리다",
+    "example": "Can you tell me what \"break\" means?",
+    "exampleKo": "\"break\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "smoke",
+    "meaning": "담배를 피우다, 연기",
+    "example": "Please write a sentence with \"smoke\".",
+    "exampleKo": "\"smoke\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "lend",
+    "meaning": "빌려주다",
+    "example": "I want to remember the word \"lend\".",
+    "exampleKo": "\"빌려주다\"(lend)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "shut",
+    "meaning": "닫다",
+    "example": "She spelled \"shut\" correctly on the test.",
+    "exampleKo": "시험에서 \"shut\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "sleep",
+    "meaning": "자다",
+    "example": "We talked about \"sleep\" in our group.",
+    "exampleKo": "모둠 활동에서 \"자다\"(sleep)에 대해 이야기했어요."
+  },
+  {
+    "word": "lay",
+    "meaning": "눕히다, 놓다",
+    "example": "The teacher wrote \"lay\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"lay\"를 적어 주셨어요."
+  },
+  {
+    "word": "paint",
+    "meaning": "그리다, 페인트를칠하다",
+    "example": "I heard \"paint\" in an English song.",
+    "exampleKo": "영어 노래에서 \"paint\"를 들었어요."
+  },
+  {
+    "word": "lead",
+    "meaning": "인도하다, 지내다",
+    "example": "This story uses the word \"lead\" many times.",
+    "exampleKo": "이 이야기에는 \"lead\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "pass",
+    "meaning": "지나가다, 합격하다",
+    "example": "I sometimes forget the word \"pass\".",
+    "exampleKo": "가끔 \"지나가다\"(pass)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "hand",
+    "meaning": "주다, 건네주다",
+    "example": "He asked me to explain \"hand\".",
+    "exampleKo": "친구가 \"hand\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "ancient",
+    "meaning": "고대의",
+    "example": "My homework is to study \"ancient\".",
+    "exampleKo": "숙제는 \"고대의\"(ancient) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "nuclear",
+    "meaning": "핵의",
+    "example": "I read a sentence with \"nuclear\" in it.",
+    "exampleKo": "\"nuclear\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "necessary",
+    "meaning": "필요한",
+    "example": "Everyone in class knew the word \"necessary\".",
+    "exampleKo": "반 친구들은 모두 \"necessary\"를 알고 있었어요."
+  },
+  {
+    "word": "common",
+    "meaning": "공통의, 보통의",
+    "example": "I looked up \"common\" in the dictionary.",
+    "exampleKo": "사전에서 \"공통의\"(common)를 찾아봤어요."
+  },
+  {
+    "word": "inner",
+    "meaning": "안쪽의",
+    "example": "Let us practice saying \"inner\" aloud.",
+    "exampleKo": "\"inner\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "thirsty",
+    "meaning": "목마른",
+    "example": "The word \"thirsty\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"thirsty\"가 나왔어요."
+  },
+  {
+    "word": "thin",
+    "meaning": "얇은, 야윈",
+    "example": "I used \"thin\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"thin\"를 써 봤어요."
+  },
+  {
+    "word": "gray",
+    "meaning": "회색, 회색의",
+    "example": "What is the Korean meaning of \"gray\"?",
+    "exampleKo": "\"gray\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "famous",
+    "meaning": "유명한",
+    "example": "I made a flashcard for the word \"famous\".",
+    "exampleKo": "\"유명한\"(famous) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "industrial",
+    "meaning": "산업의, 공업의",
+    "example": "Our reading book has the word \"industrial\".",
+    "exampleKo": "읽기 교재에 \"industrial\"라는 단어가 있어요."
+  },
+  {
+    "word": "silent",
+    "meaning": "조용한, 침묵의",
+    "example": "I circled \"silent\" in my notebook.",
+    "exampleKo": "공책에 \"silent\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "absent",
+    "meaning": "결석한",
+    "example": "The example sentence helped me learn \"absent\".",
+    "exampleKo": "예문 덕분에 \"결석한\"(absent)를 이해했어요."
+  },
+  {
+    "word": "flat",
+    "meaning": "평평한",
+    "example": "I practice \"flat\" every morning.",
+    "exampleKo": "매일 아침 \"flat\"를 연습해요."
+  },
+  {
+    "word": "main",
+    "meaning": "주요한",
+    "example": "My sister asked me about the word \"main\".",
+    "exampleKo": "여동생이 \"main\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "wild",
+    "meaning": "야생의, 난폭한",
+    "example": "I copied \"wild\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"야생의\"(wild)를 적었어요."
+  },
+  {
+    "word": "wet",
+    "meaning": "젖은",
+    "example": "The picture shows what \"wet\" means.",
+    "exampleKo": "그림을 보면 \"wet\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "blind",
+    "meaning": "눈먼",
+    "example": "I met \"blind\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"blind\"를 또 만났어요."
+  },
+  {
+    "word": "dumb",
+    "meaning": "벙어리의",
+    "example": "Please repeat the word \"dumb\" after me.",
+    "exampleKo": "제 뒤를 이어 \"dumb\"라고 말해 보세요."
+  },
+  {
+    "word": "sharp",
+    "meaning": "날카로운",
+    "example": "I felt proud when I knew \"sharp\".",
+    "exampleKo": "\"날카로운\"(sharp)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "terrible",
+    "meaning": "끔직한, 무서운",
+    "example": "I found the word \"terrible\" in my textbook.",
+    "exampleKo": "교과서에서 \"끔직한\"(terrible)라는 단어를 찾았어요."
+  },
+  {
+    "word": "grand",
+    "meaning": "웅장한, 화려한",
+    "example": "Can you tell me what \"grand\" means?",
+    "exampleKo": "\"grand\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "homesick",
+    "meaning": "고향을 그리워하는, 향수병의",
+    "example": "Please write a sentence with \"homesick\".",
+    "exampleKo": "\"homesick\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "bound",
+    "meaning": "\\~로 출발하려고하는",
+    "example": "I want to remember the word \"bound\".",
+    "exampleKo": "\"\\~로 출발하려고하는\"(bound)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "fat",
+    "meaning": "살찐, 지방",
+    "example": "She spelled \"fat\" correctly on the test.",
+    "exampleKo": "시험에서 \"fat\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "strange",
+    "meaning": "이상한, 낯선",
+    "example": "We talked about \"strange\" in our group.",
+    "exampleKo": "모둠 활동에서 \"이상한\"(strange)에 대해 이야기했어요."
+  },
+  {
+    "word": "pleasant",
+    "meaning": "기분 좋은, 유쾌한",
+    "example": "The teacher wrote \"pleasant\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"pleasant\"를 적어 주셨어요."
+  },
+  {
+    "word": "handsome",
+    "meaning": "잘생긴, 멋진",
+    "example": "I heard \"handsome\" in an English song.",
+    "exampleKo": "영어 노래에서 \"handsome\"를 들었어요."
+  },
+  {
+    "word": "equal",
+    "meaning": "같은, 동등한",
+    "example": "This story uses the word \"equal\" many times.",
+    "exampleKo": "이 이야기에는 \"equal\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "dear",
+    "meaning": "친애하는, 값비싼",
+    "example": "I sometimes forget the word \"dear\".",
+    "exampleKo": "가끔 \"친애하는\"(dear)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "sweet",
+    "meaning": "달콤한",
+    "example": "He asked me to explain \"sweet\".",
+    "exampleKo": "친구가 \"sweet\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "dull",
+    "meaning": "우둔한, 무딘",
+    "example": "My homework is to study \"dull\".",
+    "exampleKo": "숙제는 \"우둔한\"(dull) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "weak",
+    "meaning": "약한",
+    "example": "I read a sentence with \"weak\" in it.",
+    "exampleKo": "\"weak\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "bright",
+    "meaning": "밝은, 영리한",
+    "example": "Everyone in class knew the word \"bright\".",
+    "exampleKo": "반 친구들은 모두 \"bright\"를 알고 있었어요."
+  },
+  {
+    "word": "honest",
+    "meaning": "정직한",
+    "example": "I looked up \"honest\" in the dictionary.",
+    "exampleKo": "사전에서 \"정직한\"(honest)를 찾아봤어요."
+  },
+  {
+    "word": "elder",
+    "meaning": "손위의, 연상의",
+    "example": "Let us practice saying \"elder\" aloud.",
+    "exampleKo": "\"elder\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "such",
+    "meaning": "그러한, 이러한",
+    "example": "The word \"such\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"such\"가 나왔어요."
+  },
+  {
+    "word": "able",
+    "meaning": "유능한, 할수있는",
+    "example": "I used \"able\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"able\"를 써 봤어요."
+  },
+  {
+    "word": "loud",
+    "meaning": "목소리가 큰, 시끄러운",
+    "example": "What is the Korean meaning of \"loud\"?",
+    "exampleKo": "\"loud\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "simple",
+    "meaning": "간단한, 단순한",
+    "example": "I made a flashcard for the word \"simple\".",
+    "exampleKo": "\"간단한\"(simple) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "clever",
+    "meaning": "영리한",
+    "example": "Our reading book has the word \"clever\".",
+    "exampleKo": "읽기 교재에 \"clever\"라는 단어가 있어요."
+  },
+  {
+    "word": "proud",
+    "meaning": "자랑스러운, 오만한",
+    "example": "I circled \"proud\" in my notebook.",
+    "exampleKo": "공책에 \"proud\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "foolish",
+    "meaning": "어리석은",
+    "example": "The example sentence helped me learn \"foolish\".",
+    "exampleKo": "예문 덕분에 \"어리석은\"(foolish)를 이해했어요."
+  },
+  {
+    "word": "possible",
+    "meaning": "가능한",
+    "example": "I practice \"possible\" every morning.",
+    "exampleKo": "매일 아침 \"possible\"를 연습해요."
+  },
+  {
+    "word": "enough",
+    "meaning": "충분한, 충분히",
+    "example": "My sister asked me about the word \"enough\".",
+    "exampleKo": "여동생이 \"enough\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "wise",
+    "meaning": "현명한",
+    "example": "I copied \"wise\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"현명한\"(wise)을 적었어요."
+  },
+  {
+    "word": "wide",
+    "meaning": "넓은, 널리",
+    "example": "The picture shows what \"wide\" means.",
+    "exampleKo": "그림을 보면 \"wide\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "successful",
+    "meaning": "성공한",
+    "example": "I met \"successful\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"successful\"를 또 만났어요."
+  },
+  {
+    "word": "clear",
+    "meaning": "맑은, 명백한",
+    "example": "Please repeat the word \"clear\" after me.",
+    "exampleKo": "제 뒤를 이어 \"clear\"라고 말해 보세요."
+  },
+  {
+    "word": "clean",
+    "meaning": "깨끗한",
+    "example": "I felt proud when I knew \"clean\".",
+    "exampleKo": "\"깨끗한\"(clean)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "deep",
+    "meaning": "깊은, 깊게",
+    "example": "I found the word \"deep\" in my textbook.",
+    "exampleKo": "교과서에서 \"깊은\"(deep)라는 단어를 찾았어요."
+  },
+  {
+    "word": "own",
+    "meaning": "자기 자신의, 소유하다",
+    "example": "Can you tell me what \"own\" means?",
+    "exampleKo": "\"own\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "cheap",
+    "meaning": "값싼",
+    "example": "Please write a sentence with \"cheap\".",
+    "exampleKo": "\"cheap\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "certain",
+    "meaning": "확실한, 어떤",
+    "example": "I want to remember the word \"certain\".",
+    "exampleKo": "\"확실한\"(certain)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "important",
+    "meaning": "중요한",
+    "example": "She spelled \"important\" correctly on the test.",
+    "exampleKo": "시험에서 \"important\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "stormy",
+    "meaning": "폭풍의",
+    "example": "We talked about \"stormy\" in our group.",
+    "exampleKo": "모둠 활동에서 \"폭풍의\"(stormy)에 대해 이야기했어요."
+  },
+  {
+    "word": "true",
+    "meaning": "진실한",
+    "example": "The teacher wrote \"true\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"true\"를 적어 주셨어요."
+  },
+  {
+    "word": "sad",
+    "meaning": "슬픈",
+    "example": "I heard \"sad\" in an English song.",
+    "exampleKo": "영어 노래에서 \"sad\"를 들었어요."
+  },
+  {
+    "word": "gay",
+    "meaning": "명랑한, 화려한",
+    "example": "This story uses the word \"gay\" many times.",
+    "exampleKo": "이 이야기에는 \"gay\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "merry",
+    "meaning": "즐거운",
+    "example": "I sometimes forget the word \"merry\".",
+    "exampleKo": "가끔 \"즐거운\"(merry)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "colorful",
+    "meaning": "다채로운, 화려한",
+    "example": "He asked me to explain \"colorful\".",
+    "exampleKo": "친구가 \"colorful\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "wonderful",
+    "meaning": "놀랄만한, 훌륭한",
+    "example": "My homework is to study \"wonderful\".",
+    "exampleKo": "숙제는 \"놀랄만한\"(wonderful) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "peaceful",
+    "meaning": "평화로운",
+    "example": "I read a sentence with \"peaceful\" in it.",
+    "exampleKo": "\"peaceful\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "angry",
+    "meaning": "성난",
+    "example": "Everyone in class knew the word \"angry\".",
+    "exampleKo": "반 친구들은 모두 \"angry\"를 알고 있었어요."
+  },
+  {
+    "word": "dry",
+    "meaning": "마른",
+    "example": "I looked up \"dry\" in the dictionary.",
+    "exampleKo": "사전에서 \"마른\"(dry)를 찾아봤어요."
+  },
+  {
+    "word": "wrong",
+    "meaning": "나쁜, 틀린",
+    "example": "Let us practice saying \"wrong\" aloud.",
+    "exampleKo": "\"wrong\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "heavy",
+    "meaning": "무거운",
+    "example": "The word \"heavy\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"heavy\"가 나왔어요."
+  },
+  {
+    "word": "quiet",
+    "meaning": "조용한",
+    "example": "I used \"quiet\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"quiet\"를 써 봤어요."
+  },
+  {
+    "word": "several",
+    "meaning": "여럿의, 몇몇의",
+    "example": "What is the Korean meaning of \"several\"?",
+    "exampleKo": "\"several\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "alone",
+    "meaning": "홀로, 다만\\~뿐",
+    "example": "I made a flashcard for the word \"alone\".",
+    "exampleKo": "\"홀로\"(alone) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "crowded",
+    "meaning": "붐비는, 혼잡한",
+    "example": "Our reading book has the word \"crowded\".",
+    "exampleKo": "읽기 교재에 \"crowded\"라는 단어가 있어요."
+  },
+  {
+    "word": "excited",
+    "meaning": "흥분한",
+    "example": "I circled \"excited\" in my notebook.",
+    "exampleKo": "공책에 \"excited\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "alive",
+    "meaning": "살아있는",
+    "example": "The example sentence helped me learn \"alive\".",
+    "exampleKo": "예문 덕분에 \"살아있는\"(alive)를 이해했어요."
+  },
+  {
+    "word": "brown",
+    "meaning": "갈색의, 갈색",
+    "example": "I practice \"brown\" every morning.",
+    "exampleKo": "매일 아침 \"brown\"를 연습해요."
+  },
+  {
+    "word": "different",
+    "meaning": "다른",
+    "example": "My sister asked me about the word \"different\".",
+    "exampleKo": "여동생이 \"different\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "difficult",
+    "meaning": "어려운",
+    "example": "I copied \"difficult\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"어려운\"(difficult)을 적었어요."
+  },
+  {
+    "word": "interesting",
+    "meaning": "재미있는",
+    "example": "The picture shows what \"interesting\" means.",
+    "exampleKo": "그림을 보면 \"interesting\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "unlike",
+    "meaning": "같지 않은",
+    "example": "I met \"unlike\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"unlike\"를 또 만났어요."
+  },
+  {
+    "word": "least",
+    "meaning": "가장 적은, 최소한의",
+    "example": "Please repeat the word \"least\" after me.",
+    "exampleKo": "제 뒤를 이어 \"least\"라고 말해 보세요."
+  },
+  {
+    "word": "afraid",
+    "meaning": "무서워하여",
+    "example": "I felt proud when I knew \"afraid\".",
+    "exampleKo": "\"무서워하여\"(afraid)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "cool",
+    "meaning": "서늘한, 냉정한",
+    "example": "I found the word \"cool\" in my textbook.",
+    "exampleKo": "교과서에서 \"서늘한\"(cool)라는 단어를 찾았어요."
+  },
+  {
+    "word": "pretty",
+    "meaning": "예쁜, 상당히",
+    "example": "Can you tell me what \"pretty\" means?",
+    "exampleKo": "\"pretty\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "kind",
+    "meaning": "친절한, 종류",
+    "example": "Please write a sentence with \"kind\".",
+    "exampleKo": "\"kind\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "sick",
+    "meaning": "병든, 싫증난",
+    "example": "I want to remember the word \"sick\".",
+    "exampleKo": "\"병든\"(sick)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "useless",
+    "meaning": "쓸모없는",
+    "example": "She spelled \"useless\" correctly on the test.",
+    "exampleKo": "시험에서 \"useless\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "busy",
+    "meaning": "바쁜",
+    "example": "We talked about \"busy\" in our group.",
+    "exampleKo": "모둠 활동에서 \"바쁜\"(busy)에 대해 이야기했어요."
+  },
+  {
+    "word": "early",
+    "meaning": "일찍이",
+    "example": "The teacher wrote \"early\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"early\"를 적어 주셨어요."
+  },
+  {
+    "word": "past",
+    "meaning": "과거의, \\~을 지나서",
+    "example": "I heard \"past\" in an English song.",
+    "exampleKo": "영어 노래에서 \"past\"를 들었어요."
+  },
+  {
+    "word": "dark",
+    "meaning": "어두운",
+    "example": "This story uses the word \"dark\" many times.",
+    "exampleKo": "이 이야기에는 \"dark\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "cloudy",
+    "meaning": "구름이 낀",
+    "example": "I sometimes forget the word \"cloudy\".",
+    "exampleKo": "가끔 \"구름이 낀\"(cloudy)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "short",
+    "meaning": "짧은, 키가작은",
+    "example": "He asked me to explain \"short\".",
+    "exampleKo": "친구가 \"short\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "low",
+    "meaning": "낮은, 낮게",
+    "example": "My homework is to study \"low\".",
+    "exampleKo": "숙제는 \"낮은\"(low) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "sincerely",
+    "meaning": "성실히",
+    "example": "I read a sentence with \"sincerely\" in it.",
+    "exampleKo": "\"sincerely\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "fortunately",
+    "meaning": "운 좋게, 다행히",
+    "example": "Everyone in class knew the word \"fortunately\".",
+    "exampleKo": "반 친구들은 모두 \"fortunately\"를 알고 있었어요."
+  },
+  {
+    "word": "finally",
+    "meaning": "최후로, 마침내",
+    "example": "I looked up \"finally\" in the dictionary.",
+    "exampleKo": "사전에서 \"최후로\"(finally)를 찾아봤어요."
+  },
+  {
+    "word": "immediately",
+    "meaning": "곧, 즉시",
+    "example": "Let us practice saying \"immediately\" aloud.",
+    "exampleKo": "\"immediately\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "especially",
+    "meaning": "특별히",
+    "example": "The word \"especially\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"especially\"가 나왔어요."
+  },
+  {
+    "word": "else",
+    "meaning": "그밖에",
+    "example": "I used \"else\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"else\"를 써 봤어요."
+  },
+  {
+    "word": "actually",
+    "meaning": "실제로",
+    "example": "What is the Korean meaning of \"actually\"?",
+    "exampleKo": "\"actually\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "hardly",
+    "meaning": "거의 \\~아니다",
+    "example": "I made a flashcard for the word \"hardly\".",
+    "exampleKo": "\"거의 \\~아니다\"(hardly) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "otherwise",
+    "meaning": "다른 방법으로, 그렇지않으면",
+    "example": "Our reading book has the word \"otherwise\".",
+    "exampleKo": "읽기 교재에 \"otherwise\"라는 단어가 있어요."
+  },
+  {
+    "word": "tightly",
+    "meaning": "단단히",
+    "example": "I circled \"tightly\" in my notebook.",
+    "exampleKo": "공책에 \"tightly\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "recently",
+    "meaning": "최근에",
+    "example": "The example sentence helped me learn \"recently\".",
+    "exampleKo": "예문 덕분에 \"최근에\"(recently)를 이해했어요."
+  },
+  {
+    "word": "rapidly",
+    "meaning": "빨리, 신속히",
+    "example": "I practice \"rapidly\" every morning.",
+    "exampleKo": "매일 아침 \"rapidly\"를 연습해요."
+  },
+  {
+    "word": "however",
+    "meaning": "아무리 \\~해도, 그러나",
+    "example": "My sister asked me about the word \"however\".",
+    "exampleKo": "여동생이 \"however\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "politely",
+    "meaning": "공손히, 정중하게",
+    "example": "I copied \"politely\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"공손히\"(politely)를 적었어요."
+  },
+  {
+    "word": "rudely",
+    "meaning": "무례하게",
+    "example": "The picture shows what \"rudely\" means.",
+    "exampleKo": "그림을 보면 \"rudely\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "further",
+    "meaning": "더욱이, 더먼",
+    "example": "I met \"further\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"further\"를 또 만났어요."
+  },
+  {
+    "word": "frankly",
+    "meaning": "솔직히",
+    "example": "Please repeat the word \"frankly\" after me.",
+    "exampleKo": "제 뒤를 이어 \"frankly\"라고 말해 보세요."
+  },
+  {
+    "word": "properly",
+    "meaning": "적당히, 올바르게",
+    "example": "I felt proud when I knew \"properly\".",
+    "exampleKo": "\"적당히\"(properly)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "haste",
+    "meaning": "서두름",
+    "example": "I found the word \"haste\" in my textbook.",
+    "exampleKo": "교과서에서 \"서두름\"(haste)라는 단어를 찾았어요."
+  },
+  {
+    "word": "rather",
+    "meaning": "오히려, 얼마간",
+    "example": "Can you tell me what \"rather\" means?",
+    "exampleKo": "\"rather\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "together",
+    "meaning": "함께",
+    "example": "Please write a sentence with \"together\".",
+    "exampleKo": "\"together\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "altogether",
+    "meaning": "전혀, 대체로",
+    "example": "I want to remember the word \"altogether\".",
+    "exampleKo": "\"전혀\"(altogether)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "suddenly",
+    "meaning": "갑자기",
+    "example": "She spelled \"suddenly\" correctly on the test.",
+    "exampleKo": "시험에서 \"suddenly\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "mostly",
+    "meaning": "대개는",
+    "example": "We talked about \"mostly\" in our group.",
+    "exampleKo": "모둠 활동에서 \"대개는\"(mostly)에 대해 이야기했어요."
+  },
+  {
+    "word": "correctly",
+    "meaning": "정확히",
+    "example": "The teacher wrote \"correctly\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"correctly\"를 적어 주셨어요."
+  },
+  {
+    "word": "ahead",
+    "meaning": "앞으로, 앞에",
+    "example": "I heard \"ahead\" in an English song.",
+    "exampleKo": "영어 노래에서 \"ahead\"를 들었어요."
+  },
+  {
+    "word": "instead",
+    "meaning": "대신에",
+    "example": "This story uses the word \"instead\" many times.",
+    "exampleKo": "이 이야기에는 \"instead\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "quite",
+    "meaning": "아주, 매우",
+    "example": "I sometimes forget the word \"quite\".",
+    "exampleKo": "가끔 \"아주\"(quite)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "nearly",
+    "meaning": "거의",
+    "example": "He asked me to explain \"nearly\".",
+    "exampleKo": "친구가 \"nearly\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "badly",
+    "meaning": "나쁘게, 몹시",
+    "example": "My homework is to study \"badly\".",
+    "exampleKo": "숙제는 \"나쁘게\"(badly) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "almost",
+    "meaning": "거의",
+    "example": "I read an sentence with \"almost\" in it.",
+    "exampleKo": "\"almost\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "exactly",
+    "meaning": "정확히",
+    "example": "Everyone in class knew the word \"exactly\".",
+    "exampleKo": "반 친구들은 모두 \"exactly\"를 알고 있었어요."
+  },
+  {
+    "word": "apart",
+    "meaning": "떨어져서, 따로",
+    "example": "I looked up \"apart\" in the dictionary.",
+    "exampleKo": "사전에서 \"떨어져서\"(apart)를 찾아봤어요."
+  },
+  {
+    "word": "afterward",
+    "meaning": "후에, 나중에",
+    "example": "Let us practice saying \"afterward\" aloud.",
+    "exampleKo": "\"afterward\"를 큰 소리로 따라 읽어 봅시다."
+  },
+  {
+    "word": "later",
+    "meaning": "후에, 나중에",
+    "example": "The word \"later\" was on our quiz today.",
+    "exampleKo": "오늘 쪽지 시험에 \"later\"가 나왔어요."
+  },
+  {
+    "word": "maybe",
+    "meaning": "아마",
+    "example": "I used \"maybe\" when I spoke to my friend.",
+    "exampleKo": "친구와 영어로 말할 때 \"maybe\"를 써 봤어요."
+  },
+  {
+    "word": "perhaps",
+    "meaning": "아마",
+    "example": "What is the Korean meaning of \"perhaps\"?",
+    "exampleKo": "\"perhaps\"의 한국어 뜻이 뭐예요?"
+  },
+  {
+    "word": "probably",
+    "meaning": "아마",
+    "example": "I made a flashcard for the word \"probably\".",
+    "exampleKo": "\"아마\"(probably) 단어 카드를 만들었어요."
+  },
+  {
+    "word": "either",
+    "meaning": "\\~도 또한\\~하지 않다",
+    "example": "Our reading book has the word \"either\".",
+    "exampleKo": "읽기 교재에 \"either\"라는 단어가 있어요."
+  },
+  {
+    "word": "neigher",
+    "meaning": "\\~도 아니고\\~도 아니다",
+    "example": "I circled \"neigher\" in my notebook.",
+    "exampleKo": "공책에 \"neigher\"를 동그라미 쳤어요."
+  },
+  {
+    "word": "besides",
+    "meaning": "게다가, 그밖에",
+    "example": "The example sentence helped me learn \"besides\".",
+    "exampleKo": "예문 덕분에 \"게다가\"(besides)를 이해했어요."
+  },
+  {
+    "word": "anyway",
+    "meaning": "어쨌든, 아무튼",
+    "example": "I practice \"anyway\" every morning.",
+    "exampleKo": "매일 아침 \"anyway\"를 연습해요."
+  },
+  {
+    "word": "sometime",
+    "meaning": "언젠가",
+    "example": "My sister asked me about the word \"sometime\".",
+    "exampleKo": "여동생이 \"sometime\"가 무엇인지 물어봤어요."
+  },
+  {
+    "word": "forward",
+    "meaning": "앞쪽에, 앞으로",
+    "example": "I copied \"forward\" into my vocabulary list.",
+    "exampleKo": "단어장에 \"앞쪽에\"(forward)를 적었어요."
+  },
+  {
+    "word": "since",
+    "meaning": "그 후, 그이래",
+    "example": "The picture shows what \"since\" means.",
+    "exampleKo": "그림을 보면 \"since\"가 무엇인지 알 수 있어요."
+  },
+  {
+    "word": "once",
+    "meaning": "한번, 한때",
+    "example": "I met \"once\" again in another lesson.",
+    "exampleKo": "다른 단원에서 \"once\"를 또 만났어요."
+  },
+  {
+    "word": "twice",
+    "meaning": "두 번",
+    "example": "Please repeat the word \"twice\" after me.",
+    "exampleKo": "제 뒤를 이어 \"twice\"라고 말해 보세요."
+  },
+  {
+    "word": "indeed",
+    "meaning": "참으로",
+    "example": "I felt proud when I knew \"indeed\".",
+    "exampleKo": "\"참으로\"(indeed)를 알아서 뿌듯했어요."
+  },
+  {
+    "word": "seldom",
+    "meaning": "좀처럼 \\~하지 않다",
+    "example": "I found the word \"seldom\" in my textbook.",
+    "exampleKo": "교과서에서 \"좀처럼 \\~하지 않다\"(seldom)라는 단어를 찾았어요."
+  },
+  {
+    "word": "upside down",
+    "meaning": "거꾸로",
+    "example": "Can you tell me what \"upside down\" means?",
+    "exampleKo": "\"upside down\"가 무슨 뜻인지 알려 줄 수 있어요?"
+  },
+  {
+    "word": "whether",
+    "meaning": "\\~인지 어떤지",
+    "example": "Please write a sentence with \"whether\".",
+    "exampleKo": "\"whether\"를 사용해서 문장을 써 보세요."
+  },
+  {
+    "word": "unless",
+    "meaning": "\\~하지 않으면",
+    "example": "I want to remember the word \"unless\".",
+    "exampleKo": "\"\\~하지 않으면\"(unless)라는 단어를 기억하고 싶어요."
+  },
+  {
+    "word": "though",
+    "meaning": "비록 \\~일지라도",
+    "example": "She spelled \"though\" correctly on the test.",
+    "exampleKo": "시험에서 \"though\"를 철자 맞게 썼어요."
+  },
+  {
+    "word": "while",
+    "meaning": "\\~하는 동안",
+    "example": "We talked about \"while\" in our group.",
+    "exampleKo": "모둠 활동에서 \"\\~하는 동안\"(while)에 대해 이야기했어요."
+  },
+  {
+    "word": "usually",
+    "meaning": "보통, 대개",
+    "example": "The teacher wrote \"usually\" on the board.",
+    "exampleKo": "선생님이 칠판에 \"usually\"를 적어 주셨어요."
+  },
+  {
+    "word": "safely",
+    "meaning": "안전하게",
+    "example": "I heard \"safely\" in an English song.",
+    "exampleKo": "영어 노래에서 \"safely\"를 들었어요."
+  },
+  {
+    "word": "along",
+    "meaning": "\\~을 따라서",
+    "example": "This story uses the word \"along\" many times.",
+    "exampleKo": "이 이야기에는 \"along\"라는 단어가 여러 번 나와요."
+  },
+  {
+    "word": "without",
+    "meaning": "\\~없이",
+    "example": "I sometimes forget the word \"without\".",
+    "exampleKo": "가끔 \"\\~없이\"(without)라는 단어를 잊어버려요."
+  },
+  {
+    "word": "behind",
+    "meaning": "\\~의 뒤에",
+    "example": "He asked me to explain \"behind\".",
+    "exampleKo": "친구가 \"behind\"의 뜻을 설명해 달라고 했어요."
+  },
+  {
+    "word": "beyond",
+    "meaning": "\\~의 저쪽에, \\~이상으로",
+    "example": "My homework is to study \"beyond\".",
+    "exampleKo": "숙제는 \"\\~의 저쪽에\"(beyond) 단어를 공부하는 거예요."
+  },
+  {
+    "word": "below",
+    "meaning": "\\~의 아래에",
+    "example": "I read a sentence with \"below\" in it.",
+    "exampleKo": "\"below\"가 들어 있는 문장을 읽었어요."
+  },
+  {
+    "word": "toward",
+    "meaning": "\\~쪽으로",
+    "example": "Everyone in class knew the word \"toward\".",
+    "exampleKo": "반 친구들은 모두 \"toward\"를 알고 있었어요."
+  }
+]
