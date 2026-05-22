@@ -1,5 +1,8 @@
 node_modules
 dist
+__pycache__
+*.pyc
+scripts/build_log.txt
 .DS_Store
 *.local
 .idea
