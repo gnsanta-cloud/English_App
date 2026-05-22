@@ -958,6 +958,20 @@ html.standalone .app-header {
   font-size: 2rem;
 }
 
+.quiz-mode-only-ko-en {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--primary);
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #eef2ff;
+}
+
+.quiz-mode-card-subjective span:last-child {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
 .quiz-mode-label {
   display: inline-block;
   margin-right: 8px;

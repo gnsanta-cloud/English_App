@@ -41,6 +41,7 @@ function directionLabel(direction: QuizDirection): string {
 export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer }: QuizTabProps) {
   const [phase, setPhase] = useState<'select' | 'playing' | 'finished'>('select');
   const [direction, setDirection] = useState<QuizDirection>('en-ko');
+  const [playDirection, setPlayDirection] = useState<QuizDirection>('en-ko');
   const [mode, setMode] = useState<QuizMode | null>(null);
   const [questions, setQuestions] = useState<Word[]>([]);
   const [current, setCurrent] = useState(0);
@@ -65,6 +66,8 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
   const startQuiz = (quizMode: QuizMode) => {
     const pool = words.length > 0 ? words : allWords;
     const q = shuffle(pool).slice(0, Math.min(QUIZ_SIZE, pool.length));
+    const quizDir: QuizDirection = quizMode === 'subjective' ? 'ko-en' : direction;
+    setPlayDirection(quizDir);
     setMode(quizMode);
     setQuestions(q);
     setCurrent(0);
@@ -90,13 +93,13 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
 
   const options = useMemo(() => {
     if (!currentWord || mode !== 'multiple') return [];
-    const pick = (w: Word) => (direction === 'en-ko' ? w.meaning : w.word);
+    const pick = (w: Word) => (playDirection === 'en-ko' ? w.meaning : w.word);
     const correct = pick(currentWord);
     const wrong = shuffle(allWords.filter((w) => w.id !== currentWord.id))
       .slice(0, 3)
       .map(pick);
     return shuffle([correct, ...wrong]);
-  }, [currentWord, allWords, mode, direction]);
+  }, [currentWord, allWords, mode, playDirection]);
 
   if (phase === 'select') {
     const poolSize = words.length > 0 ? words.length : allWords.length;
@@ -111,8 +114,8 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
           <p>최대 {Math.min(QUIZ_SIZE, poolSize)}문제 · 틀린 단어는 나의 단어장에 저장</p>
 
           <div className="quiz-direction-section">
-            <p className="quiz-direction-label">출제 방향</p>
-            <div className="quiz-direction-toggle" role="group" aria-label="출제 방향">
+            <p className="quiz-direction-label">객관식 출제 방향</p>
+            <div className="quiz-direction-toggle" role="group" aria-label="객관식 출제 방향">
               <button
                 type="button"
                 className={`quiz-direction-btn ${enKo ? 'active' : ''}`}
@@ -146,13 +149,14 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
             </button>
             <button
               type="button"
-              className="quiz-mode-card"
+              className="quiz-mode-card quiz-mode-card-subjective"
               onClick={() => startQuiz('subjective')}
               disabled={poolSize === 0}
             >
               <span className="quiz-mode-icon">✍️</span>
               <strong>주관식</strong>
-              <span>{enKo ? '뜻 직접 입력' : '영단어 직접 입력'}</span>
+              <span className="quiz-mode-only-ko-en">한→영 전용</span>
+              <span>한글 뜻 보고 영단어 입력</span>
             </button>
           </div>
         </div>
@@ -167,7 +171,7 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
         <div className="quiz-result">
           <h2>퀴즈 결과</h2>
           <p className="quiz-result-mode">
-            {directionLabel(direction)} · {mode === 'multiple' ? '객관식' : '주관식'}
+            {directionLabel(playDirection)} · {mode === 'multiple' ? '객관식' : '주관식'}
           </p>
           <p className="score-display">{score}점</p>
           {score >= 100 && <p className="celebration-text">참 잘했어요! 🎉</p>}
@@ -182,9 +186,9 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
   if (!currentWord || !mode) return null;
 
   const isLast = current + 1 >= questions.length;
-  const correctAnswer = getCorrectAnswer(currentWord, direction);
-  const promptText = getPromptText(currentWord, direction);
-  const enKo = direction === 'en-ko';
+  const correctAnswer = getCorrectAnswer(currentWord, playDirection);
+  const promptText = getPromptText(currentWord, playDirection);
+  const enKo = playDirection === 'en-ko';
 
   const checkAnswer = (answer: string) => {
     if (enKo) return isQuizAnswerCorrect(answer, correctAnswer);
@@ -228,7 +232,7 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
   return (
     <section className="quiz-tab">
       <div className="quiz-progress">
-        <span className="quiz-mode-label">{directionLabel(direction)}</span>
+        <span className="quiz-mode-label">{directionLabel(playDirection)}</span>
         <span className="quiz-mode-label">{mode === 'multiple' ? '객관식' : '주관식'}</span>
         {current + 1} / {questions.length} · {score}점
       </div>
@@ -239,9 +243,7 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
             ? enKo
               ? '뜻을 고르세요'
               : '영어 단어를 고르세요'
-            : enKo
-              ? '뜻을 입력하세요'
-              : '영어 단어를 입력하세요'}
+            : '영어 단어를 입력하세요'}
         </p>
 
         {mode === 'multiple' && (
@@ -272,13 +274,13 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
             <input
               type="text"
               className="quiz-text-input"
-              placeholder={enKo ? '한글 뜻 입력' : '영어 단어 입력'}
+              placeholder="영어 단어 입력"
               value={textAnswer}
               onChange={(e) => setTextAnswer(e.target.value)}
               disabled={submitted}
               onKeyDown={(e) => e.key === 'Enter' && handleSubjectiveSubmit()}
               enterKeyHint="done"
-              autoCapitalize={enKo ? 'off' : 'none'}
+              autoCapitalize="none"
               autoCorrect="off"
             />
             {!submitted && (
