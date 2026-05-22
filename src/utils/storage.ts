@@ -13,6 +13,7 @@ const KEYS = {
   currentDay: 'current_day',
   dayIndex: 'day_index',
   completedDays: 'completed_days',
+  dayStudied: 'day_studied',
   myVocab: 'my_vocabulary',
   notifyEnabled: 'notify_enabled',
   notifyHour: 'notify_hour',
@@ -95,6 +96,40 @@ export async function loadCompletedDays(level: LearningLevel): Promise<number[]>
 export async function saveCompletedDays(level: LearningLevel, days: number[]): Promise<void> {
   const unique = [...new Set(days)].sort((a, b) => a - b);
   await Preferences.set({ key: completedDaysKey(level), value: JSON.stringify(unique) });
+}
+
+function dayStudiedKey(level: LearningLevel) {
+  return `${KEYS.dayStudied}_${level}`;
+}
+
+/** 일차별 학습한 단어 수 (1~30) */
+export async function loadDayStudiedCounts(level: LearningLevel): Promise<Record<number, number>> {
+  const { value } = await Preferences.get({ key: dayStudiedKey(level) });
+  if (!value) return {};
+  try {
+    const parsed = JSON.parse(value) as Record<string, number>;
+    const out: Record<number, number> = {};
+    for (const [k, v] of Object.entries(parsed)) {
+      const day = parseInt(k, 10);
+      if (Number.isFinite(day) && day >= 1 && Number.isFinite(v) && v >= 0) {
+        out[day] = v;
+      }
+    }
+    return out;
+  } catch {
+    return {};
+  }
+}
+
+export async function saveDayStudiedCounts(
+  level: LearningLevel,
+  counts: Record<number, number>,
+): Promise<void> {
+  const serial: Record<string, number> = {};
+  for (const [k, v] of Object.entries(counts)) {
+    serial[String(k)] = v;
+  }
+  await Preferences.set({ key: dayStudiedKey(level), value: JSON.stringify(serial) });
 }
 
 export async function loadMyVocabulary(): Promise<string[]> {

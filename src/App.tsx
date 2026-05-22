@@ -48,6 +48,7 @@ export default function App() {
     savedWords,
     selectDay,
     firstIncompleteDay,
+    getDayProgress,
     goNext,
     goPrevious,
     canGoBackCard,
@@ -125,9 +126,10 @@ export default function App() {
             currentDay={currentDay}
             completedDays={completedDays}
             firstIncompleteDay={firstIncompleteDay}
-            onSelectTopic={handleSelectTopic}
+            getDayProgress={getDayProgress}
             onSelectDay={selectDay}
             onStartLearning={() => setTab('learn')}
+            onOpenSettings={() => setTab('settings')}
           />
         )}
 
@@ -163,7 +165,13 @@ export default function App() {
           <MyWordsTab savedWords={savedWords} onRemove={removeFromMyVocabulary} />
         )}
 
-        {tab === 'settings' && <SettingsTab level={level} onGoHome={() => setTab('home')} />}
+        {tab === 'settings' && (
+          <SettingsTab
+            level={level}
+            wordCount={words.length}
+            onSelectTopic={handleSelectTopic}
+          />
+        )}
       </main>
 
       <TabNav active={tab} onChange={setTab} />

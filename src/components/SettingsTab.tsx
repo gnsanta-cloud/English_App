@@ -6,20 +6,20 @@ import {
   isNativeApp,
 } from '../utils/localNotifications';
 import { loadNotificationSettings, type NotificationSettings } from '../utils/storage';
-import { getTopicInfo } from '../utils/topics';
+import { TOPICS } from '../utils/topics';
 import { getLevelLabel } from '../utils/words';
 
 interface SettingsTabProps {
   level: LearningLevel;
-  onGoHome: () => void;
+  wordCount: number;
+  onSelectTopic: (level: LearningLevel) => void;
 }
 
 function toTimeValue(hour: number, minute: number) {
   return `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
 }
 
-export function SettingsTab({ level, onGoHome }: SettingsTabProps) {
-  const topic = getTopicInfo(level);
+export function SettingsTab({ level, wordCount, onSelectTopic }: SettingsTabProps) {
   const [notify, setNotify] = useState<NotificationSettings>(DEFAULT_NOTIFICATION_SETTINGS);
   const [notifyMsg, setNotifyMsg] = useState<string | null>(null);
   const [notifyBusy, setNotifyBusy] = useState(false);
@@ -64,13 +64,31 @@ export function SettingsTab({ level, onGoHome }: SettingsTabProps) {
     <section className="settings-tab">
       <h2>설정</h2>
 
-      <div className="settings-topic-card" style={{ borderColor: topic.accent }}>
-        <span className="settings-topic-icon">{topic.icon}</span>
-        <div>
-          <p className="settings-topic-title">현재 학습 주제</p>
-          <p className="settings-topic-name">{getLevelLabel(level)}</p>
-          <p className="settings-desc">{topic.subtitle}</p>
+      <div className="settings-section-block">
+        <h3 className="settings-section-title">학습 주제</h3>
+        <p className="settings-desc">중학·고등·일상·여행 대화 중 선택하세요.</p>
+        <div className="settings-topic-grid">
+          {TOPICS.map((t) => {
+            const selected = level === t.id;
+            return (
+              <button
+                key={t.id}
+                type="button"
+                className={`settings-topic-pick ${selected ? 'selected' : ''}`}
+                style={{ '--topic-accent': t.accent } as React.CSSProperties}
+                onClick={() => void onSelectTopic(t.id)}
+              >
+                <span className="settings-topic-pick-icon">{t.icon}</span>
+                <span className="settings-topic-pick-title">{t.title}</span>
+                <span className="settings-topic-pick-sub">{t.subtitle}</span>
+                {selected && <span className="settings-topic-pick-check">선택됨</span>}
+              </button>
+            );
+          })}
         </div>
+        <p className="settings-topic-current">
+          현재: <strong>{getLevelLabel(level)}</strong> ({wordCount}단어)
+        </p>
       </div>
 
       <div className="settings-notify-card">
@@ -107,10 +125,6 @@ export function SettingsTab({ level, onGoHome }: SettingsTabProps) {
         )}
         {notifyMsg && <p className="settings-notify-error">{notifyMsg}</p>}
       </div>
-
-      <button type="button" className="primary-btn settings-home-btn" onClick={onGoHome}>
-        🏠 홈에서 주제 변경하기
-      </button>
 
       <div className="settings-info">
         <h3>스와이프 안내</h3>

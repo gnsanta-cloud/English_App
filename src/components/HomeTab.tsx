@@ -1,6 +1,6 @@
 import type { LearningLevel } from '../types';
-import { WORDS_PER_DAY, getDayStatus } from '../utils/dailyPlan';
-import { TOPICS, getTopicInfo } from '../utils/topics';
+import { getDayStatus } from '../utils/dailyPlan';
+import { getTopicInfo } from '../utils/topics';
 import { getLevelLabel } from '../utils/words';
 
 interface HomeTabProps {
@@ -10,9 +10,10 @@ interface HomeTabProps {
   currentDay: number;
   completedDays: number[];
   firstIncompleteDay: number;
-  onSelectTopic: (level: LearningLevel) => void;
+  getDayProgress: (day: number) => { studied: number; total: number };
   onSelectDay: (day: number) => void;
   onStartLearning: () => void;
+  onOpenSettings: () => void;
 }
 
 export function HomeTab({
@@ -22,9 +23,10 @@ export function HomeTab({
   currentDay,
   completedDays,
   firstIncompleteDay,
-  onSelectTopic,
+  getDayProgress,
   onSelectDay,
   onStartLearning,
+  onOpenSettings,
 }: HomeTabProps) {
   const current = getTopicInfo(level);
   const completedCount = completedDays.length;
@@ -37,12 +39,12 @@ export function HomeTab({
   return (
     <section className="home-tab">
       <div className="home-hero">
-        <h2>오늘의 학습 주제</h2>
-        <p>하루 {30}단어 · 일차별 학습 · 퀴즈(객관식/주관식)</p>
+        <h2>학습 홈</h2>
+        <p>하루 30단어 · 일차별 학습 · 퀴즈(객관식/주관식)</p>
       </div>
 
       <div className="home-current">
-        <span className="home-current-label">현재 선택</span>
+        <span className="home-current-label">현재 주제</span>
         <div className="home-current-card" style={{ borderColor: current.accent }}>
           <span className="home-topic-icon">{current.icon}</span>
           <div>
@@ -52,6 +54,9 @@ export function HomeTab({
             </span>
           </div>
         </div>
+        <button type="button" className="home-settings-link" onClick={onOpenSettings}>
+          ⚙️ 설정에서 주제 변경
+        </button>
       </div>
 
       <div className="home-progress-section">
@@ -65,10 +70,7 @@ export function HomeTab({
           {Array.from({ length: totalDays }, (_, i) => {
             const day = i + 1;
             const status = getDayStatus(day, completedDays, currentDay);
-            const actualCount = Math.min(
-              WORDS_PER_DAY,
-              Math.max(0, wordCount - (day - 1) * WORDS_PER_DAY),
-            );
+            const { studied, total } = getDayProgress(day);
 
             return (
               <li key={day}>
@@ -82,11 +84,13 @@ export function HomeTab({
                   }}
                 >
                   <span className="home-day-num">{day}일차</span>
-                  <span className="home-day-meta">{actualCount}단어</span>
+                  <span className="home-day-meta">
+                    {studied}/{total}
+                  </span>
                   <span className="home-day-badge">
                     {status === 'completed' && '완료'}
                     {status === 'current' && '학습 중'}
-                    {status === 'available' && '시작'}
+                    {status === 'available' && studied > 0 ? '이어하기' : '시작'}
                     {status === 'locked' && '잠금'}
                   </span>
                 </button>
@@ -94,26 +98,6 @@ export function HomeTab({
             );
           })}
         </ul>
-      </div>
-
-      <div className="home-topic-grid">
-        {TOPICS.map((topic) => {
-          const selected = level === topic.id;
-          return (
-            <button
-              key={topic.id}
-              type="button"
-              className={`home-topic-card ${selected ? 'selected' : ''}`}
-              style={{ '--topic-accent': topic.accent } as React.CSSProperties}
-              onClick={() => onSelectTopic(topic.id)}
-            >
-              <span className="home-topic-icon">{topic.icon}</span>
-              <span className="home-topic-title">{topic.title}</span>
-              <span className="home-topic-sub">{topic.subtitle}</span>
-              {selected && <span className="home-topic-check">선택됨</span>}
-            </button>
-          );
-        })}
       </div>
 
       <button type="button" className="primary-btn home-start-btn" onClick={handleStart}>
