@@ -1323,6 +1323,17 @@ html.standalone .app-header {
   user-select: text;
 }
 
+.video-notice {
+  flex-shrink: 0;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #fffbeb;
+  color: #92400e;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  user-select: text;
+}
+
 .video-player-wrap {
   position: relative;
   flex-shrink: 0;
