@@ -8,7 +8,6 @@ interface TabNavProps {
 const TABS: { id: TabId; label: string; icon: string }[] = [
   { id: 'home', label: '홈', icon: '🏠' },
   { id: 'learn', label: '학습', icon: '📖' },
-  { id: 'video', label: '영상', icon: '🎬' },
   { id: 'quiz', label: '퀴즈', icon: '✏️' },
   { id: 'conversation', label: 'AI', icon: '🤖' },
   { id: 'mywords', label: '단어', icon: '📚' },

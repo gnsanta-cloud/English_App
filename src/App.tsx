@@ -23,19 +23,13 @@ import { AvatarChatTab } from './components/AvatarChatTab';
 import { MyWordsTab } from './components/MyWordsTab';
 
 import { SettingsTab } from './components/SettingsTab';
-import { VideoLearnTab } from './components/VideoLearnTab';
 import { AppSplash } from './components/AppSplash';
-import { fetchCaptionFriendlyVideos } from './utils/videoRecommendations';
-import type { YoutubeVideoItem } from './utils/youtubeSearch';
 
 
 
 export default function App() {
 
   const [tab, setTab] = useState<TabId>('home');
-  const [recommendedVideos, setRecommendedVideos] = useState<YoutubeVideoItem[]>([]);
-  const [videoListLoading, setVideoListLoading] = useState(false);
-  const [videoListError, setVideoListError] = useState<string | null>(null);
 
   const {
 
@@ -55,13 +49,9 @@ export default function App() {
 
     addToMyVocabulary,
 
-    removeFromSavedWords,
-
-    saveVideoWords,
+    removeFromMyVocabulary,
 
     savedWords,
-
-    customVocabulary,
 
     goNext,
 
@@ -122,26 +112,7 @@ export default function App() {
 
   }, [handleSystemBack]);
 
-  useEffect(() => {
-    if (!ready) return;
-    let cancelled = false;
-    setVideoListLoading(true);
-    setVideoListError(null);
-    setRecommendedVideos([]);
-    void fetchCaptionFriendlyVideos(10)
-      .then((videos) => {
-        if (!cancelled) setRecommendedVideos(videos);
-      })
-      .catch(() => {
-        if (!cancelled) setVideoListError('추천 영상 목록을 불러오지 못했습니다. 네트워크를 확인해 주세요.');
-      })
-      .finally(() => {
-        if (!cancelled) setVideoListLoading(false);
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, [ready]);
+
 
   if (!ready) {
 
@@ -169,9 +140,7 @@ export default function App() {
 
       <header className="app-header">
 
-        <h1>
-          {tab === 'home' ? '영어 학습 홈' : tab === 'video' ? '영상 학습' : getLevelLabel(level)}
-        </h1>
+        <h1>{tab === 'home' ? '영어 학습 홈' : getLevelLabel(level)}</h1>
 
       </header>
 
@@ -219,17 +188,6 @@ export default function App() {
 
         )}
 
-        {tab === 'video' && (
-          <VideoLearnTab
-            savedWordIds={myVocabulary}
-            customWords={customVocabulary}
-            onSaveVideoWords={saveVideoWords}
-            recommendedVideos={recommendedVideos}
-            listLoading={videoListLoading}
-            listError={videoListError}
-          />
-        )}
-
         {tab === 'quiz' && (
 
           <QuizTab words={words} topicLabel={getLevelLabel(level)} onWrongAnswer={addToMyVocabulary} />
@@ -240,7 +198,7 @@ export default function App() {
 
         {tab === 'mywords' && (
 
-          <MyWordsTab savedWords={savedWords} onRemove={removeFromSavedWords} />
+          <MyWordsTab savedWords={savedWords} onRemove={removeFromMyVocabulary} />
 
         )}
 
@@ -261,5 +219,4 @@ export default function App() {
   );
 
 }
-
 

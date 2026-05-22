@@ -1,11 +1,10 @@
 import { Preferences } from '@capacitor/preferences';
-import type { LearningLevel, Word } from '../types';
+import type { LearningLevel } from '../types';
 
 const KEYS = {
   level: 'learning_level',
   index: 'current_index',
   myVocab: 'my_vocabulary',
-  customVocab: 'custom_vocabulary',
 } as const;
 
 export async function loadLevel(): Promise<LearningLevel> {
@@ -43,19 +42,4 @@ export async function loadMyVocabulary(): Promise<string[]> {
 
 export async function saveMyVocabulary(ids: string[]): Promise<void> {
   await Preferences.set({ key: KEYS.myVocab, value: JSON.stringify(ids) });
-}
-
-export async function loadCustomVocabulary(): Promise<Word[]> {
-  const { value } = await Preferences.get({ key: KEYS.customVocab });
-  if (!value) return [];
-  try {
-    const parsed = JSON.parse(value) as Word[];
-    return Array.isArray(parsed) ? parsed : [];
-  } catch {
-    return [];
-  }
-}
-
-export async function saveCustomVocabulary(words: Word[]): Promise<void> {
-  await Preferences.set({ key: KEYS.customVocab, value: JSON.stringify(words) });
 }

@@ -7,8 +7,6 @@ export interface Word {
   example: string;
   exampleKo: string;
   level: LearningLevel;
-  /** 영상 자막에서 추출한 단어 */
-  fromVideo?: boolean;
 }
 
 export interface ChatMessage {
@@ -25,12 +23,4 @@ export interface AppState {
   quizScore: number | null;
 }
 
-export type TabId = 'home' | 'learn' | 'video' | 'quiz' | 'conversation' | 'mywords' | 'settings';
-
-export interface VideoCaptionLine {
-  id: string;
-  start: number;
-  duration: number;
-  text: string;
-  textKo: string;
-}
+export type TabId = 'home' | 'learn' | 'quiz' | 'conversation' | 'mywords' | 'settings';
