@@ -1,0 +1,112 @@
+import type { VideoCaptionLine } from '../types';
+
+const INNERTUBE_KEY = 'AIzaSyAO_FJ2SlqU8Q4STEHL6lNFOKAs_AhrUe8';
+
+interface CaptionTrack {
+  baseUrl: string;
+  languageCode: string;
+  kind?: string;
+}
+
+interface Json3Event {
+  tStartMs?: number;
+  dDurationMs?: number;
+  segs?: { utf8?: string }[];
+}
+
+function pickCaptionTrack(tracks: CaptionTrack[]): CaptionTrack | null {
+  const manualEn = tracks.find((t) => t.kind !== 'asr' && t.languageCode.startsWith('en'));
+  if (manualEn) return manualEn;
+  const anyEn = tracks.find((t) => t.languageCode.startsWith('en'));
+  if (anyEn) return anyEn;
+  return tracks[0] ?? null;
+}
+
+async function fetchCaptionTracks(videoId: string): Promise<CaptionTrack[]> {
+  const res = await fetch(
+    `https://www.youtube.com/youtubei/v1/player?key=${INNERTUBE_KEY}&prettyPrint=false`,
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        context: {
+          client: { clientName: 'ANDROID', clientVersion: '19.09.37', hl: 'en', gl: 'US' },
+        },
+        videoId,
+      }),
+    },
+  );
+
+  if (!res.ok) throw new Error('영상 정보를 불러오지 못했습니다.');
+
+  const data = (await res.json()) as {
+    captions?: {
+      playerCaptionsTracklistRenderer?: {
+        captionTracks?: CaptionTrack[];
+      };
+    };
+  };
+
+  return data.captions?.playerCaptionsTracklistRenderer?.captionTracks ?? [];
+}
+
+function parseJson3Captions(json: { events?: Json3Event[] }): Omit<VideoCaptionLine, 'id' | 'textKo'>[] {
+  const raw: { start: number; end: number; text: string }[] = [];
+
+  for (const ev of json.events ?? []) {
+    const text = (ev.segs ?? []).map((s) => s.utf8 ?? '').join('').replace(/\n/g, ' ').trim();
+    if (!text) continue;
+    const start = (ev.tStartMs ?? 0) / 1000;
+    const end = start + (ev.dDurationMs ?? 0) / 1000;
+    raw.push({ start, end, text });
+  }
+
+  if (raw.length === 0) return [];
+
+  const merged: { start: number; end: number; text: string }[] = [];
+  let cur = { ...raw[0] };
+
+  for (let i = 1; i < raw.length; i++) {
+    const next = raw[i];
+    if (next.start - cur.end < 0.6 && cur.text.length + next.text.length < 120) {
+      cur.text = `${cur.text} ${next.text}`.trim();
+      cur.end = next.end;
+    } else {
+      merged.push(cur);
+      cur = { ...next };
+    }
+  }
+  merged.push(cur);
+
+  return merged.map((m) => ({
+    start: m.start,
+    duration: Math.max(0.3, m.end - m.start),
+    text: m.text,
+  }));
+}
+
+async function downloadCaptionJson(track: CaptionTrack): Promise<{ events?: Json3Event[] }> {
+  const url = track.baseUrl.includes('fmt=')
+    ? track.baseUrl
+    : `${track.baseUrl}&fmt=json3`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error('자막 파일을 불러오지 못했습니다.');
+  return res.json() as Promise<{ events?: Json3Event[] }>;
+}
+
+export async function fetchYoutubeCaptions(
+  videoId: string,
+): Promise<Pick<VideoCaptionLine, 'start' | 'duration' | 'text'>[]> {
+  const tracks = await fetchCaptionTracks(videoId);
+  if (tracks.length === 0) {
+    throw new Error('이 영상에는 사용 가능한 자막이 없습니다. (YouTube 자막 켜진 영상만 지원)');
+  }
+
+  const track = pickCaptionTrack(tracks);
+  if (!track) throw new Error('자막 트랙을 찾지 못했습니다.');
+
+  const json = await downloadCaptionJson(track);
+  const lines = parseJson3Captions(json);
+  if (lines.length === 0) throw new Error('자막 내용이 비어 있습니다.');
+  return lines;
+}

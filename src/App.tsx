@@ -23,6 +23,7 @@ import { AvatarChatTab } from './components/AvatarChatTab';
 import { MyWordsTab } from './components/MyWordsTab';
 
 import { SettingsTab } from './components/SettingsTab';
+import { VideoLearnTab } from './components/VideoLearnTab';
 import { AppSplash } from './components/AppSplash';
 
 
@@ -140,7 +141,9 @@ export default function App() {
 
       <header className="app-header">
 
-        <h1>{tab === 'home' ? '영어 학습 홈' : getLevelLabel(level)}</h1>
+        <h1>
+          {tab === 'home' ? '영어 학습 홈' : tab === 'video' ? '영상 학습' : getLevelLabel(level)}
+        </h1>
 
       </header>
 
@@ -187,6 +190,8 @@ export default function App() {
           />
 
         )}
+
+        {tab === 'video' && <VideoLearnTab />}
 
         {tab === 'quiz' && (
 

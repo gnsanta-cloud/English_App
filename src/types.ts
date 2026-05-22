@@ -23,4 +23,12 @@ export interface AppState {
   quizScore: number | null;
 }
 
-export type TabId = 'home' | 'learn' | 'quiz' | 'conversation' | 'mywords' | 'settings';
+export type TabId = 'home' | 'learn' | 'video' | 'quiz' | 'conversation' | 'mywords' | 'settings';
+
+export interface VideoCaptionLine {
+  id: string;
+  start: number;
+  duration: number;
+  text: string;
+  textKo: string;
+}
