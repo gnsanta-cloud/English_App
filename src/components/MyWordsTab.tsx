@@ -11,7 +11,9 @@ export function MyWordsTab({ savedWords, onRemove }: MyWordsTabProps) {
     return (
       <section className="mywords-tab">
         <h2>나의 단어장</h2>
-        <p className="empty-hint">위로 스와이프하거나 퀴즈에서 틀린 단어가 여기에 저장됩니다.</p>
+        <p className="empty-hint">
+          카드 스와이프, 퀴즈 오답, 영상 학습의 주요 단어가 여기에 저장됩니다.
+        </p>
       </section>
     );
   }
@@ -23,7 +25,10 @@ export function MyWordsTab({ savedWords, onRemove }: MyWordsTabProps) {
         {savedWords.map((w) => (
           <li key={w.id} className="myword-item">
             <div className="myword-main">
-              <strong>{w.word}</strong>
+              <strong>
+                {w.word}
+                {w.fromVideo && <span className="myword-badge">영상</span>}
+              </strong>
               <span>{w.meaning}</span>
             </div>
             <div className="myword-actions">

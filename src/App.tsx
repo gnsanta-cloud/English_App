@@ -50,7 +50,13 @@ export default function App() {
 
     addToMyVocabulary,
 
-    removeFromMyVocabulary,
+    removeFromSavedWords,
+
+    saveVideoWords,
+
+    savedWords,
+
+    customVocabulary,
 
     goNext,
 
@@ -61,8 +67,6 @@ export default function App() {
   } = useAppState();
 
 
-
-  const savedWords = words.filter((w) => myVocabulary.includes(w.id));
 
   const isSaved = currentWord ? myVocabulary.includes(currentWord.id) : false;
 
@@ -191,7 +195,13 @@ export default function App() {
 
         )}
 
-        {tab === 'video' && <VideoLearnTab />}
+        {tab === 'video' && (
+          <VideoLearnTab
+            savedWordIds={myVocabulary}
+            customWords={customVocabulary}
+            onSaveVideoWords={saveVideoWords}
+          />
+        )}
 
         {tab === 'quiz' && (
 
@@ -203,7 +213,7 @@ export default function App() {
 
         {tab === 'mywords' && (
 
-          <MyWordsTab savedWords={savedWords} onRemove={removeFromMyVocabulary} />
+          <MyWordsTab savedWords={savedWords} onRemove={removeFromSavedWords} />
 
         )}
 

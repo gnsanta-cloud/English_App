@@ -48,6 +48,22 @@ export function getWordsByLevel(level: LearningLevel): Word[] {
   return wordBank?.[level] ?? [];
 }
 
+/** 전체 단어장에서 단어 검색 (영상 주요 단어 → 기존 단어장 매칭) */
+export function findWordInBank(term: string): Word | null {
+  if (!wordBank) return null;
+  const key = term.toLowerCase().trim();
+  for (const list of Object.values(wordBank)) {
+    const found = list.find((w) => w.word.toLowerCase() === key);
+    if (found) return found;
+  }
+  return null;
+}
+
+export function getAllBankWords(): Word[] {
+  if (!wordBank) return [];
+  return Object.values(wordBank).flat();
+}
+
 export function getLevelLabel(level: LearningLevel): string {
   const labels: Record<LearningLevel, string> = {
     middle: '중학 단어',

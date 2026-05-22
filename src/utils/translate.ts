@@ -81,6 +81,15 @@ export function translateLinesToKorean(
   return translateLines(lines, 'en|ko', onProgress);
 }
 
+/** 단어 하나 영→한 */
+export async function translateWordToKorean(word: string): Promise<string> {
+  try {
+    return await translateChunk(word, 'en|ko');
+  } catch {
+    return word;
+  }
+}
+
 /** 한국어 → 영어 */
 export function translateLinesToEnglish(
   lines: string[],

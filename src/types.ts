@@ -7,6 +7,8 @@ export interface Word {
   example: string;
   exampleKo: string;
   level: LearningLevel;
+  /** 영상 자막에서 추출한 단어 */
+  fromVideo?: boolean;
 }
 
 export interface ChatMessage {

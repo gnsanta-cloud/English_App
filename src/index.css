@@ -1402,9 +1402,116 @@ html.standalone .app-header {
   font-weight: 600;
 }
 
+.video-script-box {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.video-script-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.video-script-textarea {
+  width: 100%;
+  min-height: 120px;
+  max-height: 160px;
+  padding: 12px;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--text);
+  background: #fff;
+  resize: vertical;
+  user-select: text;
+}
+
+.video-keywords-panel {
+  flex-shrink: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #fafafa;
+}
+
+.video-keywords-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.video-keywords-head h3 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.video-save-words-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 10px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.video-save-words-btn:disabled {
+  opacity: 0.55;
+}
+
+.video-keyword-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.video-keyword-chip {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: var(--primary);
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.video-keyword-chip.saved {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.video-save-msg {
+  flex-shrink: 0;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #ecfdf5;
+  color: #166534;
+  font-size: 0.85rem;
+  user-select: text;
+}
+
+.myword-badge {
+  margin-left: 6px;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background: #fef3c7;
+  color: #92400e;
+  font-size: 0.65rem;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
 .video-script-panel {
   flex: 1;
-  min-height: 0;
+  min-height: 80px;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   border: 1px solid var(--border);
