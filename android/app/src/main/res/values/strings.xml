@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">영어 단어장</string>
-    <string name="title_activity_main">영어 단어장</string>
+    <string name="app_name">Julia Voca</string>
+    <string name="title_activity_main">Julia Voca</string>
     <string name="package_name">com.english.hybridapp</string>
     <string name="custom_url_scheme">com.english.hybridapp</string>
 </resources>

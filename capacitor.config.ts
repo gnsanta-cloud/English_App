@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.english.hybridapp',
-  appName: '영어 단어장',
+  appName: 'Julia Voca',
   webDir: 'dist',
   server: {
     androidScheme: 'https',

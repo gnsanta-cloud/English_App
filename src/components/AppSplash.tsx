@@ -15,7 +15,7 @@ export function AppSplash() {
   return (
     <div className="app-splash" role="presentation" aria-hidden="true">
       <img src="./icon.png" alt="" className="app-splash-icon" />
-      <p className="app-splash-title">영어 단어장</p>
+      <p className="app-splash-title">Julia Voca</p>
     </div>
   );
 }
