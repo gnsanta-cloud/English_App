@@ -12,7 +12,7 @@ export const TOPICS: TopicInfo[] = [
   {
     id: 'middle',
     title: '중학 단어',
-    subtitle: '중학교 기초 영단어 1000',
+    subtitle: '중학교 기초 영단어',
     icon: '📗',
     accent: '#4f46e5',
   },

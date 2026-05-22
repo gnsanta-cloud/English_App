@@ -34,10 +34,8 @@ jobs:
 
       - name: Prepare web assets
         run: |
-          if [ ! -f public/icon.png ]; then
-            pip install pillow
-            python scripts/create_icon.py
-          fi
+          pip install pillow
+          python scripts/create_icon.py
           cp -f assets/source-character.png public/avatar.png
 
       - name: Build web app

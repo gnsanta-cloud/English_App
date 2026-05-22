@@ -134,7 +134,7 @@ export function WordCard({ word, onSwipeLeft, onSwipeRight, onSwipeUp, saved }: 
             <div className="flip-face flip-front">
               {saved && <span className="saved-badge">저장됨</span>}
               <div className="flip-front-main">
-                <div className="card-header">
+                <div className="card-word-block">
                   <h2 className="word-text">{word.word}</h2>
                   <button
                     type="button"
@@ -144,12 +144,17 @@ export function WordCard({ word, onSwipeLeft, onSwipeRight, onSwipeUp, saved }: 
                     aria-label="원어민 발음 듣기"
                     disabled={speaking}
                   >
-                    <svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
                       <path
-                        fill="currentColor"
-                        d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11 5L6 9H3v6h3l5 4V5zm8.5 3.5a4.5 4.5 0 010 7M15 9.5a2.5 2.5 0 010 5"
                       />
                     </svg>
+                    <span className="speaker-label">발음</span>
                   </button>
                 </div>
               </div>
