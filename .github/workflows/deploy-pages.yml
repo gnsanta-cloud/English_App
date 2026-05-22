@@ -1,4 +1,4 @@
-# GitHub Pages: 웹 빌드 후 배포 (Mac 없이 iPhone Safari 홈 화면 추가용)
+# GitHub Pages: 웹 빌드 후 배포 (iPhone Safari 홈 화면 추가용)
 name: Deploy to GitHub Pages
 
 on:
@@ -11,9 +11,10 @@ permissions:
   pages: write
   id-token: write
 
+# 연속 push 시 이전 배포를 취소하지 않음 (취소 시 deploy 실패가 자주 발생)
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -31,16 +32,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Setup Python (앱 아이콘 생성)
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Install Pillow & generate icons
+      - name: Prepare web assets
         run: |
-          pip install pillow
-          python scripts/create_icon.py
-          cp assets/source-character.png public/avatar.png
+          if [ ! -f public/icon.png ]; then
+            pip install pillow
+            python scripts/create_icon.py
+          fi
+          cp -f assets/source-character.png public/avatar.png
 
       - name: Build web app
         run: npm run build
