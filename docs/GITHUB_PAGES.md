@@ -17,12 +17,19 @@ git remote add origin https://github.com/gnsanta-cloud/English_App.git
 git push -u origin main
 ```
 
-## 2. GitHub Pages 켜기
+## 2. GitHub Pages 켜기 (필수 — 안 하면 deploy 404 오류)
 
-1. 저장소 → **Settings** → **Pages**
-2. **Build and deployment**
-   - Source: **GitHub Actions** (Deploy to GitHub Pages 워크플로 사용)
-3. `main` 브랜치에 push하면 `.github/workflows/deploy-pages.yml` 이 자동 실행됩니다.
+Actions에서 `build`는 성공하는데 `deploy`가 **404 Not Found** 이면 이 단계가 빠진 것입니다.
+
+1. 브라우저에서 열기:  
+   **https://github.com/gnsanta-cloud/English_App/settings/pages**
+2. **Build and deployment** → **Source** 를 반드시 **GitHub Actions** 로 선택  
+   (❌ `Deploy from a branch` 가 아님)
+3. 저장 후 **Actions** 탭 → 실패한 **Deploy to GitHub Pages** → **Re-run failed jobs**
+
+> Private 저장소도 Pages 사용 가능합니다. 첫 설정 후 `github-pages` 환경이 자동 생성됩니다.
+
+`main` 브랜치에 push하면 `.github/workflows/deploy-pages.yml` 이 자동 실행됩니다.
 
 ## 3. 접속 URL
 
@@ -35,7 +42,15 @@ https://gnsanta-cloud.github.io/English_App/
 - Actions 탭에서 워크플로 ✅ 확인
 - Pages 설정에 표시된 URL 확인
 
-## 4. iPhone Safari — 홈 화면에 추가
+## 4. 문제 해결
+
+| 증상 | 해결 |
+|------|------|
+| deploy **404** / `Ensure GitHub Pages has been enabled` | 위 **2번** — Settings → Pages → Source: **GitHub Actions** |
+| build 실패 | Actions 로그에서 `npm ci` / `npm run build` 오류 확인 |
+| 사이트 404 | deploy job 성공 여부 확인 후 URL 대소문자 확인 |
+
+## 5. iPhone Safari — 홈 화면에 추가
 
 1. **Safari**로 위 URL 접속
 2. 로딩이 끝날 때까지 대기

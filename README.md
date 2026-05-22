@@ -31,7 +31,8 @@ npm run dev
 **별도 웹서버 없이** GitHub Actions가 빌드·배포합니다.
 
 1. 저장소를 GitHub에 push (`main` 브랜치)
-2. **Settings → Pages → Source: GitHub Actions**
+2. **Settings → Pages → Source: `GitHub Actions`** (필수, 안 하면 deploy 404)  
+   https://github.com/gnsanta-cloud/English_App/settings/pages
 3. 배포 URL: **https://gnsanta-cloud.github.io/English_App/**
 4. iPhone **Safari** → URL 접속 → **공유 → 홈 화면에 추가**
 
