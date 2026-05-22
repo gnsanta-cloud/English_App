@@ -1,0 +1,3 @@
+## Copy to local.properties (same folder). Android Studio needs this file.
+## Windows example — change username if different:
+sdk.dir=C\:\\Users\\hjroh75\\AppData\\Local\\Android\\Sdk

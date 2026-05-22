@@ -24,62 +24,43 @@ import { MyWordsTab } from './components/MyWordsTab';
 
 import { SettingsTab } from './components/SettingsTab';
 import { AppSplash } from './components/AppSplash';
-
-
+import { syncStudyReminderFromStorage } from './utils/localNotifications';
 
 export default function App() {
-
   const [tab, setTab] = useState<TabId>('home');
 
   const {
-
     ready,
-
     level,
-
     changeLevel,
-
     words,
-
-    currentIndex,
-
+    dayWords,
+    currentDay,
+    indexInDay,
+    totalDays,
+    completedDays,
+    dayJustCompleted,
+    clearDayJustCompleted,
     currentWord,
-
     myVocabulary,
-
     addToMyVocabulary,
-
     removeFromMyVocabulary,
-
     savedWords,
-
+    selectDay,
+    firstIncompleteDay,
     goNext,
-
     goPrevious,
-
     canGoBackCard,
-
   } = useAppState();
-
-
 
   const isSaved = currentWord ? myVocabulary.includes(currentWord.id) : false;
 
-
-
   const handleSelectTopic = useCallback(
-
     async (newLevel: LearningLevel) => {
-
       await changeLevel(newLevel);
-
     },
-
     [changeLevel],
-
   );
-
-
 
   const handleSystemBack = useCallback(() => {
     if (tab === 'home') {
@@ -96,127 +77,96 @@ export default function App() {
     return true;
   }, [tab, canGoBackCard, goPrevious]);
 
-
-
   useEffect(() => {
-
     installAndroidBackButton();
-
   }, []);
 
-
-
   useEffect(() => {
-
     setAndroidBackFallback(handleSystemBack);
-
   }, [handleSystemBack]);
 
-
+  useEffect(() => {
+    if (!ready) return;
+    void syncStudyReminderFromStorage();
+  }, [ready]);
 
   if (!ready) {
-
     return (
-
       <div className="app-loading">
-
         <div className="spinner" />
-
         <p>단어장 불러오는 중...</p>
-
       </div>
-
     );
-
   }
 
-
+  const headerTitle =
+    tab === 'home'
+      ? '영어 학습 홈'
+      : tab === 'learn'
+        ? `${getLevelLabel(level)} · ${currentDay}일차`
+        : tab === 'quiz'
+          ? `퀴즈 · ${currentDay}일차`
+          : getLevelLabel(level);
 
   return (
-
     <div className="app">
-
       <AppSplash />
 
       <header className="app-header">
-
-        <h1>{tab === 'home' ? '영어 학습 홈' : getLevelLabel(level)}</h1>
-
+        <h1>{headerTitle}</h1>
       </header>
 
-
-
       <main className="app-main">
-
         {tab === 'home' && (
-
           <HomeTab
-
             level={level}
-
             wordCount={words.length}
-
+            totalDays={totalDays}
+            currentDay={currentDay}
+            completedDays={completedDays}
+            firstIncompleteDay={firstIncompleteDay}
             onSelectTopic={handleSelectTopic}
-
+            onSelectDay={selectDay}
             onStartLearning={() => setTab('learn')}
-
           />
-
         )}
 
         {tab === 'learn' && (
-
           <LearnTab
-
             word={currentWord}
-
             levelLabel={getLevelLabel(level)}
-
-            index={currentIndex}
-
-            total={words.length}
-
+            dayNumber={currentDay}
+            indexInDay={indexInDay}
+            dayWordCount={dayWords.length}
             saved={isSaved}
-
+            dayJustCompleted={dayJustCompleted}
+            onDismissDayComplete={clearDayJustCompleted}
             onNext={goNext}
-
             onPrevious={goPrevious}
-
             onSave={() => currentWord && addToMyVocabulary(currentWord.id)}
-
           />
-
         )}
 
         {tab === 'quiz' && (
-
-          <QuizTab words={words} topicLabel={getLevelLabel(level)} onWrongAnswer={addToMyVocabulary} />
-
+          <QuizTab
+            words={dayWords}
+            allWords={words}
+            topicLabel={getLevelLabel(level)}
+            dayNumber={currentDay}
+            onWrongAnswer={addToMyVocabulary}
+          />
         )}
 
         {tab === 'conversation' && <AvatarChatTab level={level} />}
 
         {tab === 'mywords' && (
-
           <MyWordsTab savedWords={savedWords} onRemove={removeFromMyVocabulary} />
-
         )}
 
-        {tab === 'settings' && (
-
-          <SettingsTab level={level} onGoHome={() => setTab('home')} />
-
-        )}
-
+        {tab === 'settings' && <SettingsTab level={level} onGoHome={() => setTab('home')} />}
       </main>
 
-
-
       <TabNav active={tab} onChange={setTab} />
-
     </div>
-
   );
-
 }
-

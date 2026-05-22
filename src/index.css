@@ -207,8 +207,10 @@ html.standalone .app-header {
 
 .learn-header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  gap: 8px;
   margin-bottom: 12px;
 }
 
@@ -563,6 +565,147 @@ html.standalone .app-header {
   width: 100%;
 }
 
+.home-progress-section {
+  margin-bottom: 16px;
+}
+
+.home-progress-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.home-progress-head h3 {
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.home-progress-summary {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.home-day-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.home-day-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+  cursor: pointer;
+  text-align: left;
+}
+
+.home-day-item:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.home-day-item.completed {
+  border-color: #86efac;
+  background: #f0fdf4;
+}
+
+.home-day-item.current {
+  border-color: var(--primary);
+  background: #f5f3ff;
+}
+
+.home-day-item.available:hover:not(:disabled) {
+  border-color: var(--primary);
+}
+
+.home-day-num {
+  font-weight: 700;
+  font-size: 0.92rem;
+  min-width: 52px;
+}
+
+.home-day-meta {
+  flex: 1;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.home-day-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #f1f5f9;
+  color: var(--text-muted);
+}
+
+.home-day-item.completed .home-day-badge {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.home-day-item.current .home-day-badge {
+  background: #eef2ff;
+  color: var(--primary);
+}
+
+.learn-day-chip {
+  background: #eef2ff;
+  color: var(--primary);
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.learn-day-complete-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ecfdf5, #d1fae5);
+  border: 1px solid #86efac;
+}
+
+.learn-day-complete-banner p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.learn-day-complete-btn {
+  flex-shrink: 0;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #166534;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.learn-last-hint {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin: 0 0 8px;
+}
+
 .quiz-topic-badge {
   display: inline-block;
   background: #eef2ff;
@@ -648,6 +791,94 @@ html.standalone .app-header {
   font-weight: 600;
   cursor: pointer;
   box-shadow: 0 4px 16px rgba(79, 70, 229, 0.35);
+}
+
+.quiz-mode-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 16px;
+  width: 100%;
+  max-width: 360px;
+}
+
+.quiz-mode-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 20px 12px;
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  background: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+
+.quiz-mode-card:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.quiz-mode-card strong {
+  font-size: 1rem;
+}
+
+.quiz-mode-card span:last-child {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.quiz-mode-icon {
+  font-size: 2rem;
+}
+
+.quiz-mode-label {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: #eef2ff;
+  color: var(--primary);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.quiz-result-mode {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.quiz-subjective {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.quiz-text-input {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.quiz-text-input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.quiz-submit-btn {
+  width: 100%;
+}
+
+.quiz-correct-answer {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin: 0 0 8px;
 }
 
 .quiz-progress {
@@ -1207,6 +1438,104 @@ html.standalone .app-header {
 .check-mark {
   color: var(--success);
   font-weight: 700;
+}
+
+.settings-notify-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.settings-notify-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.settings-notify-head h3 {
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+}
+
+.settings-notify-head .settings-desc {
+  margin-bottom: 0;
+}
+
+.settings-toggle {
+  flex-shrink: 0;
+  width: 52px;
+  height: 30px;
+  border: none;
+  border-radius: 999px;
+  background: #cbd5e1;
+  padding: 3px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.settings-toggle.on {
+  background: var(--primary);
+}
+
+.settings-toggle:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.settings-toggle-knob {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.settings-toggle.on .settings-toggle-knob {
+  transform: translateX(22px);
+}
+
+.settings-time-label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.settings-time-input {
+  padding: 10px 12px;
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  font-size: 1rem;
+  color: var(--text);
+  background: #fff;
+}
+
+.settings-time-input:disabled {
+  opacity: 0.5;
+}
+
+.settings-notify-hint {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.settings-notify-error {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--danger);
+  line-height: 1.4;
 }
 
 .settings-info {
