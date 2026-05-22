@@ -1,10 +1,11 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { Word } from '../types';
 import { useBackHandler } from '../hooks/useAndroidBackButton';
-import { isQuizAnswerCorrect } from '../utils/quizAnswer';
+import { isEnglishQuizAnswerCorrect, isQuizAnswerCorrect } from '../utils/quizAnswer';
 import { ConfettiCelebration } from './ConfettiCelebration';
 
 export type QuizMode = 'multiple' | 'subjective';
+export type QuizDirection = 'en-ko' | 'ko-en';
 
 interface QuizTabProps {
   words: Word[];
@@ -25,8 +26,21 @@ function shuffle<T>(arr: T[]): T[] {
 
 const QUIZ_SIZE = 10;
 
+function getCorrectAnswer(word: Word, direction: QuizDirection): string {
+  return direction === 'en-ko' ? word.meaning : word.word;
+}
+
+function getPromptText(word: Word, direction: QuizDirection): string {
+  return direction === 'en-ko' ? word.word : word.meaning;
+}
+
+function directionLabel(direction: QuizDirection): string {
+  return direction === 'en-ko' ? '영→한' : '한→영';
+}
+
 export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer }: QuizTabProps) {
   const [phase, setPhase] = useState<'select' | 'playing' | 'finished'>('select');
+  const [direction, setDirection] = useState<QuizDirection>('en-ko');
   const [mode, setMode] = useState<QuizMode | null>(null);
   const [questions, setQuestions] = useState<Word[]>([]);
   const [current, setCurrent] = useState(0);
@@ -76,14 +90,17 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
 
   const options = useMemo(() => {
     if (!currentWord || mode !== 'multiple') return [];
+    const pick = (w: Word) => (direction === 'en-ko' ? w.meaning : w.word);
+    const correct = pick(currentWord);
     const wrong = shuffle(allWords.filter((w) => w.id !== currentWord.id))
       .slice(0, 3)
-      .map((w) => w.meaning);
-    return shuffle([currentWord.meaning, ...wrong]);
-  }, [currentWord, allWords, mode]);
+      .map(pick);
+    return shuffle([correct, ...wrong]);
+  }, [currentWord, allWords, mode, direction]);
 
   if (phase === 'select') {
     const poolSize = words.length > 0 ? words.length : allWords.length;
+    const enKo = direction === 'en-ko';
     return (
       <section className="quiz-tab">
         <div className="quiz-intro">
@@ -92,6 +109,30 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
             {topicLabel} · {dayNumber}일차
           </p>
           <p>최대 {Math.min(QUIZ_SIZE, poolSize)}문제 · 틀린 단어는 나의 단어장에 저장</p>
+
+          <div className="quiz-direction-section">
+            <p className="quiz-direction-label">출제 방향</p>
+            <div className="quiz-direction-toggle" role="group" aria-label="출제 방향">
+              <button
+                type="button"
+                className={`quiz-direction-btn ${enKo ? 'active' : ''}`}
+                onClick={() => setDirection('en-ko')}
+              >
+                영→한
+              </button>
+              <button
+                type="button"
+                className={`quiz-direction-btn ${!enKo ? 'active' : ''}`}
+                onClick={() => setDirection('ko-en')}
+              >
+                한→영
+              </button>
+            </div>
+            <p className="quiz-direction-hint">
+              {enKo ? '영어 단어를 보고 한글 뜻 맞추기' : '한글 뜻을 보고 영어 단어 맞추기'}
+            </p>
+          </div>
+
           <div className="quiz-mode-grid">
             <button
               type="button"
@@ -101,7 +142,7 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
             >
               <span className="quiz-mode-icon">📝</span>
               <strong>객관식</strong>
-              <span>뜻 4개 중 고르기</span>
+              <span>{enKo ? '뜻 4개 중 고르기' : '단어 4개 중 고르기'}</span>
             </button>
             <button
               type="button"
@@ -111,7 +152,7 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
             >
               <span className="quiz-mode-icon">✍️</span>
               <strong>주관식</strong>
-              <span>뜻을 직접 입력</span>
+              <span>{enKo ? '뜻 직접 입력' : '영단어 직접 입력'}</span>
             </button>
           </div>
         </div>
@@ -125,7 +166,9 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
         {showCelebration && <ConfettiCelebration />}
         <div className="quiz-result">
           <h2>퀴즈 결과</h2>
-          <p className="quiz-result-mode">{mode === 'multiple' ? '객관식' : '주관식'}</p>
+          <p className="quiz-result-mode">
+            {directionLabel(direction)} · {mode === 'multiple' ? '객관식' : '주관식'}
+          </p>
           <p className="score-display">{score}점</p>
           {score >= 100 && <p className="celebration-text">참 잘했어요! 🎉</p>}
           <button type="button" className="primary-btn" onClick={resetQuiz}>
@@ -139,25 +182,29 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
   if (!currentWord || !mode) return null;
 
   const isLast = current + 1 >= questions.length;
+  const correctAnswer = getCorrectAnswer(currentWord, direction);
+  const promptText = getPromptText(currentWord, direction);
+  const enKo = direction === 'en-ko';
 
-  const handleMultipleSelect = (meaning: string) => {
+  const checkAnswer = (answer: string) => {
+    if (enKo) return isQuizAnswerCorrect(answer, correctAnswer);
+    return isEnglishQuizAnswerCorrect(answer, correctAnswer);
+  };
+
+  const handleMultipleSelect = (option: string) => {
     if (selected) return;
-    setSelected(meaning);
-    if (meaning !== currentWord.meaning) onWrongAnswer(currentWord.id);
+    setSelected(option);
+    if (option !== correctAnswer) onWrongAnswer(currentWord.id);
   };
 
   const handleSubjectiveSubmit = () => {
     if (submitted || !textAnswer.trim()) return;
     setSubmitted(true);
-    if (!isQuizAnswerCorrect(textAnswer, currentWord.meaning)) {
-      onWrongAnswer(currentWord.id);
-    }
+    if (!checkAnswer(textAnswer)) onWrongAnswer(currentWord.id);
   };
 
   const isCorrect =
-    mode === 'multiple'
-      ? selected === currentWord.meaning
-      : submitted && isQuizAnswerCorrect(textAnswer, currentWord.meaning);
+    mode === 'multiple' ? selected === correctAnswer : submitted && checkAnswer(textAnswer);
 
   const hasAnswered = mode === 'multiple' ? !!selected : submitted;
 
@@ -181,13 +228,20 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
   return (
     <section className="quiz-tab">
       <div className="quiz-progress">
+        <span className="quiz-mode-label">{directionLabel(direction)}</span>
         <span className="quiz-mode-label">{mode === 'multiple' ? '객관식' : '주관식'}</span>
         {current + 1} / {questions.length} · {score}점
       </div>
       <div className="quiz-card">
-        <h3 className="quiz-word">{currentWord.word}</h3>
+        <h3 className={`quiz-word ${!enKo ? 'quiz-prompt-ko' : ''}`}>{promptText}</h3>
         <p className="quiz-prompt">
-          {mode === 'multiple' ? '뜻을 고르세요' : '뜻을 입력하세요'}
+          {mode === 'multiple'
+            ? enKo
+              ? '뜻을 고르세요'
+              : '영어 단어를 고르세요'
+            : enKo
+              ? '뜻을 입력하세요'
+              : '영어 단어를 입력하세요'}
         </p>
 
         {mode === 'multiple' && (
@@ -195,7 +249,7 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
             {options.map((opt) => {
               let cls = 'quiz-option';
               if (selected) {
-                if (opt === currentWord.meaning) cls += ' correct';
+                if (opt === correctAnswer) cls += ' correct';
                 else if (opt === selected) cls += ' wrong';
               }
               return (
@@ -218,13 +272,13 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
             <input
               type="text"
               className="quiz-text-input"
-              placeholder="한글 뜻 입력"
+              placeholder={enKo ? '한글 뜻 입력' : '영어 단어 입력'}
               value={textAnswer}
               onChange={(e) => setTextAnswer(e.target.value)}
               disabled={submitted}
               onKeyDown={(e) => e.key === 'Enter' && handleSubjectiveSubmit()}
               enterKeyHint="done"
-              autoCapitalize="off"
+              autoCapitalize={enKo ? 'off' : 'none'}
               autoCorrect="off"
             />
             {!submitted && (
@@ -244,7 +298,7 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
           <div className="quiz-feedback">
             <p>{isCorrect ? '정답입니다!' : '오답 — 나의 단어장에 저장했어요'}</p>
             {mode === 'subjective' && !isCorrect && submitted && (
-              <p className="quiz-correct-answer">정답: {currentWord.meaning}</p>
+              <p className="quiz-correct-answer">정답: {correctAnswer}</p>
             )}
             <button type="button" className="primary-btn" onClick={handleNext}>
               {isLast ? '결과 보기' : '다음 문제'}

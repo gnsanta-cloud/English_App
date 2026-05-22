@@ -793,6 +793,54 @@ html.standalone .app-header {
   box-shadow: 0 4px 16px rgba(79, 70, 229, 0.35);
 }
 
+.quiz-direction-section {
+  width: 100%;
+  max-width: 360px;
+  margin: 16px 0 4px;
+  text-align: center;
+}
+
+.quiz-direction-label {
+  margin: 0 0 8px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.quiz-direction-toggle {
+  display: inline-flex;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.quiz-direction-btn {
+  padding: 10px 20px;
+  border: none;
+  background: transparent;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+
+.quiz-direction-btn.active {
+  background: var(--primary);
+  color: #fff;
+}
+
+.quiz-direction-hint {
+  margin: 8px 0 0;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.quiz-prompt-ko {
+  font-size: clamp(1.1rem, 4.5vw, 1.35rem);
+  line-height: 1.45;
+}
+
 .quiz-mode-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -882,6 +930,11 @@ html.standalone .app-header {
 }
 
 .quiz-progress {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px 8px;
   text-align: center;
   color: var(--text-muted);
   margin-bottom: 16px;

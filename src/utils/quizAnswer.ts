@@ -6,3 +6,10 @@ export function normalizeQuizAnswer(text: string): string {
 export function isQuizAnswerCorrect(userAnswer: string, correctMeaning: string): boolean {
   return normalizeQuizAnswer(userAnswer) === normalizeQuizAnswer(correctMeaning);
 }
+
+/** 한→영: 영단어 비교 (대소문자 무시) */
+export function isEnglishQuizAnswerCorrect(userAnswer: string, correctWord: string): boolean {
+  return (
+    normalizeQuizAnswer(userAnswer).toLowerCase() === normalizeQuizAnswer(correctWord).toLowerCase()
+  );
+}
