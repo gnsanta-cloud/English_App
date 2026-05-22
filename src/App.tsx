@@ -23,6 +23,7 @@ import { AvatarChatTab } from './components/AvatarChatTab';
 import { MyWordsTab } from './components/MyWordsTab';
 
 import { SettingsTab } from './components/SettingsTab';
+import { AppSplash } from './components/AppSplash';
 
 
 
@@ -134,6 +135,8 @@ export default function App() {
   return (
 
     <div className="app">
+
+      <AppSplash />
 
       <header className="app-header">
 

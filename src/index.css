@@ -11,8 +11,11 @@
   --success: #16a34a;
   --danger: #dc2626;
   --radius: clamp(12px, 3vw, 20px);
+  --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
-  font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Noto Sans KR', system-ui, sans-serif;
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Noto Sans KR', system-ui, -apple-system, sans-serif;
 }
 
 *,
@@ -23,32 +26,91 @@
   padding: 0;
 }
 
+html {
+  overscroll-behavior: none;
+  -webkit-text-size-adjust: 100%;
+}
+
 html,
 body,
 #root {
   height: 100%;
+  height: 100dvh;
   overflow: hidden;
 }
 
 body {
+  position: fixed;
+  inset: 0;
+  width: 100%;
   background: var(--bg);
   color: var(--text);
   -webkit-font-smoothing: antialiased;
   touch-action: manipulation;
   user-select: none;
+  overscroll-behavior: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
 }
 
 .app {
   display: flex;
   flex-direction: column;
   height: 100%;
+  height: 100dvh;
   max-width: 480px;
   margin: 0 auto;
+  padding-left: var(--safe-left);
+  padding-right: var(--safe-right);
+  background: var(--bg);
+  overflow: hidden;
+}
+
+html.standalone .app {
+  /* 홈 화면 앱 모드: 브라우저 chrome 없음 */
+  min-height: 100dvh;
+}
+
+html.standalone .app-header {
+  background: linear-gradient(180deg, #eef2ff 0%, var(--bg) 100%);
+}
+
+.app-splash {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background: linear-gradient(165deg, #eef2ff 0%, #ffffff 55%);
+  animation: splash-fade 0.9s ease forwards;
+}
+
+.app-splash-icon {
+  width: clamp(88px, 22vw, 120px);
+  height: clamp(88px, 22vw, 120px);
+  border-radius: 22%;
+  box-shadow: 0 12px 32px rgba(79, 70, 229, 0.25);
+}
+
+.app-splash-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+@keyframes splash-fade {
+  0%, 75% { opacity: 1; }
+  100% { opacity: 0; visibility: hidden; }
 }
 
 .app-header {
-  padding: clamp(12px, 3vw, 20px) clamp(16px, 4vw, 24px) 8px;
+  flex-shrink: 0;
+  padding: max(var(--safe-top), clamp(8px, 2vw, 12px)) clamp(16px, 4vw, 24px) 8px;
   text-align: center;
+  background: var(--bg);
 }
 
 .app-header h1 {
@@ -71,6 +133,7 @@ body {
   flex: 1;
   min-height: 0;
   overflow-y: auto;
+  overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -103,9 +166,10 @@ body {
 /* Tab navigation */
 .tab-nav {
   display: flex;
+  flex-shrink: 0;
   background: #ffffff;
   border-top: 1px solid var(--border);
-  padding-bottom: var(--safe-bottom);
+  padding-bottom: max(8px, var(--safe-bottom));
   box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.04);
 }
 
