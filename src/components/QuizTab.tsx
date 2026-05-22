@@ -7,6 +7,8 @@ import { ConfettiCelebration } from './ConfettiCelebration';
 export type QuizMode = 'multiple' | 'subjective';
 export type QuizDirection = 'en-ko' | 'ko-en';
 
+const POINTS_PER_QUESTION = 10;
+
 interface QuizTabProps {
   words: Word[];
   allWords: Word[];
@@ -23,8 +25,6 @@ function shuffle<T>(arr: T[]): T[] {
   }
   return copy;
 }
-
-const QUIZ_SIZE = 10;
 
 function getCorrectAnswer(word: Word, direction: QuizDirection): string {
   return direction === 'en-ko' ? word.meaning : word.word;
@@ -46,10 +46,14 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
   const [questions, setQuestions] = useState<Word[]>([]);
   const [current, setCurrent] = useState(0);
   const [score, setScore] = useState(0);
+  const [correctCount, setCorrectCount] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
   const [textAnswer, setTextAnswer] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [showCelebration, setShowCelebration] = useState(false);
+
+  const questionCount = words.length > 0 ? words.length : allWords.length;
+  const maxScore = questions.length > 0 ? questions.length * POINTS_PER_QUESTION : 0;
 
   const resetQuiz = useCallback(() => {
     setPhase('select');
@@ -57,6 +61,7 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
     setQuestions([]);
     setCurrent(0);
     setScore(0);
+    setCorrectCount(0);
     setSelected(null);
     setTextAnswer('');
     setSubmitted(false);
@@ -65,13 +70,14 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
 
   const startQuiz = (quizMode: QuizMode) => {
     const pool = words.length > 0 ? words : allWords;
-    const q = shuffle(pool).slice(0, Math.min(QUIZ_SIZE, pool.length));
+    const q = shuffle(pool);
     const quizDir: QuizDirection = quizMode === 'subjective' ? 'ko-en' : direction;
     setPlayDirection(quizDir);
     setMode(quizMode);
     setQuestions(q);
     setCurrent(0);
     setScore(0);
+    setCorrectCount(0);
     setSelected(null);
     setTextAnswer('');
     setSubmitted(false);
@@ -90,19 +96,21 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
   }, phase !== 'select');
 
   const currentWord = questions[current];
+  const totalQuestions = questions.length;
 
   const options = useMemo(() => {
     if (!currentWord || mode !== 'multiple') return [];
     const pick = (w: Word) => (playDirection === 'en-ko' ? w.meaning : w.word);
     const correct = pick(currentWord);
-    const wrong = shuffle(allWords.filter((w) => w.id !== currentWord.id))
-      .slice(0, 3)
+    const wrongPool = allWords.filter((w) => w.id !== currentWord.id);
+    const wrongCount = Math.min(3, wrongPool.length);
+    const wrong = shuffle(wrongPool)
+      .slice(0, wrongCount)
       .map(pick);
     return shuffle([correct, ...wrong]);
   }, [currentWord, allWords, mode, playDirection]);
 
   if (phase === 'select') {
-    const poolSize = words.length > 0 ? words.length : allWords.length;
     const enKo = direction === 'en-ko';
     return (
       <section className="quiz-tab">
@@ -111,7 +119,9 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
           <p className="quiz-topic-badge">
             {topicLabel} · {dayNumber}일차
           </p>
-          <p>최대 {Math.min(QUIZ_SIZE, poolSize)}문제 · 틀린 단어는 나의 단어장에 저장</p>
+          <p className="quiz-intro-count">
+            <strong>{questionCount}문제</strong> · 해당 일차 단어 전체 · 틀린 단어는 나의 단어장에 저장
+          </p>
 
           <div className="quiz-direction-section">
             <p className="quiz-direction-label">객관식 출제 방향</p>
@@ -141,7 +151,7 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
               type="button"
               className="quiz-mode-card"
               onClick={() => startQuiz('multiple')}
-              disabled={poolSize === 0}
+              disabled={questionCount === 0}
             >
               <span className="quiz-mode-icon">📝</span>
               <strong>객관식</strong>
@@ -151,7 +161,7 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
               type="button"
               className="quiz-mode-card quiz-mode-card-subjective"
               onClick={() => startQuiz('subjective')}
-              disabled={poolSize === 0}
+              disabled={questionCount === 0}
             >
               <span className="quiz-mode-icon">✍️</span>
               <strong>주관식</strong>
@@ -165,16 +175,31 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
   }
 
   if (phase === 'finished') {
+    const perfect = correctCount === totalQuestions && totalQuestions > 0;
     return (
       <section className="quiz-tab">
         {showCelebration && <ConfettiCelebration />}
         <div className="quiz-result">
           <h2>퀴즈 결과</h2>
           <p className="quiz-result-mode">
-            {directionLabel(playDirection)} · {mode === 'multiple' ? '객관식' : '주관식'}
+            {directionLabel(playDirection)} · {mode === 'multiple' ? '객관식' : '주관식'} · {dayNumber}
+            일차
           </p>
-          <p className="score-display">{score}점</p>
-          {score >= 100 && <p className="celebration-text">참 잘했어요! 🎉</p>}
+          <div className="quiz-result-stats">
+            <div className="quiz-result-stat">
+              <span className="quiz-result-stat-label">정답</span>
+              <span className="quiz-result-stat-value">
+                {correctCount}/{totalQuestions}
+              </span>
+            </div>
+            <div className="quiz-result-stat">
+              <span className="quiz-result-stat-label">점수</span>
+              <span className="quiz-result-stat-value quiz-result-score">
+                {score}/{maxScore}점
+              </span>
+            </div>
+          </div>
+          {perfect && <p className="celebration-text">참 잘했어요! 🎉</p>}
           <button type="button" className="primary-btn" onClick={resetQuiz}>
             다시 하기
           </button>
@@ -185,7 +210,7 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
 
   if (!currentWord || !mode) return null;
 
-  const isLast = current + 1 >= questions.length;
+  const isLast = current + 1 >= totalQuestions;
   const correctAnswer = getCorrectAnswer(currentWord, playDirection);
   const promptText = getPromptText(currentWord, playDirection);
   const enKo = playDirection === 'en-ko';
@@ -213,15 +238,18 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
   const hasAnswered = mode === 'multiple' ? !!selected : submitted;
 
   const handleNext = () => {
-    const points = hasAnswered && isCorrect ? 10 : 0;
+    const points = hasAnswered && isCorrect ? POINTS_PER_QUESTION : 0;
+    const newCorrect = correctCount + (hasAnswered && isCorrect ? 1 : 0);
     const newScore = score + points;
 
     if (isLast) {
+      setCorrectCount(newCorrect);
       setScore(newScore);
       setPhase('finished');
-      if (newScore >= 100) setShowCelebration(true);
+      if (newCorrect === totalQuestions) setShowCelebration(true);
       return;
     }
+    setCorrectCount(newCorrect);
     setScore(newScore);
     setCurrent((c) => c + 1);
     setSelected(null);
@@ -229,13 +257,31 @@ export function QuizTab({ words, allWords, topicLabel, dayNumber, onWrongAnswer 
     setSubmitted(false);
   };
 
+  const answeredCount = correctCount;
+  const progressNum = current + 1;
+
   return (
     <section className="quiz-tab">
-      <div className="quiz-progress">
-        <span className="quiz-mode-label">{directionLabel(playDirection)}</span>
-        <span className="quiz-mode-label">{mode === 'multiple' ? '객관식' : '주관식'}</span>
-        {current + 1} / {questions.length} · {score}점
+      <div className="quiz-status-panel">
+        <div className="quiz-status-row">
+          <span className="quiz-status-label">진행</span>
+          <span className="quiz-status-value quiz-status-progress">
+            {progressNum}/{totalQuestions}
+          </span>
+        </div>
+        <div className="quiz-status-row">
+          <span className="quiz-status-label">점수</span>
+          <span className="quiz-status-value quiz-status-score">
+            {score}/{totalQuestions * POINTS_PER_QUESTION}점
+          </span>
+        </div>
+        <div className="quiz-status-tags">
+          <span className="quiz-mode-label">{directionLabel(playDirection)}</span>
+          <span className="quiz-mode-label">{mode === 'multiple' ? '객관식' : '주관식'}</span>
+          <span className="quiz-mode-label">정답 {answeredCount}</span>
+        </div>
       </div>
+
       <div className="quiz-card">
         <h3 className={`quiz-word ${!enKo ? 'quiz-prompt-ko' : ''}`}>{promptText}</h3>
         <p className="quiz-prompt">
